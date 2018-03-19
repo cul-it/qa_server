@@ -44,7 +44,7 @@ en:
   authority_status:
     show_all: "ALL Authorities (SLOW)"
     wait_message: "Please wait while the status is verified.  This will be slow if you selected ALL Authorities."
-    chrome_unencoding_msg: "NOTE: URLs with an encoded URI for term fetch do not work in Chrome because Chrome unencodes the periods.  Firefox and Safari on a Mac work fine."
+    chrome_unencoding_msg: "NOTE: URLs with an encoded URI for term fetch do not work in Chrome for Mac or Windows and do not work in IE for Window.  This is because Chrome and IE unencode the periods.  Firefox on Windows and Mac and Safari on Mac are known to work."
     status_table:
       status:       Status
       authority:    Authority
