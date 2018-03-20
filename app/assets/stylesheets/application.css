@@ -132,10 +132,6 @@ p.welcome2 {
     padding-top: 10px;
 }
 
-p.welcome2 a {
-    font-family: "Times New Roman";
-}
-
 /* Dashboard page */
 table.dashboard-status td {
     text-align: center;
