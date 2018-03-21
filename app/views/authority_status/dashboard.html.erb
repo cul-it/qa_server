@@ -20,8 +20,8 @@
       </tr>
       <tr>
         <td><%= @authority_count %></td>
-        <td><%= @latest_status.test_count - @latest_status.failure_count %></td>
-        <td><%= @latest_status.failure_count %></td>
+        <td class="<%= "status_good" if @latest_status.failure_count.zero? %>"><%= @latest_status.test_count - @latest_status.failure_count %></td>
+        <td class="<%= "status_bad" if @latest_status.failure_count.positive? %>"><%= @latest_status.failure_count %></td>
         <td><%= @latest_status.test_count %></td>
       </tr>
     </table>
