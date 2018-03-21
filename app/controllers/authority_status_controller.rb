@@ -30,7 +30,7 @@ class AuthorityStatusController < ApplicationController
       @latest_status.save
     end
     @authority_count = authorities_list.size
-    render 'status', :status => :internal_server_error if @latest_status.failure_count.positive?
+    render 'dashboard', :status => :internal_server_error if @latest_status.failure_count.positive?
   end
 
   private
