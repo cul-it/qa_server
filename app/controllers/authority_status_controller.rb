@@ -16,7 +16,7 @@ class AuthorityStatusController < ApplicationController
 
   def dashboard
     @latest_status = CronAuthorityStatus.first
-    if refresh || @latest_status.blank? || @latest_status.dt_stamp < yesterday_midnight_et
+    if refresh? || @latest_status.blank? || @latest_status.dt_stamp < yesterday_midnight_et
       test_count = 0
       failure_count = 0
       authorities_list.each do |auth_name|
@@ -30,6 +30,13 @@ class AuthorityStatusController < ApplicationController
       @latest_status.save
     end
     @authority_count = authorities_list.size
+
+
+
+@latest_status.failure_count = 1 # TODO: REMOVE THIS LINE - TESTING FAILURES DISPLAY CORRECTLY AND SET STATUS TO 500
+
+
+
     render 'dashboard', :status => :internal_server_error if @latest_status.failure_count.positive?
   end
 
@@ -47,7 +54,7 @@ class AuthorityStatusController < ApplicationController
       params[:authority].downcase
     end
 
-    def refresh
+    def refresh?
       params.key? :refresh
     end
 
