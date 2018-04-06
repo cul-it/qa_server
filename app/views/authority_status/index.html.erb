@@ -35,6 +35,7 @@
       <th><%= t('authority_status.status_table.service') %></th>
       <th><%= t('authority_status.status_table.action') %></th>
       <th><%= t('authority_status.status_table.url') %></th>
+      <th><%= t('authority_status.status_table.errmsg') %></th>
     </tr>
     <% @status_data.each do |status| %>
     <tr>
@@ -44,6 +45,7 @@
       <td><%= status[:service] %></td>
       <td><%= status[:action] %></td>
       <td><a href="<%= status[:url] %>"><%= status[:url] %></a></td>
+      <td><%= status[:errmsg] %></td>
     </tr>
     <% end %>
   </table>

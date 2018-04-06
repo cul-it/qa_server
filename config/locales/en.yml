@@ -52,3 +52,4 @@ en:
       service:      Service
       action:       Action
       url:          Sample URL
+      errmsg:       Errors
