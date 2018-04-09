@@ -60,10 +60,10 @@ class AuthorityValidatorService
     @@authority_status = []
     begin
       validator_class = validator_class(authority_name)
-      @@authority_status = validator_class.status_data
+      validator_class.status_data
     rescue Exception => e
       puts "Exception: #{e.message}"
-      add_status(FAIL, authority_name, '', '', '', '')
+      add_status(FAIL, authority_name, '', '', '', '', e.message)
     end
     @@authority_status
   end
@@ -90,7 +90,7 @@ class AuthorityValidatorService
   end
   private_class_method :validator_class
 
-  def self.add_status(status, authority, subauth, service, action, url)
+  def self.add_status(status, authority, subauth, service, action, url, error_message='')
     case status
     when PASS
       status_label = '√'
@@ -99,7 +99,7 @@ class AuthorityValidatorService
     when FAIL
       status_label = 'X'
     end
-    @@authority_status << { status: status, status_label: status_label, authority: authority, subauth: subauth, service: service, action: action, url: url }
+    @@authority_status << { status: status, status_label: status_label, authority: authority, subauth: subauth, service: service, action: action, url: url, errmsg: error_message }
   end
   private_class_method :add_status
 
@@ -107,7 +107,7 @@ class AuthorityValidatorService
     begin
       authority = Qa::Authorities::LinkedData::GenericAuthority.new(authority_name)
     rescue Exception => e
-      add_status(FAIL, authority_name, '', service, 'ALL', '')
+      add_status(FAIL, authority_name, '', service, 'ALL', '', e.message)
       return false
     end
     authority

@@ -73,6 +73,8 @@
       "sort_predicate":     "http://vivoweb.org/ontology/core#rank",
       "context": {
         "Parent": "http://www.geonames.org/ontology#parentADM1",
+        "Parent2": "http://www.geonames.org/ontology#parentADM2",
+        "Parent Country": "http://www.geonames.org/ontology#parentCountry",
         "Children": "http://www.geonames.org/ontology#childrenFeatures",
         "Country": "http://www.geonames.org/ontology#countryCode",
         "Population": "http://www.geonames.org/ontology#population",

@@ -1,10 +1,10 @@
 module Validators
-  class AgrovocLd4lCacheValidator < NoSubauthValidator
-    TERM_URI = 'http://aims.fao.org/aos/agrovoc/c_9513'.freeze
-    SEARCH_QUERY = 'milk'.freeze
+  class GettyTgnLd4lCacheValidator < NoSubauthValidator
+    TERM_URI = 'http://vocab.getty.edu/tgn/7017750'.freeze
+    SEARCH_QUERY = 'memphis'.freeze
 
     def self.authority_name
-      :AGROVOC_LD4L_CACHE
+      :GETTY_TGN_LD4L_CACHE
     end
 
     def self.service
