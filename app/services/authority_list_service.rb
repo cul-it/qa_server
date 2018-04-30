@@ -16,6 +16,7 @@ class AuthorityListService
       'locnames_ld4l_cache',
       'locgenres_ld4l_cache',
       'locsubjects_ld4l_cache',
+      'mesh_ld4l_cache',
       'nalt_cornell',
       'nalt_direct',
       'nalt_ld4l_cache',
