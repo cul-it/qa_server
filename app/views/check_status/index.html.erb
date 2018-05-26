@@ -1,0 +1,55 @@
+<script>
+  function validate_authority(form) {
+    form.submit();
+    document.getElementById('status_loading_message').style.display = 'block';
+    document.getElementById('status_section').style.display = 'none';
+  }
+</script>
+
+<div class="page_description">
+
+  <h2><%= t('check_status.title') %></h2>
+
+<form class="simple_form editor" id="edit_collection_5h73pw05j" action="/check_status" accept-charset="UTF-8" method="get">
+  <select name="authority" id="authority" class="string multi_value optional form-control form-control multi-text-field" value="" aria-labelledby="authority" onchange="validate_authority(this.form)">
+    <option value=""><%= t('check_status.select_authority') %></option>
+    <option disabled>──────────</option>
+    <option value="<%= CheckStatusController::ALL_AUTHORITIES %>"><%= t('check_status.show_all') %></option>
+    <option disabled>──────────</option>
+    <% @authorities_list.each do |auth_name| %>
+        <option value="<%= auth_name %>"><%= auth_name.upcase %></option>
+    <% end %>
+  </select>
+</form>
+
+<div id="status_loading_message" class="wait-message"><%= t('check_status.wait_message') %></div>
+
+<% if @presenter.status_data? %>
+<div id="status_section" class="status-section">
+  <p><b><%= t('warning.chrome_unencoding_msg') %></b></p>
+  <table class="status">
+    <tr>
+      <th><%= t('check_status.status_table.status') %></th>
+      <th><%= t('check_status.status_table.authority') %></th>
+      <th><%= t('check_status.status_table.subauthority') %></th>
+      <th><%= t('check_status.status_table.service') %></th>
+      <th><%= t('check_status.status_table.action') %></th>
+      <th><%= t('check_status.status_table.url') %></th>
+      <th><%= t('check_status.status_table.errmsg') %></th>
+    </tr>
+    <% @presenter.status_data.each do |status| %>
+    <tr>
+      <td class="<%= @presenter.status_style_class(status) %>"><%= status[:status_label] %></td>
+      <td><%= status[:authority_name] %></td>
+      <td><%= status[:subauthority_name] %></td>
+      <td><%= status[:service] %></td>
+      <td><%= status[:action] %></td>
+      <td><a href="<%= status[:url] %>"><%= status[:url] %></a></td>
+      <td><%= status[:err_message] %></td>
+    </tr>
+    <% end %>
+  </table>
+</div>
+<% end %>
+
+</div>
