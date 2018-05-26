@@ -1,0 +1,27 @@
+---
+authority:
+  service: ld4l_cache
+search:
+  -
+    query: animation
+  -
+    query: animation
+    subauth: person
+  -
+    query: animation
+    subauth: organization
+  -
+    query: animation
+    subauth: place
+  -
+    query: animation
+    subauth: intangible
+  -
+    query: animation
+    subauth: geocoordinates
+  -
+    query: animation
+    subauth: work
+term:
+  -
+    identifier: "http://id.loc.gov/authorities/genreForms/gf2011026141"

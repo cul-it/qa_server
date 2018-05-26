@@ -10,12 +10,25 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180313045551) do
+ActiveRecord::Schema.define(version: 20180508045551) do
 
-  create_table "cron_authority_status", force: :cascade do |t|
+  create_table "authority_status", force: :cascade do |t|
     t.datetime "dt_stamp"
     t.integer "test_count"
     t.integer "failure_count"
+  end
+
+  create_table "authority_status_failure", force: :cascade do |t|
+    t.integer "authority_status_id"
+    t.string "status"
+    t.string "status_label"
+    t.string "authority_name"
+    t.string "subauthority_name"
+    t.string "service"
+    t.string "action"
+    t.string "url"
+    t.string "err_message"
+    t.index ["authority_status_id"], name: "index_authority_status_failure_on_authority_status_id"
   end
 
 end

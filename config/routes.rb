@@ -7,8 +7,7 @@ Rails.application.routes.draw do
   mount Qa::Engine => '/qa'
 
   resources :usage, only: 'index'
-  resources :authority_status, only: 'index'
-
-  get 'dashboard', controller: 'authority_status'
-  get 'authorities', controller: 'authority_status'
+  resources :check_status, only: 'index'
+  resources :monitor_status, only: 'index'
+  resources :authority_list, only: 'index'
 end
