@@ -8,15 +8,20 @@ class CheckStatusController < AuthorityValidationController
 
   # Sets up presenter with data to display in the UI
   def index
-    validate(authorities_to_validate)
+    validate(authorities_to_validate, validation_type)
     @presenter = presenter_class.new(authorities_list: authorities_list,
-                                     status_data: status_data_from_log)
+                                     connection_status_data: connection_status_data_from_log,
+                                     accuracy_status_data: accuracy_status_data_from_log)
   end
 
   private
 
-    def status_data_from_log
-      @status_data = status_log.to_a
+    def connection_status_data_from_log
+      status_log.filter(type: validator_class::VALIDATE_CONNECTIONS)
+    end
+
+    def accuracy_status_data_from_log
+      status_log.filter(type: validator_class::VALIDATE_ACCURACY)
     end
 
     def authorities_to_validate

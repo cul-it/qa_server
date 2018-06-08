@@ -34,7 +34,7 @@ class MonitorStatusPresenter
 
   # @return [String] css style class representing whether all tests passed or any failed
   def authorities_count_style
-    failures? ? 'status_bad' : 'status_good'
+    failures? ? 'status-bad' : 'status-good'
   end
 
   # @return [Integer] number of tests in the latest test run
@@ -54,7 +54,7 @@ class MonitorStatusPresenter
 
   # @return [String] css style class representing whether all tests passed or any failed
   def failing_tests_style
-    failures? ? 'status_bad' : 'status_good'
+    failures? ? 'status-bad' : 'status-good'
   end
 
   # @return [Array<Hash>] A list of failures data in the latest test run, if any
