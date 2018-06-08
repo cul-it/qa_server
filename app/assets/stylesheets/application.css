@@ -86,7 +86,7 @@ div.navbar-header {
     width: 100%;
 }
 
-ul.nav_menu, ul.nav_right_menu {
+ul.nav-menu, ul.nav-right-menu {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -95,15 +95,15 @@ ul.nav_menu, ul.nav_right_menu {
     width: 100%
 }
 
-ul.nav_menu li.left_menu {
+ul.nav-menu li.left-menu {
     float: left;
 }
 
-ul.nav_menu li.right_menu {
+ul.nav-menu li.right-menu {
     float: right;
 }
 
-ul.nav_menu li a, ul.nav_right_menu li a {
+ul.nav-menu li a, ul.nav-right-menu li a {
     display: inline-block;
     color: lightgrey;
     text-align: center;
@@ -111,12 +111,12 @@ ul.nav_menu li a, ul.nav_right_menu li a {
     text-decoration: none;
 }
 
-ul.nav_menu li a:hover, ul.nav_right_menuli a:hover {
+ul.nav-menu li a:hover, ul.nav-right-menuli a:hover {
     background-color: dimgray;
 }
 
 /* homepage */
-div.page_description {
+div.page-description {
     padding-bottom: 50px;
 }
 
@@ -165,8 +165,23 @@ div.wait-message {
     font-size: 1.1em;
 }
 
+div#example-url-warning {
+    font-family: "Arial", sans-serif;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid #b30000;
+    padding: 10px;
+    color: #4d0000;
+}
+
 div.status-section {
     margin-top: 50px;
+}
+
+div.validation-types {
+    margin-top: 20px;
 }
 
 table {
@@ -184,18 +199,25 @@ th {
     color: black;
 }
 
-.status_good {
+td.position {
+    text-align: center;
+}
+
+.status-good {
     text-align: center;
     background-color: #ccffcc;
 }
 
-.status_unknown {
+.status-unknown {
     text-align: center;
     background-color: #ffff99;
 }
 
-.status_bad {
+.status-bad {
     text-align: center;
     background-color: #ffcccc;
 }
 
+label.horizontal-list {
+    padding-right: 15px;
+}

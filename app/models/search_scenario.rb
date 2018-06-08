@@ -7,8 +7,16 @@ class SearchScenario < AuthorityScenario
   # @return [Hash] replacements parameters used to construct the URL executed by this scenario
   attr_reader :replacements
 
+  # @return [Integer] expected_by_position designates the maximum position in search results of subject_uri, if specified, for this scenario to be considered passing
+  attr_reader :expected_by_position
+
+  # @return [String] subject_uri, if specified, should be in the search results between position 1 and expected_by_position
+  attr_reader :subject_uri
+
   MAX_RECORDS = '4'.freeze
   DEFAULT_REPLACEMENTS = { maxRecords: MAX_RECORDS }
+  DEFAULT_POSITION = nil
+  DEFAULT_SUBJECT_URI = nil
 
   # @param authority [Qa::Authorities::LinkedData::GenericAuthority] the instance of the QA authority
   # @param authoity_name [Symbol] the name of the authority the scenario tests (e.g. :AGROVOC_DIRECT)
@@ -20,6 +28,8 @@ class SearchScenario < AuthorityScenario
     @subauthority_name = scenario_config['subauth'] || DEFAULT_SUBAUTH
     @min_result_size = scenario_config['result_size'] || MIN_EXPECTED_SIZE
     @replacements = scenario_config['replacements'] || DEFAULT_REPLACEMENTS
+    @expected_by_position = scenario_config['position'] || DEFAULT_POSITION
+    @subject_uri = scenario_config['subject_uri'] || DEFAULT_SUBJECT_URI
   end
 
   # Generate an example URL that can be called in a browser or through curl

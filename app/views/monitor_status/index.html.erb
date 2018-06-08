@@ -1,7 +1,7 @@
-<div class="page_description">
+<div class="page-description">
   <h2><%= t('monitor_status.summary.title') %></h2>
 
-  <table class="monitor_status-status">
+  <table class="monitor-status-status">
     <tr>
       <th><%= t('monitor_status.summary.authorities') %></th>
       <th><%= t('monitor_status.summary.authorities_with_failures') %></th>
@@ -20,7 +20,7 @@
   <p class="status-update-dtstamp"><%= t('monitor_status.summary.last_updated', date: @presenter.last_updated) %></p>
 
   <% if @presenter.failures? %>
-    <div id="status_section" class="status-section">
+    <div id="status-section" class="status-section">
       <h2><%= t('monitor_status.failures.title') %></h2>
 
       <p><b><%= t('warning.chrome_unencoding_msg') %></b></p>
@@ -36,7 +36,7 @@
         </tr>
         <% @status_data.each do |status| %>
             <tr>
-              <td class="<%= "status_#{status[:status].to_s}" %>"><%= status[:status_label] %></td>
+              <td class="<%= "status-#{status[:status].to_s}" %>"><%= status[:status_label] %></td>
               <td><%= status[:authority_name] %></td>
               <td><%= status[:subauthority_name] %></td>
               <td><%= status[:service] %></td>
@@ -50,7 +50,7 @@
   <% end %>
 
   <% if @presenter.history? %>
-      <div id="status_section" class="status-section">
+      <div id="status-section" class="status-section">
         <h2><%= t('monitor_status.history.title') %></h2>
 
         <h3><%= t('monitor_status.history.since', date: @presenter.first_updated) %></h3>
