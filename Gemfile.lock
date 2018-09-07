@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/samvera/questioning_authority.git
-  revision: fe07a15de23849c4acb915d28f1232cfe015c287
+  revision: e870fc07b991188053d2cd9eeb6a843b896911d8
   branch: min_context
   specs:
-    qa (2.0.1)
+    qa (2.1.1)
       activerecord-import
       deprecation
       faraday
@@ -256,7 +256,7 @@ GEM
     rdf-xsd (3.0.0)
       rdf (~> 3.0)
     ruby_dep (1.5.0)
-    rubyzip (1.2.1)
+    rubyzip (1.2.2)
     sass (3.5.7)
       sass-listen (~> 4.0.0)
     sass-listen (4.0.0)
@@ -311,7 +311,7 @@ GEM
       thread_safe (~> 0.1)
     uglifier (4.1.18)
       execjs (>= 0.3.0, < 3)
-    web-console (3.6.2)
+    web-console (3.7.0)
       actionview (>= 5.0)
       activemodel (>= 5.0)
       bindex (>= 0.4.0)

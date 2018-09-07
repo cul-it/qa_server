@@ -55,3 +55,8 @@ reports
 # ignore persisting example file
 /spec/examples.txt
 .DS_Store
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
