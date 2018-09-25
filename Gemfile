@@ -54,6 +54,6 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Required gems for QA and linked data access
-gem 'qa_server', '0.1.99'
+gem 'qa_server', '1.0.0'
 gem 'qa', github: 'samvera/questioning_authority', branch: 'min_context'
 gem 'linkeddata'
