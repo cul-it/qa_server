@@ -60,3 +60,8 @@ reports
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
+
+# Ignore local environmental variables
+.env
+.env.*
+!.env.example
