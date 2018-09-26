@@ -10,25 +10,28 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180508045551) do
+ActiveRecord::Schema.define(version: 20180926134614) do
 
-  create_table "authority_status", force: :cascade do |t|
-    t.datetime "dt_stamp"
-    t.integer "test_count"
-    t.integer "failure_count"
-  end
-
-  create_table "authority_status_failure", force: :cascade do |t|
-    t.integer "authority_status_id"
-    t.string "status"
-    t.string "status_label"
+  create_table "scenario_run_history", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
+    t.bigint "scenario_run_registry_id"
+    t.integer "status", default: 2
     t.string "authority_name"
     t.string "subauthority_name"
     t.string "service"
     t.string "action"
     t.string "url"
     t.string "err_message"
-    t.index ["authority_status_id"], name: "index_authority_status_failure_on_authority_status_id"
+    t.integer "scenario_type", default: 0
+    t.decimal "run_time", precision: 10, scale: 4
+    t.index ["authority_name"], name: "index_scenario_run_history_on_authority_name"
+    t.index ["scenario_run_registry_id"], name: "index_scenario_run_history_on_scenario_run_registry_id"
+    t.index ["scenario_type"], name: "index_scenario_run_history_on_scenario_type"
+    t.index ["status"], name: "index_scenario_run_history_on_status"
+    t.index ["url"], name: "index_scenario_run_history_on_url"
+  end
+
+  create_table "scenario_run_registry", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
+    t.datetime "dt_stamp"
   end
 
 end
