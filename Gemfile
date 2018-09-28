@@ -25,12 +25,12 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby] # Windows doe
 gem 'uglifier', '>= 1.3.0'
 
 
+gem 'binding_of_caller'
 gem 'friendly_errors'
 
 
 
 group :development, :test do
-  gem 'binding_of_caller'
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
