@@ -59,6 +59,8 @@ GEM
     bcp47 (0.3.3)
       i18n
     bindex (0.5.0)
+    binding_of_caller (0.8.0)
+      debug_inspector (>= 0.0.1)
     builder (3.2.3)
     byebug (10.0.2)
     capybara (2.18.0)
@@ -80,6 +82,7 @@ GEM
     concurrent-ruby (1.0.5)
     connection_pool (2.2.2)
     crass (1.0.4)
+    debug_inspector (0.0.3)
     deprecation (1.0.0)
       activesupport
     dotenv (2.5.0)
@@ -97,6 +100,7 @@ GEM
     faraday (0.15.3)
       multipart-post (>= 1.2, < 3)
     ffi (1.9.25)
+    friendly_errors (0.1.0)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
     gruff (0.7.0)
@@ -265,7 +269,7 @@ GEM
     rmagick (2.16.0)
     ruby_dep (1.5.0)
     rubyzip (1.2.2)
-    sass (3.5.7)
+    sass (3.6.0)
       sass-listen (~> 4.0.0)
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
@@ -317,7 +321,7 @@ GEM
     turbolinks-source (5.2.0)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
-    uglifier (4.1.18)
+    uglifier (4.1.19)
       execjs (>= 0.3.0, < 3)
     web-console (3.7.0)
       actionview (>= 5.0)
@@ -334,11 +338,13 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  binding_of_caller
   byebug
   capybara (~> 2.13)
   coffee-rails (~> 4.2)
   dotenv-deployment
   dotenv-rails
+  friendly_errors
   jbuilder (~> 2.5)
   linkeddata
   listen (>= 3.0.5, < 3.2)
