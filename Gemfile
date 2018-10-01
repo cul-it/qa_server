@@ -51,3 +51,5 @@ group :development do
   gem 'web-console', '~> 3.0'
   gem 'xray-rails'
 end
+
+gem 'swagger-docs'
