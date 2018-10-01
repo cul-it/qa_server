@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/samvera/questioning_authority.git
-  revision: 7b8549be5704e48b829992c1db686aebc03d8d0d
+  revision: f44e597474cd55f64fb31a77bdb39ece81b97fa8
   branch: min_context
   specs:
     qa (2.1.1)
@@ -10,7 +10,6 @@ GIT
       nokogiri (~> 1.6)
       rails (~> 5.0)
       rdf
-      swagger-docs
 
 GEM
   remote: https://rubygems.org/
