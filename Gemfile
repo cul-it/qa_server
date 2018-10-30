@@ -27,6 +27,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby] # Windows doe
 gem 'uglifier', '>= 1.3.0'
 
 group :development, :integration, :test do
+  gem 'better_errors'
   gem 'binding_of_caller'
   gem 'bixby', '~> 1.0.0'
   gem 'byebug'
