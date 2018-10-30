@@ -125,6 +125,7 @@ GEM
     faraday (0.15.3)
       multipart-post (>= 1.2, < 3)
     ffi (1.9.25)
+    friendly_errors (0.1.0)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
     gruff (0.7.0)
@@ -449,6 +450,7 @@ DEPENDENCIES
   dotenv-rails
   factory_bot_rails (~> 4.4)
   faker
+  friendly_errors
   jbuilder (~> 2.5)
   linkeddata
   listen

@@ -36,7 +36,7 @@ group :development, :integration, :test do
   gem 'database_cleaner'
   gem 'factory_bot_rails', '~> 4.4', require: false
   gem 'faker'
-  # gem 'friendly_errors'
+  gem 'friendly_errors'
   # gem 'launchy', '~> 2.4', '>= 2.4.3'
   gem 'listen'
   gem 'rails-controller-testing'
@@ -46,7 +46,7 @@ group :development, :integration, :test do
   gem 'rubocop-checkstyle_formatter', require: false
 end
 
-group :development do
+group :development, :integration do
   # gem 'meta_request'
   gem 'spring'
   gem 'web-console', '~> 3.0'
