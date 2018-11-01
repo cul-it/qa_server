@@ -10,15 +10,23 @@
   },
   "servers": [
     {
-      "url": "http://{site_host}/{apiBase}",
+      "url": "https://lookup.ld4l.org/authorities",
+      "description": "LD4L Lookup - QA v2.1 API Server",
+    },
+    {
+      "url": "http://localhost:3000/authorities",
+      "description": "QA v2.1 API Server",
+    },
+    {
+      "url": "http://{site_host}/{qa_engine_mount}",
       "description": "QA v2.1 API Server",
       "variables": {
         "site_host": {
           "default": "localhost:3000",
           "description": ""
         },
-        "apiBase": {
-          "default": "qa"
+        "qa_engine_mount": {
+          "default": "authorities"
         }
       }
     }
@@ -176,7 +184,7 @@
     },
     "/search/linked_data/{vocab}/{subauthority}": {
       "get": {
-        "summary": "Send a query string to a subauthority in an authority and return search results.",
+        "summary": "Send a query string to a subauthority in an authority and return search results.  Parameters are typical examples.  Actual parameters are driven by the authority's config file.",
         "operationId": "GET_searchSubauthority",
         "tags": [
           "Search Query"

@@ -10,7 +10,7 @@ gem 'dotenv-deployment'
 gem 'dotenv-rails'
 
 # Required gems for QA and linked data access
-gem 'qa_server', '1.0.0'
+gem 'qa_server', '1.1.0'
 gem 'qa', github: 'samvera/questioning_authority', branch: 'min_context'
 gem 'linkeddata'
 
