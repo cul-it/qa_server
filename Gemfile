@@ -27,17 +27,12 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby] # Windows doe
 gem 'uglifier', '>= 1.3.0'
 
 group :development, :integration, :test do
-  gem 'better_errors'
-  gem 'binding_of_caller'
-  gem 'bixby', '~> 1.0.0'
   gem 'byebug'
   gem 'capybara'
   gem 'coveralls', require: false
   gem 'database_cleaner'
   gem 'factory_bot_rails', '~> 4.4', require: false
   gem 'faker'
-  gem 'friendly_errors'
-  # gem 'launchy', '~> 2.4', '>= 2.4.3'
   gem 'listen'
   gem 'rails-controller-testing'
   gem 'rspec-rails'
@@ -47,7 +42,9 @@ group :development, :integration, :test do
 end
 
 group :development, :integration do
-  # gem 'meta_request'
+  gem 'better_errors' # add command line in browser when errors
+  gem 'binding_of_caller' # deeper stack trace used by better errors
+  gem 'bixby', '~> 1.0.0' # style guide enforcement with rubocop
   gem 'spring'
   gem 'web-console', '~> 3.0'
   gem 'xray-rails'
