@@ -51,3 +51,6 @@ group :development, :integration do
 end
 
 gem 'swagger-docs'
+
+# temporary pins to avoid bundler difficulties
+gem 'concurrent-ruby', '1.0.5'
