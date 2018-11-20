@@ -21,7 +21,7 @@
     "term_id": "URI",
     "results": {
       "id_predicate": "http://id.loc.gov/vocabulary/identifiers/lccn",
-      "label_predicate": "http://www.w3.org/2004/02/skos/core#prefLabel",
+      "label_predicate": "http://www.loc.gov/mads/rdf/v1#authoritativeLabel",
       "altlabel_predicate": "http://www.w3.org/2004/02/skos/core#altLabel",
       "sameas_predicate": "http://www.w3.org/2004/02/skos/core#exactMatch"
     }
@@ -56,7 +56,7 @@
       ]
     },
     "qa_replacement_patterns": {
-      "query":   "query",
+      "query":   "query"
     },
     "results": {
       "label_predicate":    "http://www.loc.gov/mads/rdf/v1#authoritativeLabel",
