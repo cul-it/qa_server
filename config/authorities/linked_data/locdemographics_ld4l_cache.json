@@ -3,14 +3,15 @@
     "url": {
       "@context": "http://www.w3.org/ns/hydra/context.jsonld",
       "@type":    "IriTemplate",
-      "template": "http://services.ld4l.org/ld4l_services/mesh_lookup.jsp?uri={?term_uri}",
+      "template": "http://services.ld4l.org/ld4l_services/loc_demographics_lookup.jsp?uri={?term_uri}",
       "variableRepresentation": "BasicRepresentation",
       "mapping": [
         {
           "@type":    "IriTemplateMapping",
           "variable": "term_uri",
           "property": "hydra:freetextQuery",
-          "required": true
+          "required": true,
+          "encode":   true
         }
       ]
     },
@@ -19,18 +20,17 @@
     },
     "term_id": "URI",
     "results": {
-      "id_predicate":       "http://www.w3.org/2004/02/skos/core#notation",
-      "label_predicate":    "http://www.w3.org/2004/02/skos/core#prefLabel",
+      "id_predicate": "http://id.loc.gov/vocabulary/identifiers/lccn",
+      "label_predicate": "http://www.w3.org/2004/02/skos/core#prefLabel",
       "altlabel_predicate": "http://www.w3.org/2004/02/skos/core#altLabel",
-      "broader_predicate":  "http://purl.bioontology.org/ontology/MESH/mapped_to",
-      "narrower_predicate": "http://purl.bioontology.org/ontology/MESH/mapped_from"
+      "sameas_predicate": "http://www.w3.org/2004/02/skos/core#exactMatch"
     }
   },
   "search": {
     "url": {
       "@context": "http://www.w3.org/ns/hydra/context.jsonld",
       "@type": "IriTemplate",
-      "template": "http://services.ld4l.org/ld4l_services/mesh_batch.jsp?query={?query}&maxRecords={?maxRecords}&lang={?lang}",
+      "template": "http://services.ld4l.org/ld4l_services/loc_demographics_batch.jsp?query={?query}&maxRecords={?maxRecords}&lang={?lang}",
       "variableRepresentation": "BasicRepresentation",
       "mapping": [
         {
@@ -59,12 +59,8 @@
       "query":   "query"
     },
     "results": {
-      "id_predicate":       "http://www.w3.org/2004/02/skos/core#notation",
-      "label_predicate":    "http://www.w3.org/2004/02/skos/core#prefLabel",
-      "sort_predicate":     "http://vivoweb.org/ontology/core#rank",
-      "context": {
-        "Definition":   "http://www.w3.org/2004/02/skos/core#definition"
-      }
+      "label_predicate":    "http://www.loc.gov/mads/rdf/v1#authoritativeLabel",
+      "sort_predicate":     "http://vivoweb.org/ontology/core#rank"
     }
   }
 }
