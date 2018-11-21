@@ -18,11 +18,15 @@
       "description": "QA v2.2 API Server",
     },
     {
-      "url": "http://{site_host}/{qa_engine_mount}",
+      "url": "{http_protocol}://{site_host}/{qa_engine_mount}",
       "description": "QA v2.2 API Server",
       "variables": {
+        "http_protocol": {
+          "default": "https",
+          "description": ""
+        },
         "site_host": {
-          "default": "localhost:3000",
+          "default": "ld4l-qa-int.pge2e2mdhm.us-east-1.elasticbeanstalk.com",
           "description": ""
         },
         "qa_engine_mount": {
