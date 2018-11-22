@@ -11,11 +11,11 @@
   "servers": [
     {
       "url": "https://lookup.ld4l.org/authorities",
-      "description": "LD4L Lookup - QA v2.2 API Server",
+      "description": "LD4L Lookup - QA v2.2 API Server"
     },
     {
       "url": "http://localhost:3000/authorities",
-      "description": "QA v2.2 API Server",
+      "description": "QA v2.2 API Server"
     },
     {
       "url": "{http_protocol}://{site_host}/{qa_engine_mount}",
@@ -1096,7 +1096,7 @@
             }
           },
           "predicates": {
-            "type": "object",
+            "type": "object"
           }
         }
       },
