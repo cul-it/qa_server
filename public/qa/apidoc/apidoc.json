@@ -248,6 +248,12 @@
                   "type": "string"
                 }
               },
+              "Access-Control-Allow-Headers": {
+                "description": "Indicates which headers a future CORS request to the same resource might use.",
+                "schema": {
+                  "type": "string"
+                }
+              },
               "Access-Control-Allow-Methods": {
                 "description": "Indicates which method a future CORS request to the same resource might use.",
                 "schema": {
@@ -429,6 +435,12 @@
                   "type": "string"
                 }
               },
+              "Access-Control-Allow-Headers": {
+                "description": "Indicates which headers a future CORS request to the same resource might use.",
+                "schema": {
+                  "type": "string"
+                }
+              },
               "Access-Control-Allow-Methods": {
                 "description": "Indicates which method a future CORS request to the same resource might use.",
                 "schema": {
@@ -574,7 +586,7 @@
       },
       "options": {
         "summary": "CORS preflight request",
-        "operationId": "OPTIONS_fetchFromAuthority",
+        "operationId": "OPTIONS_fetchByIDFromAuthority",
         "tags": [
           "Fetch Term"
         ],
@@ -606,6 +618,12 @@
             "headers": {
               "Access-Control-Allow-Origin": {
                 "description": "CORS header will be * if CORS headers are enabled",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Access-Control-Allow-Headers": {
+                "description": "Indicates which headers a future CORS request to the same resource might use.",
                 "schema": {
                   "type": "string"
                 }
@@ -765,7 +783,7 @@
       },
       "options": {
         "summary": "CORS preflight request",
-        "operationId": "OPTIONS_fetchFromSubauthority",
+        "operationId": "OPTIONS_fetchByIDFromSubauthority",
         "tags": [
           "Fetch Term"
         ],
@@ -807,6 +825,12 @@
             "headers": {
               "Access-Control-Allow-Origin": {
                 "description": "CORS header will be * if CORS headers are enabled",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Access-Control-Allow-Headers": {
+                "description": "Indicates which headers a future CORS request to the same resource might use.",
                 "schema": {
                   "type": "string"
                 }
@@ -956,7 +980,7 @@
       },
       "options": {
         "summary": "CORS preflight request",
-        "operationId": "OPTIONS_fetchFromAuthority",
+        "operationId": "OPTIONS_fetchURIFromAuthority",
         "tags": [
           "Fetch Term"
         ],
@@ -967,14 +991,14 @@
             "name": "vocab",
             "required": true,
             "schema": {
-              "default": "loc",
+              "default": "locgenres_ld4l_cache",
               "type": "string"
             }
           },
           {
-            "description": "The ID or URI for the term being retrieved.",
-            "in": "path",
-            "name": "id",
+            "description": "The URI for the term being retrieved.",
+            "in": "query",
+            "name": "uri",
             "required": true,
             "schema": {
               "default": "http://id.loc.gov/authorities/genreForms/gf2011026141",
@@ -988,6 +1012,12 @@
             "headers": {
               "Access-Control-Allow-Origin": {
                 "description": "CORS header will be * if CORS headers are enabled",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Access-Control-Allow-Headers": {
+                "description": "Indicates which headers a future CORS request to the same resource might use.",
                 "schema": {
                   "type": "string"
                 }
