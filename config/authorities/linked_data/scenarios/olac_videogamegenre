@@ -1,0 +1,48 @@
+---
+authority:
+  service: ld4l_cache
+search:
+    -
+        query: casual video games
+
+    -
+        query: Casual video games
+        position: 1
+        subject_uri: "http://metadataregistry.org/uri/olac/1018"
+        replacements:
+            maxRecords: '5'
+    -
+        query: Casual video games
+        position: 10
+        subject_uri: "http://metadataregistry.org/uri/olac/1043"
+        replacements:
+            maxRecords: '20'
+    -
+        query: Casual video games
+        position: 10
+        subject_uri: "http://metadataregistry.org/uri/olac/1001"
+        replacements:
+            maxRecords: '20'
+    -
+        query: Video games
+        position: 70
+        subject_uri: "http://metadataregistry.org/uri/olac/1018"
+        replacements:
+            maxRecords: '100'
+    -
+        query: Match-three video games
+        position: 1
+        subject_uri: "http://metadataregistry.org/uri/olac/1070"
+        replacements:
+            maxRecords: '5'
+    
+    -
+        query: Empire-building video games
+        position: 10
+        subject_uri: "http://metadataregistry.org/uri/olac/1009"
+        replacements:
+            maxRecords: '20'
+term:
+  -
+    identifier: 'http://metadataregistry.org/uri/olac/1070'
+...
