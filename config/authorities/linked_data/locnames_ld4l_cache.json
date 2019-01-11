@@ -67,7 +67,7 @@
       "subauth": "subauth"
     },
     "results": {
-      "label_predicate":    "http://www.loc.gov/mads/rdf/v1#authoritativeLabel",
+      "label_predicate": "http://www.w3.org/2004/02/skos/core#prefLabel",
       "sort_predicate":     "http://vivoweb.org/ontology/core#rank",
       "context": {
         "RWO":  "http://www.loc.gov/mads/rdf/v1#identifiesRWO"
