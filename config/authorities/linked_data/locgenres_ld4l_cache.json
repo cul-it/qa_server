@@ -10,7 +10,7 @@
     "url": {
       "@context": "http://www.w3.org/ns/hydra/context.jsonld",
       "@type":    "IriTemplate",
-      "template": "http://services.ld4l.org/ld4l_services/loc_genre_lookup.jsp?uri={?term_uri}",
+      "template": "http://services.ld4l.org/ld4l_services/loc_genre_lookup.jsp?uri={term_uri}",
       "variableRepresentation": "BasicRepresentation",
       "mapping": [
         {
@@ -39,7 +39,7 @@
     "url": {
       "@context": "http://www.w3.org/ns/hydra/context.jsonld",
       "@type": "IriTemplate",
-      "template": "http://services.ld4l.org/ld4l_services/loc_genre_batch.jsp?query={?query}&entity={?subauth}&maxRecords={?maxRecords}&lang={?lang}&context={?context}",
+      "template": "http://services.ld4l.org/ld4l_services/loc_genre_batch.jsp?{?query}&{?entity}&{?maxRecords}&{?lang}&{?context}",
       "variableRepresentation": "BasicRepresentation",
       "mapping": [
         {
@@ -50,7 +50,7 @@
         },
         {
           "@type": "IriTemplateMapping",
-          "variable": "subauth",
+          "variable": "entity",
           "property": "hydra:freetextQuery",
           "required": false,
           "default": ""
@@ -80,21 +80,20 @@
     },
     "qa_replacement_patterns": {
       "query":   "query",
-      "subauth": "subauth"
+      "subauth": "entity"
     },
     "results": {
       "id_predicate":       "http://id.loc.gov/vocabulary/identifiers/lccn",
       "label_predicate":    "http://www.loc.gov/mads/rdf/v1#authoritativeLabel",
-      "sort_predicate":     "http://vivoweb.org/ontology/core#rank",
-      "selector_predicate": "http://vivoweb.org/ontology/core#rank"
+      "sort_predicate":     "http://vivoweb.org/ontology/core#rank"
     },
-      "context": {
+    "context": {
       "groups": {
         "hierarchy": {
           "group_label_i18n": "qa.linked_data.authority.locgenres_ld4l_cache.hierarchy",
           "group_label_default": "Hierarchy"
-      }
-    },
+        }
+      },
       "properties": [
         {
           "property_label_i18n": "qa.linked_data.authority.locgenres_ld4l_cache.authoritative_label",
