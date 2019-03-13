@@ -45,7 +45,7 @@
           "variable": "username",
           "property": "hydra:freetextQuery",
           "required": false,
-          "default": "YOUR_GEONAMES_USERNAME"
+          "default": "elrayle"
         },
         {
           "@type": "IriTemplateMapping",
