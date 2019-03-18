@@ -1,0 +1,9 @@
+---
+authority:
+  service: ld4l_cache
+search:
+  -
+    query: 'mark twain'
+term:
+  -
+    identifier: 'http://dev-vde.atcult.it/sharevde/rdfBibframe/Work/469938'
