@@ -132,7 +132,7 @@ GEM
       rdf-xsd (>= 2.2, < 4.0)
       sparql (>= 2.2, < 4.0)
       sxp (~> 1.0)
-    ldpath (0.3.1)
+    ldpath (1.0.1)
       linkeddata
       parslet
     link_header (0.0.8)
@@ -180,12 +180,12 @@ GEM
     mini_portile2 (2.4.0)
     minitest (5.11.3)
     multi_json (1.13.1)
-    multipart-post (2.0.0)
+    multipart-post (2.1.1)
     mysql2 (0.5.2)
-    net-http-persistent (3.0.0)
+    net-http-persistent (3.0.1)
       connection_pool (~> 2.2)
     nio4r (2.3.1)
-    nokogiri (1.10.1)
+    nokogiri (1.10.3)
       mini_portile2 (~> 2.4.0)
     nokogumbo (1.5.0)
       nokogiri
@@ -196,7 +196,7 @@ GEM
     powerpack (0.1.2)
     public_suffix (3.0.3)
     puma (3.12.0)
-    qa (4.0.0)
+    qa (4.1.1)
       activerecord-import
       deprecation
       faraday
@@ -242,7 +242,7 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
-    rdf (3.0.10)
+    rdf (3.0.12)
       hamster (~> 3.0)
       link_header (~> 0.0, >= 0.0.8)
     rdf-aggregate-repo (2.2.1)
@@ -256,8 +256,10 @@ GEM
       nokogiri (~> 1.8)
       rdf (>= 2.2.8, < 4.0)
       rdf-xsd (>= 2.2, < 4.0)
-    rdf-n3 (3.0.1)
+    rdf-n3 (3.1.0)
       rdf (~> 3.0)
+      sparql (~> 3.0)
+      sxp (~> 1.0)
     rdf-normalize (0.3.3)
       rdf (>= 2.2, < 4.0)
     rdf-rdfa (3.0.1)
@@ -271,7 +273,7 @@ GEM
       rdf (>= 2.2, < 4.0)
       rdf-rdfa (>= 2.2, < 4.0)
       rdf-xsd (>= 2.2, < 4.0)
-    rdf-reasoner (0.5.1)
+    rdf-reasoner (0.5.2)
       rdf (~> 3.0)
       rdf-vocab (~> 3.0)
       rdf-xsd (~> 3.0)
@@ -288,11 +290,11 @@ GEM
       rdf-turtle (~> 3.0, >= 3.0.3)
     rdf-trix (2.2.1)
       rdf (>= 2.2, < 4.0)
-    rdf-turtle (3.0.5)
+    rdf-turtle (3.0.6)
       ebnf (~> 1.1)
       rdf (~> 3.0)
-    rdf-vocab (3.0.4)
-      rdf (~> 3.0)
+    rdf-vocab (3.0.6)
+      rdf (~> 3.0, >= 3.0.11)
     rdf-xsd (3.0.1)
       rdf (~> 3.0)
     request_store (1.4.1)
@@ -430,7 +432,7 @@ DEPENDENCIES
   lograge
   mysql2
   puma (~> 3.7)
-  qa (~> 4.0)
+  qa (~> 4.1)
   qa_server (~> 2.0)
   rails (~> 5.1.6)
   rails-controller-testing
