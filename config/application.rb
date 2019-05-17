@@ -12,6 +12,9 @@ module QaServer
     config.load_defaults 5.1
     config.web_console.development_only = false if config.respond_to?(:web_console) && !Rails.env.production?
 
+    Qa::Authorities::Discogs::GenericAuthority.discogs_key = 'bXDsQzXjWPxUowNRUoxq'
+    Qa::Authorities::Discogs::GenericAuthority.discogs_secret = 'yNSnBqrCDUYmwfMheZdtdCDuaUgQRJTn'
+
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
