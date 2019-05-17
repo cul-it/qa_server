@@ -1,5 +1,8 @@
 {
-  "QA_CONFIG_VERSION": "2.0",
+  "QA_CONFIG_VERSION": "2.1",
+  "prefixes": {
+    "loc":  "http://id.loc.gov/vocabulary/identifiers/"
+  },
   "term": {
     "url": {
       "@context": "http://www.w3.org/ns/hydra/context.jsonld",
@@ -29,18 +32,18 @@
     "term_id": "ID",
     "language": ["en"],
     "results": {
-      "id_predicate": "http://id.loc.gov/vocabulary/identifiers/lccn",
-      "label_predicate": "http://www.w3.org/2004/02/skos/core#prefLabel",
-      "altlabel_predicate": "http://www.w3.org/2004/02/skos/core#altLabel",
-      "sameas_predicate": "http://www.w3.org/2004/02/skos/core#exactMatch"
+      "id_ldpath":       "loc:lccn ::xsd:string",
+      "label_ldpath":    "skos:prefLabel ::xsd:string",
+      "altlabel_ldpath": "skos:altLabel ::xsd:string",
+      "sameas_ldpath":   "skos:exactMatch ::xsd:string"
     },
     "subauthorities": {
-      "subjects": "subjects",
-      "names": "names",
-      "classification": "classification",
-      "child_subject": "childrensSubjects",
-      "genre": "genreForms",
-      "demographic": "demographicTerms",
+      "subjects":          "subjects",
+      "names":             "names",
+      "classification":    "classification",
+      "child_subject":     "childrensSubjects",
+      "genre":             "genreForms",
+      "demographic":       "demographicTerms",
       "music_performance": "performanceMediums"
     }
   },
