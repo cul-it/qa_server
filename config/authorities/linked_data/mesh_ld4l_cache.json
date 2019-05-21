@@ -20,11 +20,11 @@
     },
     "term_id": "URI",
     "results": {
-      "id_predicate":       "http://www.w3.org/2004/02/skos/core#notation",
-      "label_predicate":    "http://www.w3.org/2004/02/skos/core#prefLabel",
+      "id_predicate":    "http://id.nlm.nih.gov/mesh/vocab#identifier",
+      "label_predicate": "http://id.nlm.nih.gov/mesh/vocab#prefLabel",
       "altlabel_predicate": "http://www.w3.org/2004/02/skos/core#altLabel",
-      "broader_predicate":  "http://purl.bioontology.org/ontology/MESH/mapped_to",
-      "narrower_predicate": "http://purl.bioontology.org/ontology/MESH/mapped_from"
+      "broader_predicate":  "http://id.nlm.nih.gov/mesh/vocab#mapped_to",
+      "narrower_predicate": "http://id.nlm.nih.gov/mesh/vocab#mapped_from"
     }
   },
   "search": {
@@ -38,7 +38,8 @@
           "@type": "IriTemplateMapping",
           "variable": "query",
           "property": "hydra:freetextQuery",
-          "required": true
+          "required": true,
+          "encode": true
         },
         {
           "@type": "IriTemplateMapping",
@@ -60,12 +61,20 @@
       "query":   "query"
     },
     "results": {
-      "id_predicate":       "http://www.w3.org/2004/02/skos/core#notation",
-      "label_predicate":    "http://www.w3.org/2004/02/skos/core#prefLabel",
-      "sort_predicate":     "http://vivoweb.org/ontology/core#rank",
-      "context": {
-        "Definition":   "http://www.w3.org/2004/02/skos/core#definition"
-      }
+      "id_predicate":    "http://id.nlm.nih.gov/mesh/vocab#identifier",
+      "label_predicate": "http://id.nlm.nih.gov/mesh/vocab#prefLabel",
+      "sort_predicate":  "http://vivoweb.org/ontology/core#rank"
+    },
+    "context": {
+      "properties": [
+        {
+          "property_label_i18n": "qa.linked_data.authority.meshv_ld4l_cache.definition",
+          "property_label_default": "Definition",
+          "ldpath": "skos:definition :: xsd:string",
+          "selectable": false,
+          "drillable": false
+        }
+      ]
     }
   }
 }
