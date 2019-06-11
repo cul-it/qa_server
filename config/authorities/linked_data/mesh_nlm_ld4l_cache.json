@@ -1,7 +1,7 @@
 {
   "QA_CONFIG_VERSION": "2.1",
   "prefixes": {
-    "mesh": "http://purl.bioontology.org/ontology/MESH/",
+    "nlmmesh": "http://id.nlm.nih.gov/mesh/vocab#",
     "vivo": "http://vivoweb.org/ontology/core#"
   },
   "term": {
@@ -24,11 +24,8 @@
     },
     "term_id": "URI",
     "results": {
-      "id_ldpath":       "skos:notation ::xsd:string",
-      "label_ldpath":    "skos:prefLabel ::xsd:string",
-      "altlabel_ldpath": "skos:altLabel ::xsd:string",
-      "broader_ldpath":  "mesh:mapped_to ::xsd:anyURI",
-      "narrower_ldpath": "mesh:mapped_from ::xsd:anyURI"
+      "id_ldpath":    "nlmmesh:identifier ::xsd:string",
+      "label_ldpath": "nlmmesh:prefLabel ::xsd:string"
     }
   },
   "search": {
@@ -65,20 +62,9 @@
       "query":   "query"
     },
     "results": {
-      "id_ldpath":    "skos:notation ::xsd:string",
-      "label_ldpath": "skos:prefLabel ::xsd:string",
+      "id_ldpath":    "nlmmesh:identifier ::xsd:string",
+      "label_ldpath": "nlmmesh:prefLabel ::xsd:string",
       "sort_ldpath":  "vivo:rank ::xsd:string"
-    },
-    "context": {
-      "properties": [
-        {
-          "property_label_i18n": "qa.linked_data.authority.mesh_ld4l_cache.definition",
-          "property_label_default": "Definition",
-          "ldpath": "skos:definition :: xsd:string",
-          "selectable": false,
-          "drillable": false
-        }
-      ]
     }
   }
 }

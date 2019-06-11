@@ -26,7 +26,7 @@
     },
     "term_id": "URI",
     "results": {
-      "id_ldpath":       "loc:lccn ::xsd:string",
+      "id_ldpath":       "loc:lccn | madsrdf:code ::xsd:string",
       "label_ldpath":    "skos:prefLabel ::xsd:string",
       "altlabel_ldpath": "skos:altLabel ::xsd:string",
       "sameas_ldpath":   "skos:exactMatch ::xsd:anyURI"
@@ -74,7 +74,7 @@
       "subauth": "entity"
     },
     "results": {
-      "id_ldpath":    "loc:lccn ::xsd:string",
+      "id_ldpath":    "loc:lccn | madsrdf:code ::xsd:string",
       "label_ldpath": "skos:prefLabel ::xsd:string",
       "sort_ldpath":  "vivo:rank ::xsd:string"
     },
