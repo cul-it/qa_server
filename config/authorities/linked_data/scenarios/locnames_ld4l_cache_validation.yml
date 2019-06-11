@@ -1,11 +1,15 @@
 ---
 authority:
   service: ld4l_cache
+  context: true
 search:
   -
     query: 'mark twain'
   -
     query: 'mark twain'
+    subauth: person
+  -
+    query: 'Twain, Mark, 1835-1910'
     subauth: person
   -
     query: 'mark twain'
