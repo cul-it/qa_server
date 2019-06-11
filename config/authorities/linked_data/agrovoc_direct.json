@@ -1,9 +1,12 @@
 {
+  "QA_CONFIG_VERSION": "2.1",
+  "prefixes": {
+  },
   "term": {
     "url": {
       "@context": "http://www.w3.org/ns/hydra/context.jsonld",
       "@type":    "IriTemplate",
-      "template": "http://artemide.art.uniroma2.it:8081/agrovoc/rest/v1/data?uri={?term_uri}",
+      "template": "http://agrovoc.uniroma2.it/agrovoc/rest/v1/data/?uri={term_uri}",
       "variableRepresentation": "BasicRepresentation",
       "mapping": [
         {
@@ -21,18 +24,18 @@
     "term_id": "URI",
     "language": ["en"],
     "results": {
-      "label_predicate":    "http://www.w3.org/2004/02/skos/core#prefLabel",
-      "altlabel_predicate": "http://www.w3.org/2004/02/skos/core#altLabel",
-      "broader_predicate":  "http://www.w3.org/2004/02/skos/core#broader",
-      "narrower_predicate": "http://www.w3.org/2004/02/skos/core#narrower",
-      "sameas_predicate":   "http://www.w3.org/2004/02/skos/core#exactMatch"
+      "label_ldpath":    "skos:prefLabel",
+      "altlabel_ldpath": "skos:altLabel",
+      "broader_ldpath":  "skos:broader",
+      "narrower_ldpath": "skos:narrower",
+      "sameas_ldpath":   "skos:exactMatch"
     }
   },
   "search": {
     "url": {
       "@context": "http://www.w3.org/ns/hydra/context.jsonld",
       "@type":    "IriTemplate",
-      "template": "http://artemide.art.uniroma2.it:8081/agrovoc/rest/v1/search/?query=*{?query}*&lang={?lang}&maxhits={?maxRecords}",
+      "template": "http://agrovoc.uniroma2.it/agrovoc/rest/v1/search/?query=*{query}*&{?lang}&maxhits={maxRecords}",
       "variableRepresentation": "BasicRepresentation",
       "mapping": [
         {
@@ -62,9 +65,8 @@
       "query": "query"
     },
     "results": {
-      "id_predicate":       "http://purl.org/dc/terms/identifier",
-      "label_predicate":    "http://www.w3.org/2004/02/skos/core#prefLabel",
-      "sort_predicate":     "http://www.w3.org/2004/02/skos/core#prefLabel"
+      "label_ldpath":    "skos:prefLabel",
+      "sort_ldpath":     "skos:prefLabel"
     }
   }
 }
