@@ -4,7 +4,7 @@ authority:
   context: true
 search:
   -
-    query: milk
+    query: malignant
 term:
   -
-    identifier: 'http://aims.fao.org/aos/agrovoc/c_9513'
+    identifier: 'http://id.nlm.nih.gov/mesh/T727346'

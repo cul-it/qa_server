@@ -1,27 +1,28 @@
 {
   "QA_CONFIG_VERSION": "2.1",
   "prefixes": {
-    "loc":  "http://id.loc.gov/vocabulary/identifiers/"
+    "loc":     "http://id.loc.gov/vocabulary/identifiers/",
+    "madsrdf": "http://www.loc.gov/mads/rdf/v1#"
   },
   "term": {
     "url": {
       "@context": "http://www.w3.org/ns/hydra/context.jsonld",
-      "@type": "IriTemplate",
+      "@type":    "IriTemplate",
       "template": "http://id.loc.gov/authorities/{subauth}/{term_id}",
       "variableRepresentation": "BasicRepresentation",
       "mapping": [
         {
-          "@type": "IriTemplateMapping",
+          "@type":    "IriTemplateMapping",
           "variable": "term_id",
           "property": "hydra:freetextQuery",
           "required": true
         },
         {
-          "@type": "IriTemplateMapping",
+          "@type":    "IriTemplateMapping",
           "variable": "subauth",
           "property": "hydra:freetextQuery",
           "required": false,
-          "default": "names"
+          "default":  "names"
         }
       ]
     },
@@ -32,10 +33,12 @@
     "term_id": "ID",
     "language": ["en"],
     "results": {
-      "id_ldpath":       "loc:lccn ::xsd:string",
-      "label_ldpath":    "skos:prefLabel ::xsd:string",
-      "altlabel_ldpath": "skos:altLabel ::xsd:string",
-      "sameas_ldpath":   "skos:exactMatch ::xsd:string"
+      "id_ldpath":       "loc:lccn | madsrdf:code",
+      "label_ldpath":    "skos:prefLabel :: xsd:string",
+      "altlabel_ldpath": "skos:altLabel :: xsd:string",
+      "sameas_ldpath":   "skos:exactMatch | owl:sameAs :: xsd:anyURI",
+      "narrower_ldpath": "madsrdf:hasNarrowerAuthority :: xsd:anyURI",
+      "broader_ldpath":  "madsrdf:hasBroaderAuthority :: xsd:anyURI"
     },
     "subauthorities": {
       "subjects":          "subjects",

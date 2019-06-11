@@ -1,5 +1,9 @@
 {
-  "QA_CONFIG_VERSION": "2.0",
+  "QA_CONFIG_VERSION": "2.1",
+  "prefixes": {
+    "bf":   "http://id.loc.gov/ontologies/bibframe/",
+    "vivo": "http://vivoweb.org/ontology/core#"
+  },
   "term": {
     "url": {
       "@context": "http://www.w3.org/ns/hydra/context.jsonld",
@@ -20,7 +24,7 @@
     },
     "term_id": "URI",
     "results": {
-      "label_predicate":    "http://id.loc.gov/ontologies/bibframe/title"
+      "label_ldpath": "bf:title"
     }
   },
   "search": {
@@ -57,8 +61,8 @@
       "query":   "query"
     },
     "results": {
-      "label_predicate":    "http://id.loc.gov/ontologies/bibframe/title",
-      "sort_predicate":     "http://vivoweb.org/ontology/core#rank"
+      "label_ldpath": "bf:title",
+      "sort_ldpath":  "vivo:rank"
     }
   }
 }
