@@ -61,7 +61,7 @@
       "query":   "query"
     },
     "results": {
-      "label_ldpath": "bf:title",
+      "label_ldpath": "bf:title/rdfs:label :: xsd:string",
       "sort_ldpath":  "vivo:rank"
     },
     "context": {
