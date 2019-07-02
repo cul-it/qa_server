@@ -38,7 +38,7 @@
     "url": {
       "@context": "http://www.w3.org/ns/hydra/context.jsonld",
       "@type": "IriTemplate",
-      "template": "http://services.ld4l.org/ld4l_services/loc_genre_batch.jsp?{?query}&{?maxRecords}&{?lang}&{?context}",
+      "template": "http://services.ld4l.org/ld4l_services/loc_genre_batch.jsp?{?query}&{?entity}&{?maxRecords}&{?startRecord}&{?lang}&{?context}",
       "variableRepresentation": "BasicRepresentation",
       "mapping": [
         {
@@ -50,10 +50,24 @@
         },
         {
           "@type": "IriTemplateMapping",
+          "variable": "entity",
+          "property": "hydra:freetextQuery",
+          "required": false,
+          "default": ""
+        },
+        {
+          "@type": "IriTemplateMapping",
           "variable": "maxRecords",
           "property": "hydra:freetextQuery",
           "required": false,
           "default": "20"
+        },
+        {
+          "@type": "IriTemplateMapping",
+          "variable": "startRecord",
+          "property": "hydra:freetextQuery",
+          "required": false,
+          "default": "0"
         },
         {
           "@type": "IriTemplateMapping",
@@ -72,7 +86,8 @@
       ]
     },
     "qa_replacement_patterns": {
-      "query":   "query"
+      "query":   "query",
+      "subauth": "entity"
     },
     "results": {
       "id_ldpath":    "loc:lccn ::xsd:string",
@@ -179,6 +194,10 @@
           "drillable": false
         }
       ]
+    },
+    "subauthorities": {
+      "active":       "active",
+      "deprecated":   "deprecated"
     }
   }
 }
