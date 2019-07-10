@@ -36,7 +36,7 @@
     "url": {
       "@context": "http://www.w3.org/ns/hydra/context.jsonld",
       "@type": "IriTemplate",
-      "template": "http://services.ld4l.org/ld4l_services/loc_subject_batch.jsp?{?query}&{?entity}&{?maxRecords}&{?startRecord}&{?lang}",
+      "template": "http://services.ld4l.org/ld4l_services/loc_subject_batch.jsp?{?query}&{?maxRecords}&{?startRecord}&{?lang}",
       "variableRepresentation": "BasicRepresentation",
       "mapping": [
         {
@@ -45,13 +45,6 @@
           "property": "hydra:freetextQuery",
           "required": true,
           "encode": true
-        },
-        {
-          "@type": "IriTemplateMapping",
-          "variable": "entity",
-          "property": "hydra:freetextQuery",
-          "required": false,
-          "default": ""
         },
         {
           "@type": "IriTemplateMapping",
@@ -155,14 +148,6 @@
           "drillable": false
         }
       ]
-    },
-    "subauthorities": {
-      "person":         "Person",
-      "organization":   "Organization",
-      "place":          "Place",
-      "intangible":     "Intangible",
-      "geocoordinates": "GeoCoordinates",
-      "work":           "Work"
     }
   }
 }
