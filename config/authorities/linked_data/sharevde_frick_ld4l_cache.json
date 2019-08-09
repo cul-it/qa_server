@@ -117,6 +117,41 @@
           "drillable": false
         },
         {
+          "property_label_default": "Carrier",
+          "property_label_i18n": "qa.linked_data.authority.sharevde_frick_instance_ld4l_cache.carrier",
+          "ldpath": "bf:carrier :: xsd:string",
+          "selectable": false,
+          "drillable": false
+        },
+        {
+          "property_label_default": "Media",
+          "property_label_i18n": "qa.linked_data.authority.sharevde_frick_instance_ld4l_cache.media",
+          "ldpath": "bf:media :: xsd:string",
+          "selectable": false,
+          "drillable": false
+        },
+        {
+          "property_label_default": "Responsibility statement",
+          "property_label_i18n": "qa.linked_data.authority.sharevde_frick_instance_ld4l_cache.responsibility_statement",
+          "ldpath": "bf:responsibility_statement :: xsd:string",
+          "selectable": false,
+          "drillable": false
+        },
+        {
+          "property_label_default": "Provision statement",
+          "property_label_i18n": "qa.linked_data.authority.sharevde_frick_instance_ld4l_cache.provision_statement",
+          "ldpath": "bf:provision_statement :: xsd:string",
+          "selectable": false,
+          "drillable": false
+        },
+        {
+          "property_label_default": "Dimensions",
+          "property_label_i18n": "qa.linked_data.authority.sharevde_frick_instance_ld4l_cache.dimensions",
+          "ldpath": "bf:dimensions :: xsd:string",
+          "selectable": false,
+          "drillable": false
+        },
+        {
           "property_label_default": "Language",
           "property_label_i18n": "qa.linked_data.authority.sharevde_frick_instance_ld4l_cache.language",
           "ldpath": "(bf:language/rdfs:label) | (bf:language/skos:prefLabel) :: xsd:string",
