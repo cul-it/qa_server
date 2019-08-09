@@ -31,7 +31,7 @@
     "url": {
       "@context": "http://www.w3.org/ns/hydra/context.jsonld",
       "@type": "IriTemplate",
-      "template": "http://services.ld4l.org/ld4l_services/share_vde/frick_batch.jsp?{?query}&{?maxRecords}&{?lang}",
+      "template": "http://services.ld4l.org/ld4l_services/share_vde/frick_batch.jsp?{?query}&{?entity}&{?maxRecords}&{?lang}",
       "variableRepresentation": "BasicRepresentation",
       "mapping": [
         {
@@ -40,6 +40,13 @@
           "property": "hydra:freetextQuery",
           "required": true,
           "encode": true
+        },
+        {
+          "@type": "IriTemplateMapping",
+          "variable": "entity",
+          "property": "hydra:freetextQuery",
+          "required": false,
+          "default": ""
         },
         {
           "@type": "IriTemplateMapping",
@@ -58,7 +65,8 @@
       ]
     },
     "qa_replacement_patterns": {
-      "query":   "query"
+      "query":   "query",
+      "subauth": "entity"
     },
     "results": {
       "label_ldpath": "bf:title/rdfs:label :: xsd:string",
@@ -116,6 +124,11 @@
           "drillable": false
         }
       ]
+    },
+    "subauthorities": {
+      "work":      "Work",
+      "instance":  "Instance",
+      "superwork": "SuperWork"
     }
   }
 }
