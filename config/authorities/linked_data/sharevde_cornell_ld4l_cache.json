@@ -8,7 +8,7 @@
     "url": {
       "@context": "http://www.w3.org/ns/hydra/context.jsonld",
       "@type":    "IriTemplate",
-      "template": "http://services.ld4l.org/ld4l_services/share_vde/lookup.jsp?site=frick&uri={term_uri}",
+      "template": "http://services.ld4l.org/ld4l_services/share_vde/lookup.jsp?site=cornell&uri={term_uri}",
       "variableRepresentation": "BasicRepresentation",
       "mapping": [
         {
@@ -31,7 +31,7 @@
     "url": {
       "@context": "http://www.w3.org/ns/hydra/context.jsonld",
       "@type": "IriTemplate",
-      "template": "http://services.ld4l.org/ld4l_services/share_vde/frick_batch.jsp?{?query}&{?entity}&{?maxRecords}&{?lang}",
+      "template": "http://services.ld4l.org/ld4l_services/share_vde/cornell_batch.jsp?{?query}&{?entity}&{?maxRecords}&{?lang}",
       "variableRepresentation": "BasicRepresentation",
       "mapping": [
         {
@@ -76,49 +76,84 @@
       "properties": [
         {
           "property_label_default": "Title",
-          "property_label_i18n": "qa.linked_data.authority.sharevde_frick_instance_ld4l_cache.title",
+          "property_label_i18n": "qa.linked_data.authority.sharevde_cornell_instance_ld4l_cache.title",
           "ldpath": "bf:title/rdfs:label :: xsd:string",
           "selectable": true,
           "drillable": false
         },
         {
           "property_label_default": "Type",
-          "property_label_i18n": "qa.linked_data.authority.sharevde_frick_instance_ld4l_cache.type",
+          "property_label_i18n": "qa.linked_data.authority.sharevde_cornell_instance_ld4l_cache.type",
           "ldpath": "rdf:type :: xsd:string",
           "selectable": false,
           "drillable": false
         },
         {
           "property_label_default": "Content",
-          "property_label_i18n": "qa.linked_data.authority.sharevde_frick_instance_ld4l_cache.content",
+          "property_label_i18n": "qa.linked_data.authority.sharevde_cornell_instance_ld4l_cache.content",
           "ldpath": "(bf:content/skos:prefLabel) | (bf:content/rdfs:label) :: xsd:string",
           "selectable": false,
           "drillable": false
         },
         {
           "property_label_default": "Contributor",
-          "property_label_i18n": "qa.linked_data.authority.sharevde_frick_instance_ld4l_cache.contributor",
+          "property_label_i18n": "qa.linked_data.authority.sharevde_cornell_instance_ld4l_cache.contributor",
           "ldpath": "bf:contribution/bf:agent/rdfs:label :: xsd:string",
           "selectable": false,
           "drillable": false
         },
         {
           "property_label_default": "Role",
-          "property_label_i18n": "qa.linked_data.authority.sharevde_frick_instance_ld4l_cache.role",
+          "property_label_i18n": "qa.linked_data.authority.sharevde_cornell_instance_ld4l_cache.role",
           "ldpath": "bf:contribution/bf:agent/bf:role :: xsd:string",
           "selectable": false,
           "drillable": false
         },
         {
           "property_label_default": "Origin date",
-          "property_label_i18n": "qa.linked_data.authority.sharevde_frick_instance_ld4l_cache.origin_date",
+          "property_label_i18n": "qa.linked_data.authority.sharevde_cornell_instance_ld4l_cache.origin_date",
           "ldpath": "bf:originDate :: xsd:string",
           "selectable": false,
           "drillable": false
         },
         {
+          "property_label_default": "Carrier",
+          "property_label_i18n": "qa.linked_data.authority.sharevde_cornell_instance_ld4l_cache.carrier",
+          "ldpath": "bf:carrier :: xsd:string",
+          "selectable": false,
+          "drillable": false
+        },
+        {
+          "property_label_default": "Media",
+          "property_label_i18n": "qa.linked_data.authority.sharevde_cornell_instance_ld4l_cache.media",
+          "ldpath": "bf:media :: xsd:string",
+          "selectable": false,
+          "drillable": false
+        },
+        {
+          "property_label_default": "Responsibility statement",
+          "property_label_i18n": "qa.linked_data.authority.sharevde_cornell_instance_ld4l_cache.responsibility_statement",
+          "ldpath": "bf:responsibility_statement :: xsd:string",
+          "selectable": false,
+          "drillable": false
+        },
+        {
+          "property_label_default": "Provision statement",
+          "property_label_i18n": "qa.linked_data.authority.sharevde_cornell_instance_ld4l_cache.provision_statement",
+          "ldpath": "bf:provision_statement :: xsd:string",
+          "selectable": false,
+          "drillable": false
+        },
+        {
+          "property_label_default": "Dimensions",
+          "property_label_i18n": "qa.linked_data.authority.sharevde_cornell_instance_ld4l_cache.dimensions",
+          "ldpath": "bf:dimensions :: xsd:string",
+          "selectable": false,
+          "drillable": false
+        },
+        {
           "property_label_default": "Language",
-          "property_label_i18n": "qa.linked_data.authority.sharevde_frick_instance_ld4l_cache.language",
+          "property_label_i18n": "qa.linked_data.authority.sharevde_cornell_instance_ld4l_cache.language",
           "ldpath": "(bf:language/rdfs:label) | (bf:language/skos:prefLabel) :: xsd:string",
           "selectable": false,
           "drillable": false
