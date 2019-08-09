@@ -5,6 +5,15 @@ authority:
 search:
   -
     query: 'mark twain'
+  -
+    query: 'mark twain'
+    subauth: 'work'
+  -
+    query: 'mark twain'
+    subauth: 'superwork'
+  -
+    query: 'mark twain'
+    subauth: 'instance'
 term:
   -
     identifier: 'http://share-vde.org/sharevde/rdfBibframe/Work/3386414'
