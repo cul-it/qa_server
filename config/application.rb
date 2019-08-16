@@ -17,6 +17,8 @@ module QaServer
 
     config.to_prepare do
       QaServer::AuthorityListPresenter.prepend PrependedPresenters::AuthorityListPresenter
+      Qa::Authorities::LinkedData::FindTerm.prepend PrependedLinkedData::FindTerm
+      Qa::Authorities::LinkedData::SearchQuery.prepend PrependedLinkedData::SearchQuery
     end
 
     # Settings in config/environments/* take precedence over those specified here.
