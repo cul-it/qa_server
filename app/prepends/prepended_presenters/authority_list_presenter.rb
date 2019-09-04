@@ -51,7 +51,7 @@ module PrependedPresenters::AuthorityListPresenter
      :authority_name=>:DISCOGS,
      :subauthority_name=>"master",
      :service=>"NOT linked data",
-     :action=>"search",
+     :action=>"term",
      :url=>"authorities/show/discogs/master/144098",
      :expected=>nil,
      :actual=>nil,
