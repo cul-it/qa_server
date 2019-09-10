@@ -16,8 +16,8 @@ search:
     subauth: 'instance'
 term:
   -
-    identifier: 'http://share-vde.org/sharevde/rdfBibframe/Work/Work/3583347'
+    identifier: 'http://share-vde.org/sharevde/rdfBibframe/Work/3583347'
   -
-    identifier: 'http://share-vde.org/sharevde/rdfBibframe/Work/b6995383-8429-3aa4-9d0b-5889c03c0e8f'
+    identifier: 'http://share-vde.org/sharevde/rdfBibframe/Work/777687'
   -
     identifier: 'http://share-vde.org/sharevde/rdfBibframe/Instance/UCSD54416085'
