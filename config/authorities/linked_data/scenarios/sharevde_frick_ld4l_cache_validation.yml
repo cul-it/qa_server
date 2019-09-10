@@ -16,4 +16,8 @@ search:
     subauth: 'instance'
 term:
   -
-    identifier: 'http://share-vde.org/sharevde/rdfBibframe/Work/3386414'
+    identifier: 'http://share-vde.org/sharevde/rdfBibframe/Work/22904480'
+  -
+    identifier: 'http://share-vde.org/sharevde/rdfBibframe/Work/afd3aa77-bc62-3b70-854f-94d25e0afdf7'
+  -
+    identifier: 'http://share-vde.org/sharevde/rdfBibframe/Instance/FRICK14000248'
