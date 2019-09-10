@@ -15,6 +15,12 @@ module QaServer
     Qa::Authorities::Discogs::GenericAuthority.discogs_key = 'bXDsQzXjWPxUowNRUoxq'
     Qa::Authorities::Discogs::GenericAuthority.discogs_secret = 'yNSnBqrCDUYmwfMheZdtdCDuaUgQRJTn'
 
+    config.to_prepare do
+      QaServer::AuthorityListPresenter.prepend PrependedPresenters::AuthorityListPresenter
+      Qa::Authorities::LinkedData::FindTerm.prepend PrependedLinkedData::FindTerm
+      Qa::Authorities::LinkedData::SearchQuery.prepend PrependedLinkedData::SearchQuery
+    end
+
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.

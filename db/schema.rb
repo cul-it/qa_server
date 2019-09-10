@@ -10,7 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180926134614) do
+ActiveRecord::Schema.define(version: 20190816015610) do
+
+  create_table "performance_history", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
+    t.datetime "dt_stamp"
+    t.string "authority"
+    t.string "action"
+    t.integer "size_bytes"
+    t.float "load_time_ms", limit: 24
+    t.float "normalization_time_ms", limit: 24
+  end
 
   create_table "scenario_run_history", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.bigint "scenario_run_registry_id"
