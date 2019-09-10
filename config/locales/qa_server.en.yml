@@ -1,8 +1,8 @@
 ---
 en:
   qa_server:
-    application_version: "2.2.0"
-    application_name:  "Authority Lookup Service"
+    application_version: "2.2.1"
+    application_name:  "LD4P Authority Lookup Service"
     footer:
       copyright_html:  "<strong>Copyright &copy; 2018, 2019 Cornell</strong> Licensed under the Apache License, Version 2.0"
       service_html:    A service of <a href="http://www.library.cornell.edu/" class="navbar-link" target="_blank">Cornell University Library</a> and <br /><a href="https://www.slis.uiowa.edu/" class="navbar-link" target="_blank">School of Library and Information Science, University of Iowa</a>.
