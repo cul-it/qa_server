@@ -85,6 +85,7 @@
           "property_label_i18n": "qa.linked_data.authority.geonames_ld4l_cache.parent_adm1_label",
           "property_label_default": "Parent",
           "ldpath": "geonames:parentADM1 :: xsd:string",
+          "expansion_label_ldpath": "geonames:name ::xsd:string",
           "selectable": false,
           "drillable": false
         },
@@ -92,6 +93,7 @@
           "property_label_i18n": "qa.linked_data.authority.geonames_ld4l_cache.parent_adm2_label",
           "property_label_default": "Parent2",
           "ldpath": "geonames:parentADM2 :: xsd:string",
+          "expansion_label_ldpath": "geonames:name ::xsd:string",
           "selectable": false,
           "drillable": false
         },
@@ -99,6 +101,7 @@
           "property_label_i18n": "qa.linked_data.authority.geonames_ld4l_cache.parent_country_label",
           "property_label_default": "Parent Country",
           "ldpath": "geonames:parentCountry :: xsd:string",
+          "expansion_label_ldpath": "geonames:name ::xsd:string",
           "selectable": false,
           "drillable": false
         },
