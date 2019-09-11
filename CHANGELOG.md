@@ -1,5 +1,12 @@
 ### 2019-09-11
 
+* set cul-it/qa_server version to 2.2.3
+* update to LD4P/qa_server 2.2.3
+* expand parent URIs to labels in extended context for GEONAMES
+* add sharevde config for harry ransom
+
+### 2019-09-11
+
 * set cul-it/qa_server version to 2.2.2
 * update to LD4P/qa_server 2.2.2
 * add remaining sharevde configs
