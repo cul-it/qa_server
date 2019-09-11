@@ -8,4 +8,4 @@ search:
     result_size: 1800
 term:
   -
-    identifier: 'http://id.nlm.nih.gov/mesh/T736927'
+    identifier: 'http://purl.bioontology.org/ontology/MESH/C535700'

@@ -16,4 +16,8 @@ search:
     subauth: 'instance'
 term:
   -
-    identifier: 'http://share-vde.org/sharevde/rdfBibframe/Work/3386414'
+    identifier: 'http://share-vde.org/sharevde/rdfBibframe/Work/8727595'
+  -
+    identifier: 'http://share-vde.org/sharevde/rdfBibframe/Work/8752534'
+  -
+    identifier: 'http://share-vde.org/sharevde/rdfBibframe/Instance/STANFORDa4803657'

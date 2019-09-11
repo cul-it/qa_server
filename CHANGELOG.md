@@ -1,3 +1,10 @@
+### 2019-09-11
+
+* set cul-it/qa_server version to 2.2.2
+* update to LD4P/qa_server 2.2.2
+* add remaining sharevde configs
+* remove outdated sharevde configs
+
 ### 2019-09-10
 
 * set cul-it/qa_server version to 2.2.1
