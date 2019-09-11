@@ -21,7 +21,7 @@ search:
     query: ALA
     subauth: conference
   -
-    query: 'golden notebook'
+    query: 'twain'
     subauth: title
   -
     query: 'Twain, Mark, 1835-1910'
