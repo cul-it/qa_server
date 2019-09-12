@@ -1,6 +1,7 @@
 ### 2019-09-12
 
 * set cul-it/qa_server version to 2.2.4
+* add extended context to LCMPT
 * make LCNAF RWO and authority focused configs match indexing spreadsheet
 * add pagination to all authority configs
 
