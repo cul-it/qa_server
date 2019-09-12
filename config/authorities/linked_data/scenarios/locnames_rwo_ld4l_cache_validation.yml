@@ -15,15 +15,6 @@ search:
     query: 'twain'
     subauth: family
   -
-    query: Cayuga
-    subauth: geographic
-  -
-    query: ALA
-    subauth: conference
-  -
-    query: 'golden notebook'
-    subauth: title
-  -
     query: 'Twain, Mark, 1835-1910'
     subauth: person
     position: 1
