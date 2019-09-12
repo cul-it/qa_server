@@ -107,7 +107,7 @@
         {
           "property_label_default": "Descriptor",
           "property_label_i18n": "qa.linked_data.authority.locnames_ld4l_cache.type_label",
-          "ldpath": "madsrdf:entityDescriptor/madsrdf:authoritativeLabel :: xsd:string",
+          "ldpath": "(madsrdf:entityDescriptor/madsrdf:authoritativeLabel) | (madsrdf:entityDescriptor/skos:prefLabel) | (madsrdf:entityDescriptor/rdfs:label) :: xsd:string",
           "selectable": false,
           "drillable": false,
           "subauth": ["person", "organization"]
@@ -215,7 +215,7 @@
         {
           "property_label_default": "Editorial note",
           "property_label_i18n": "qa.linked_data.authority.locnames_ld4l_cache.editorial_note",
-          "ldpath": "^madsrdf:identifiesRWO / madsrdf:editorialNote :: xsd:string",
+          "ldpath": "^madsrdf:identifiesRWO/madsrdf:editorialNote :: xsd:string",
           "selectable": false,
           "drillable": false
         }
