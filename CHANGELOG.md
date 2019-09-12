@@ -1,3 +1,9 @@
+### 2019-09-12
+
+* set cul-it/qa_server version to 2.2.4
+* make LCNAF RWO and authority focused configs match indexing spreadsheet
+* add pagination to LCNAF
+
 ### 2019-09-11
 
 * set cul-it/qa_server version to 2.2.3
