@@ -1,6 +1,7 @@
 {
   "QA_CONFIG_VERSION": "2.1",
   "prefixes": {
+    "loc":     "http://id.loc.gov/vocabulary/identifiers/",
     "madsrdf": "http://www.loc.gov/mads/rdf/v1#",
     "vivo":    "http://vivoweb.org/ontology/core#"
   },
