@@ -1,3 +1,9 @@
+### 2019-09-18
+
+* set cul-it/qa_server version to 2.2.5
+* add loc prefix to LCDGT
+* change LCDGT earlier form to use authoritativeLabel instead of variantLabel
+
 ### 2019-09-12
 
 * set cul-it/qa_server version to 2.2.4
