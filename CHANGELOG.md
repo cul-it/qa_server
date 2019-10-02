@@ -1,3 +1,7 @@
+### 2019-10-02
+
+* add RDA Registry authority
+
 ### 2019-09-18
 
 * set cul-it/qa_server version to 2.2.5
