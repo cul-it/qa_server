@@ -9,31 +9,31 @@ search:
     result_size: 130
   -
     query: essays
-    subauth: coll_title
+    subauth: collective_title
     result_size: 130
   -
     query: graph
-    subauth: illus_content
+    subauth: illustrative_content
     result_size: 130
   -
     query: single
-    subauth: mode_issue
+    subauth: mode_of_issuance
     result_size: 130
   -
     query: letter
-    subauth: mus_notation
+    subauth: form_of_musical_notation
     result_size: 130
-#   -
-#    query: ALA
-#    subauth: carrier_eu
-#    result_size: 130
+  -
+    query: case
+    subauth: carrier_extent_unit
+    result_size: 130
   -
     query: audio
     subauth: carrier_type
     result_size: 130
   -
     query: point
-    subauth: carto_dt
+    subauth: cartographic_data_type
     result_size: 130
   -
     query: monochrome
@@ -90,19 +90,19 @@ search:
     result_size: 130
   -
     query: braille
-    subauth: tac_notation
+    subauth: form_of_tactile_notation
     result_size: 130
   -
     query: folio
-    subauth: book_format
+    subauth: bibliographic_format
     result_size: 130
   -
     query: PAL
-    subauth: broadcast_stand
+    subauth: broadcast_standard
     result_size: 130
   -
     query: mono
-    subauth: config_playback
+    subauth: config_playback_channels
     result_size: 130
   -
     query: audio
@@ -114,7 +114,7 @@ search:
     result_size: 130
   -
     query: choir
-    subauth: format_note_mus
+    subauth: format_of_notated_music
     result_size: 130
   -
     query: times
@@ -138,11 +138,11 @@ search:
     result_size: 130
   -
     query: game
-    subauth: note_move
+    subauth: form_of_notated_movement
     result_size: 130
   -
     query: standard
-    subauth: pres_format
+    subauth: presentation_format
     result_size: 130
 # Deprecated
 #   -
@@ -151,7 +151,7 @@ search:
 #    result_size: 130
   -
     query: optical
-    subauth: rec_medium
+    subauth: recording_medium
     result_size: 130
   -
     query: music
@@ -227,19 +227,19 @@ search:
 #    result_size: 130
   -
     query: scale
-    subauth: scale
+    subauth: scale_designation
     result_size: 130
   -
     query: sound
-    subauth: sound_cont
+    subauth: sound_content
     result_size: 130
   -
     query: dolby
-    subauth: spec_playback
+    subauth: special_playback
     result_size: 130
   -
     query: preliminary
-    subauth: stat_identification
+    subauth: status_of_identification
     result_size: 130
   -
     query: edge
@@ -247,7 +247,7 @@ search:
     result_size: 130
   -
     query: digital
-    subauth: type_rec
+    subauth: type_of_recording
     result_size: 120
   -
     query: laser
