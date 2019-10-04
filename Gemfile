@@ -10,7 +10,8 @@ gem 'dotenv-deployment'
 gem 'dotenv-rails'
 
 # Required gems for QA and linked data access
-gem 'qa_server', '~> 2.2.3'
+gem 'qa_server', github: 'LD4P/qa_server', branch: 'master'
+# gem 'qa_server', '~> 2.2.3'
 gem 'qa', '~> 4.2'
 gem 'linkeddata'
 
