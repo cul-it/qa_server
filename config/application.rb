@@ -19,6 +19,7 @@ module QaServer
       QaServer::AuthorityListPresenter.prepend PrependedPresenters::AuthorityListPresenter
       Qa::Authorities::LinkedData::FindTerm.prepend PrependedLinkedData::FindTerm
       Qa::Authorities::LinkedData::SearchQuery.prepend PrependedLinkedData::SearchQuery
+      RDF::Graph.prepend PrependedRdf::RdfGraph
     end
 
     # Settings in config/environments/* take precedence over those specified here.
