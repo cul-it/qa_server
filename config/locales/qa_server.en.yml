@@ -1,7 +1,7 @@
 ---
 en:
   qa_server:
-    application_version: "2.2.5"
+    application_version: "3.0.0"
     application_name:  "LD4P Authority Lookup Service"
     footer:
       copyright_html:  "<strong>Copyright &copy; 2018, 2019 Cornell</strong> Licensed under the Apache License, Version 2.0"
