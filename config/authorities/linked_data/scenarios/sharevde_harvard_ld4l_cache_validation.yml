@@ -9,7 +9,7 @@ search:
     query: 'mark twain'
     subauth: 'work'
   -
-    query: 'mark twain'
+    query: 'poem'
     subauth: 'superwork'
   -
     query: 'mark twain'
