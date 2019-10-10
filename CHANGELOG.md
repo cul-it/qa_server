@@ -1,3 +1,9 @@
+### 2019-10-10
+
+* set cul-it/qa_server version to 3.1.0
+* update to samvera/qa 4.2.3
+* update to LD4P/qa_server 3.0.3
+
 ### 2019-10-02
 
 * add RDA Registry authority
