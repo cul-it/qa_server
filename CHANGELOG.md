@@ -1,3 +1,8 @@
+### 2019-10-17
+
+* set cul-it/qa_server version to 3.1.1
+* update to samvera/qa 4.2.4 - use real discogs uri whenever available and discogs url when not
+
 ### 2019-10-10
 
 * set cul-it/qa_server version to 3.1.0
