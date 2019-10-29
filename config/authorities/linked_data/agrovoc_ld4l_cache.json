@@ -117,14 +117,6 @@
           "expansion_label_ldpath": "skos:prefLabel ::xsd:string"
         }
       ]
-    },
-    "subauthorities": {
-      "person":         "Person",
-      "organization":   "Organization",
-      "place":          "Place",
-      "intangible":     "Intangible",
-      "geocoordinates": "GeoCoordinates",
-      "work":           "Work"
     }
   }
 }
