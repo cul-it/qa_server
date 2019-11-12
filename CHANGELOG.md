@@ -1,3 +1,8 @@
+### 2019-11-12
+
+* set cul-it/qa_server version to 3.1.2
+* update to samvera/qa 4.2.5 - discogs extended context format updated to match linked data module
+
 ### 2019-10-17
 
 * set cul-it/qa_server version to 3.1.1
