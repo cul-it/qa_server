@@ -63,9 +63,9 @@ module Qa::Authorities
 
       def extended_context(doc)
         extended_context = []
-        extended_context << { property: 'label', value: doc['label'] } if doc.key? 'label'
-        extended_context << { property: 'title', value: doc['title'] } if doc.key? 'title'
-        extended_context << { property: 'description', value: doc['description'] } if doc.key? 'description'
+        extended_context << { property: 'label', values: doc['label'] } if doc.key? 'label'
+        extended_context << { property: 'q_number', values: doc['title'] } if doc.key? 'title'
+        extended_context << { property: 'description', values: doc['description'] } if doc.key? 'description'
         extended_context
       end
   end
