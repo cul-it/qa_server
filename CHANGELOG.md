@@ -1,3 +1,14 @@
+### 2019-11-18
+
+* set cul-it/qa_server version to 4.0.0
+* updated wikidata extended context format to match linked data module
+* update to samvera/qa 5.0.0
+  * 4.2.5 was yanked and replaced with 5.0.0
+  * discogs extended context format updated to match linked data module
+  * added request_header parameter FindTerm #find and SearchQuery #search
+* update to LD4P/qa_server 4.0.0
+  * updated overrides for FindTerm #find and SearchQuery #search to process new request_header parameter
+
 ### 2019-11-12
 
 * set cul-it/qa_server version to 3.1.2
