@@ -1,5 +1,10 @@
 ### 2019-11-18
 
+* set cul-it/qa_server version to 4.0.1
+* make wikidata values an array
+
+### 2019-11-18
+
 * set cul-it/qa_server version to 4.0.0
 * updated wikidata extended context format to match linked data module
 * update to samvera/qa 5.0.0
