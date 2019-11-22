@@ -1,3 +1,8 @@
+### 4.0.3 (2019-11-22)
+
+* update to LD4P/qa_server 5.0.0
+  * prepends for search query updated to retain response_header in results
+
 ### 4.0.2 (2019-11-22)
 
 * update to samvera/qa 5.1.1
