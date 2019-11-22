@@ -1,11 +1,14 @@
-### 2019-11-18
+### 4.0.2 (2019-11-22)
 
-* set cul-it/qa_server version to 4.0.1
+* update to samvera/qa 5.1.1
+  * add response header which has pagination information for search and summary info for fetch
+
+### 4.0.1 (2019-11-18)
+
 * make wikidata values an array
 
-### 2019-11-18
+### 4.0.0 (2019-11-18)
 
-* set cul-it/qa_server version to 4.0.0
 * updated wikidata extended context format to match linked data module
 * update to samvera/qa 5.0.0
   * 4.2.5 was yanked and replaced with 5.0.0
@@ -14,19 +17,16 @@
 * update to LD4P/qa_server 4.0.0
   * updated overrides for FindTerm #find and SearchQuery #search to process new request_header parameter
 
-### 2019-11-12
+### 3.1.2 (2019-11-12)
 
-* set cul-it/qa_server version to 3.1.2
 * update to samvera/qa 4.2.5 - discogs extended context format updated to match linked data module
 
-### 2019-10-17
+### 3.1.1 (2019-10-17)
 
-* set cul-it/qa_server version to 3.1.1
 * update to samvera/qa 4.2.4 - use real discogs uri whenever available and discogs url when not
 
-### 2019-10-10
+### 3.1.0 (2019-10-10)
 
-* set cul-it/qa_server version to 3.1.0
 * update to samvera/qa 4.2.3
 * update to LD4P/qa_server 3.0.3
 
@@ -34,36 +34,31 @@
 
 * add RDA Registry authority
 
-### 2019-09-18
+### 2.2.5 (2019-09-18)
 
-* set cul-it/qa_server version to 2.2.5
 * add loc prefix to LCDGT
 * change LCDGT earlier form to use authoritativeLabel instead of variantLabel
 
-### 2019-09-12
+### 2.2.4 (2019-09-12)
 
-* set cul-it/qa_server version to 2.2.4
 * add extended context to LCMPT
 * make LCNAF RWO and authority focused configs match indexing spreadsheet
 * add pagination to all authority configs
 
-### 2019-09-11
+### 2.2.3 (2019-09-11)
 
-* set cul-it/qa_server version to 2.2.3
 * update to LD4P/qa_server 2.2.3
 * expand parent URIs to labels in extended context for GEONAMES
 * add sharevde config for harry ransom
 
-### 2019-09-11
+### 2.2.2 (2019-09-11)
 
-* set cul-it/qa_server version to 2.2.2
 * update to LD4P/qa_server 2.2.2
 * add remaining sharevde configs
 * remove outdated sharevde configs
 
-### 2019-09-10
+### 2.2.1 (2019-09-10)
 
-* set cul-it/qa_server version to 2.2.1
 * minor tweaks to wikidata, discogs, and bioportal mesh
 * update to qa_server 2.2.1
 * basic wikidata access
