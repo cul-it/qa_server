@@ -194,7 +194,7 @@ GEM
     powerpack (0.1.2)
     public_suffix (4.0.1)
     puma (3.12.1)
-    qa (5.0.0)
+    qa (5.1.0)
       activerecord-import
       deprecation
       faraday
@@ -202,7 +202,7 @@ GEM
       nokogiri (~> 1.6)
       rails (~> 5.0)
       rdf
-    qa_server (4.0.0)
+    qa_server (5.0.0)
       gruff
       rails (~> 5.0)
     rack (2.0.7)
@@ -271,7 +271,7 @@ GEM
       rdf (>= 2.2, < 4.0)
       rdf-rdfa (>= 2.2, < 4.0)
       rdf-xsd (>= 2.2, < 4.0)
-    rdf-reasoner (0.5.2)
+    rdf-reasoner (0.5.3)
       rdf (~> 3.0)
       rdf-vocab (~> 3.0)
       rdf-xsd (~> 3.0)
@@ -428,8 +428,8 @@ DEPENDENCIES
   lograge
   mysql2
   puma (~> 3.7)
-  qa (~> 5.0)
-  qa_server (~> 4.0)
+  qa (~> 5.1)
+  qa_server (~> 5.0)
   rails (~> 5.1.6)
   rails-controller-testing
   rspec-activemodel-mocks
