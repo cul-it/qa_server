@@ -1,3 +1,7 @@
+### 4.2.0 (2019-11-27)
+
+* add pagination configs to remaining ld4l_cache authorities
+
 ### 4.1.0 (2019-11-27)
 
 * add pagination configs for all sharevde authorities
