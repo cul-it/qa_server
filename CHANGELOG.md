@@ -1,3 +1,7 @@
+### 4.1.0 (2019-11-27)
+
+* add pagination configs for all sharevde authorities
+
 ### 4.0.3 (2019-11-22)
 
 * update to LD4P/qa_server 5.0.0

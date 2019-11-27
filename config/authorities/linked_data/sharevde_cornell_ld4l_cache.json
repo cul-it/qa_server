@@ -1,5 +1,6 @@
 {
-  "QA_CONFIG_VERSION": "2.1",
+  "QA_CONFIG_VERSION": "2.2",
+  "service_uri": "http://ld4l.org/ld4l_services/cache",
   "prefixes": {
     "bf":   "http://id.loc.gov/ontologies/bibframe/",
     "vivo": "http://vivoweb.org/ontology/core#"
@@ -73,8 +74,11 @@
     },
     "qa_replacement_patterns": {
       "query":   "query",
-      "subauth": "entity"
+      "subauth": "entity",
+      "start_record": "startRecord",
+      "requested_records": "maxRecords"
     },
+    "total_count_ldpath": "vivo:count",
     "results": {
       "label_ldpath": "bf:title/rdfs:label :: xsd:string",
       "sort_ldpath":  "vivo:rank"
