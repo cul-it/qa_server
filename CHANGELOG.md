@@ -1,3 +1,8 @@
+### 4.2.1 (2019-12-3)
+
+* update to LD4P/qa_server 5.0.1
+  * bug fix - force qa to not exclued performance header when find term returns jsonld
+
 ### 4.2.0 (2019-11-27)
 
 * add pagination configs to remaining ld4l_cache authorities
