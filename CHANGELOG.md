@@ -1,3 +1,7 @@
+### 4.4.0 (2019-12-3)
+
+* disable nalt_cornell authority
+
 ### 4.3.0 (2019-12-3)
 
 * update to samvera/qa 5.2.0
