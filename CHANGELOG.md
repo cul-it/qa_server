@@ -1,3 +1,11 @@
+### 4.3.0 (2019-12-3)
+
+* update to samvera/qa 5.2.0
+  * add optional response header which has pagination information for DISCOGs search
+  * add support for Rails 6 
+* update to LD4P/qa_server 5.0.2
+  * bug fix - move individual params into request header to avoid lost subauths during testing
+
 ### 4.2.1 (2019-12-3)
 
 * update to LD4P/qa_server 5.0.1
