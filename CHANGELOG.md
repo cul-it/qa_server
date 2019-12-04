@@ -1,3 +1,8 @@
+### 4.4.1 (2019-12-3)
+
+* update to LD4P/qa_server 5.0.3
+  * bug fix - use correct parameters for search query
+
 ### 4.4.0 (2019-12-3)
 
 * disable nalt_cornell authority
