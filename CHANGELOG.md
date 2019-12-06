@@ -1,3 +1,8 @@
+### 4.5.0 (2019-12-6)
+
+* add configuration for database pool size
+* update puma dependency
+
 ### 4.4.1 (2019-12-3)
 
 * update to LD4P/qa_server 5.0.3
