@@ -183,7 +183,7 @@ GEM
     net-http-persistent (3.1.0)
       connection_pool (~> 2.2)
     nio4r (2.5.2)
-    nokogiri (1.10.6)
+    nokogiri (1.10.7)
       mini_portile2 (~> 2.4.0)
     nokogumbo (2.0.2)
       nokogiri (~> 1.8, >= 1.8.4)
@@ -202,7 +202,7 @@ GEM
       nokogiri (~> 1.6)
       rails (>= 5.0, < 6.1)
       rdf
-    qa_server (5.0.3)
+    qa_server (5.1.0)
       gruff
       rails (~> 5.0)
     rack (2.0.7)
@@ -429,7 +429,7 @@ DEPENDENCIES
   mysql2
   puma (~> 3.7)
   qa (~> 5.1)
-  qa_server (~> 5.0)
+  qa_server (~> 5.1)
   rails (~> 5.1.6)
   rails-controller-testing
   rspec-activemodel-mocks
