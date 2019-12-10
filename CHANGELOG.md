@@ -1,3 +1,9 @@
+### 4.6.0 (2019-12-10)
+
+* update to LD4P/qa_server 5.1.0
+  * allow suppression of performance data gathering
+* suppress gathering of performance data at startup (manually turn on/off after startup)  
+
 ### 4.5.0 (2019-12-6)
 
 * add configuration for database pool size
