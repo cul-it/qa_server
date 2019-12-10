@@ -21,4 +21,6 @@ QaServer.config do |config|
   config.navmenu_extra_leftitems = [
     { label: 'API Documentation', url: '/qa/apidoc/' }
   ]
+
+  config.suppress_performance_gathering = true
 end
