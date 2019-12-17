@@ -1,3 +1,18 @@
+### 4.7.1 (2019-12-17)
+
+* update config initializers to no longer suppress performance data
+* truncate error messages written to the database instead of raising an exception
+
+### 4.7.0 (2019-12-16)
+
+* update to LD4P/qa_server 5.2.1
+  * set monitoring to expire nightly at 3am ET by default
+  * save performance data once a day when running monitoring tests
+* update to Samvera/QA 5.3.0
+  * add a request id to the search and find request headers
+  * log exception for graph load failures
+  * optionally include IP info at start of search/find linked data requests
+
 ### 4.6.0 (2019-12-10)
 
 * update to LD4P/qa_server 5.1.0
