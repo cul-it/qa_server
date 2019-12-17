@@ -1,3 +1,8 @@
+### 4.7.1 (2019-12-17)
+
+* update config initializers to no longer suppress performance data
+* truncate error messages written to the database instead of raising an exception
+
 ### 4.7.0 (2019-12-16)
 
 * update to LD4P/qa_server 5.2.1
