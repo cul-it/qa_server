@@ -4,6 +4,7 @@ default: &default
   pool: 5
   timeout: 5000
   socket: /var/lib/mysql/mysql.sock
+  strict: false
 
 development:
   <<: *default
