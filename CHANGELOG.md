@@ -1,3 +1,10 @@
+### 4.7.2 (2019-12-20)
+
+* update to LD4P/qa_server 5.3.0
+  * optionally log browser and platform user agent info
+* update to Samvera/QA 5.3.1
+  * bug fix to handle failure to get location information from request gracefully
+
 ### 4.7.1 (2019-12-17)
 
 * update config initializers to no longer suppress performance data
