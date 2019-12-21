@@ -1,3 +1,7 @@
+### 4.7.3 (2019-12-20)
+
+* turn IP logging back on
+
 ### 4.7.2 (2019-12-20)
 
 * update to LD4P/qa_server 5.3.0
