@@ -27,5 +27,5 @@ Qa.config do |config|
   # IP data including IP address, city, state, and country will be logged with each request.
   # When false, IP data is logged
   # When true, IP data will not be logged (default for backward compatibility)
-  config.suppress_ip_data_from_log = true
+  config.suppress_ip_data_from_log = false
 end
