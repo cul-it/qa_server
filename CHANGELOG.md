@@ -4,6 +4,7 @@
   * updates expiration time for tests and calculations
 * add Authority URI to loc_names_rwo extended context
 * update geonames term URI to use https instead of http
+* update copyright to 2020
 
 ### 4.7.3 (2019-12-20)
 
