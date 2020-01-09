@@ -1,3 +1,9 @@
+### 4.7.4 (2020-01-08)
+
+* update to LD4P/qa_server 5.4.0
+  * updates expiration time for tests and calculations
+* add Authority URI to loc_names_rwo extended context
+
 ### 4.7.3 (2019-12-20)
 
 * turn IP logging back on
