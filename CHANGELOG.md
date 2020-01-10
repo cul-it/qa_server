@@ -1,4 +1,9 @@
-### 4.7.4 (2020-01-08)
+### 4.7.5 (2020-01-10)
+
+* update to LD4P/qa_server 5.5.0
+  * use caching with expiry for all data on monitor status page
+
+### 4.7.4 (2020-01-07)
 
 * update to LD4P/qa_server 5.4.0
   * updates expiration time for tests and calculations
