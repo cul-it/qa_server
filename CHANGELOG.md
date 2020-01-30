@@ -1,3 +1,8 @@
+### 4.7.6 (2020-01-30)
+
+* update to LD4P/qa_server 5.5.1
+  * bugfix - check for nil before calling .each
+
 ### 4.7.5 (2020-01-10)
 
 * update to LD4P/qa_server 5.5.0
