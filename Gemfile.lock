@@ -102,7 +102,7 @@ GEM
       i18n (>= 1.6, < 1.8)
     faraday (0.17.1)
       multipart-post (>= 1.2, < 3)
-    ffi (1.12.1)
+    ffi (1.12.2)
     geocoder (1.5.2)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
@@ -188,7 +188,7 @@ GEM
     net-http-persistent (3.1.0)
       connection_pool (~> 2.2)
     nio4r (2.5.2)
-    nokogiri (1.10.7)
+    nokogiri (1.10.8)
       mini_portile2 (~> 2.4.0)
     nokogumbo (2.0.2)
       nokogiri (~> 1.8, >= 1.8.4)
@@ -209,12 +209,12 @@ GEM
       nokogiri (~> 1.6)
       rails (>= 5.0, < 6.1)
       rdf
-    qa_server (5.5.1)
+    qa_server (6.0.0)
       gruff
       rails (~> 5.0)
       sass-rails (~> 5.0)
       useragent
-    rack (2.1.2)
+    rack (2.2.2)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
     rails (5.1.7)
@@ -439,7 +439,7 @@ DEPENDENCIES
   mysql2
   puma (~> 4.3)
   qa (~> 5.3)
-  qa_server (~> 5.5)
+  qa_server (~> 6.0)
   rails (~> 5.1.6)
   rails-controller-testing
   rspec-activemodel-mocks
