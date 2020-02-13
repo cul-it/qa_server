@@ -1,3 +1,8 @@
+### 4.8.0 (2020-02-13)
+
+* update to LD4P/qa_server 6.0.0
+  * refactor to avoid errors and improve performance of monitor status page
+
 ### 4.7.6 (2020-01-30)
 
 * update to LD4P/qa_server 5.5.1
