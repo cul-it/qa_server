@@ -36,4 +36,6 @@ QaServer.config do |config|
   #   For preferred_time_zone_name of 'Pacific Time (US & Canada)', use 0 for slow down at midnight PT/3am ET
   # config.hour_offset_to_run_monitoring_tests = 3
 
+  config.enable_monitor_status_logging if ENV['MONITOR_STATUS_LOGGIN_ENABLED']
+  config.enable_performance_cache_logging if ENV['PERFORMANCE_CACHE_LOGGIN_ENABLED']
 end
