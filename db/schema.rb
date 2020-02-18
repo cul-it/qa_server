@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20191009174315) do
+ActiveRecord::Schema.define(version: 20200218125146) do
 
   create_table "performance_history", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.datetime "dt_stamp"
@@ -36,7 +36,9 @@ ActiveRecord::Schema.define(version: 20191009174315) do
     t.string "err_message"
     t.integer "scenario_type", default: 0
     t.decimal "run_time", precision: 10, scale: 4
+    t.date "date"
     t.index ["authority_name"], name: "index_scenario_run_history_on_authority_name"
+    t.index ["date"], name: "index_scenario_run_history_on_date"
     t.index ["scenario_run_registry_id"], name: "index_scenario_run_history_on_scenario_run_registry_id"
     t.index ["scenario_type"], name: "index_scenario_run_history_on_scenario_type"
     t.index ["status"], name: "index_scenario_run_history_on_status"

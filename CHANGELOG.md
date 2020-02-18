@@ -1,3 +1,14 @@
+### 5.0.0 (2020-02-18)
+
+* add extended context for MeSH authority
+* add Ligatus authority
+* add CERL authority
+* update to LD4P/qa_server 6.2.0
+  * use authentication for refreshing monitor tests
+  * add performance cache logger
+  * exceeding max performance cache size flushing the cache
+  * change historical summary to show number of days instead of number of tests
+
 ### 4.8.0 (2020-02-13)
 
 * update to LD4P/qa_server 6.0.0
