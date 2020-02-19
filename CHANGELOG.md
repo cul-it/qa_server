@@ -1,3 +1,16 @@
+### 5.1.0 (2020-02-19)
+
+* add subauthorities for MeSH
+* update to LD4P/qa_server v7.0.0
+  * refactor of caching system to simplify the process
+  * rename monitor_cache_service to cache_expiry_service
+  * move generation of hourly graph to cache_processors
+  * move generation of daily and monthly graphs to cache_processors
+  * move performance datatable cache control to cache_processors
+  * move caching of summary and historical data to cache_processors
+  * move caching of test execution marker to cache_processors
+  * move performance cache of performance data to cache_processors
+
 ### 5.0.0 (2020-02-18)
 
 * add extended context for MeSH authority
