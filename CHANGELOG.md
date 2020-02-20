@@ -1,3 +1,12 @@
+### 5.2.0.rc2 (2020-02-20)
+
+* add image processing for AWS
+* update to LD4P/qa_server v7.1.0
+  * allow performance cache size to be set by environment variable 
+  * move generation of history graph to cache_processors
+  * log warning in monitor logger if graphs fail to create
+  * monitor_status page won't try to display graphs if graph file does not exist
+
 ### 5.1.0 (2020-02-19)
 
 * add subauthorities for MeSH
