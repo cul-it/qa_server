@@ -1,5 +1,6 @@
-### 5.2.0.rc2 (2020-02-20)
+### 5.2.0 (2020-02-20)
 
+* update bundler version on AWS
 * add image processing for AWS
 * update to LD4P/qa_server v7.1.0
   * allow performance cache size to be set by environment variable 
