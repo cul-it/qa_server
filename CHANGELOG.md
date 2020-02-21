@@ -1,3 +1,37 @@
+### 5.2.0 (2020-02-20)
+
+* update to LD4P/qa_server v7.1.1
+  * fix: empty performance cache after running monitor status tests
+* includes changes from LD4P/qa_server v7.1.0  
+  * allow performance cache size to be set by environment variable 
+  * move generation of history graph to cache_processors
+  * log warning in monitor logger if graphs fail to create
+  * monitor_status page won't try to display graphs if graph file does not exist
+
+### 5.1.0 (2020-02-19)
+
+* add subauthorities for MeSH
+* update to LD4P/qa_server v7.0.0
+  * refactor of caching system to simplify the process
+  * rename monitor_cache_service to cache_expiry_service
+  * move generation of hourly graph to cache_processors
+  * move generation of daily and monthly graphs to cache_processors
+  * move performance datatable cache control to cache_processors
+  * move caching of summary and historical data to cache_processors
+  * move caching of test execution marker to cache_processors
+  * move performance cache of performance data to cache_processors
+
+### 5.0.0 (2020-02-18)
+
+* add extended context for MeSH authority
+* add Ligatus authority
+* add CERL authority
+* update to LD4P/qa_server 6.2.0
+  * use authentication for refreshing monitor tests
+  * add performance cache logger
+  * exceeding max performance cache size flushing the cache
+  * change historical summary to show number of days instead of number of tests
+
 ### 4.8.0 (2020-02-13)
 
 * update to LD4P/qa_server 6.0.0
