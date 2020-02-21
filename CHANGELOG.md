@@ -1,6 +1,5 @@
 ### 5.2.0 (2020-02-20)
 
-* add image processing for AWS
 * update to LD4P/qa_server v7.1.1
   * fix: empty performance cache after running monitor status tests
 * includes changes from LD4P/qa_server v7.1.0  
