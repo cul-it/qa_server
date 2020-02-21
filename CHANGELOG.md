@@ -1,3 +1,7 @@
+### 5.2.1 (2020-02-20)
+
+* remove hardcoded max_performance_cache_size so the value is picked up from ENV
+
 ### 5.2.0 (2020-02-20)
 
 * update to LD4P/qa_server v7.1.1
