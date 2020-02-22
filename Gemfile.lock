@@ -211,7 +211,7 @@ GEM
       nokogiri (~> 1.6)
       rails (>= 5.0, < 6.1)
       rdf
-    qa_server (7.1.2)
+    qa_server (7.1.3)
       gruff
       rails (~> 5.0)
       sass-rails (~> 5.0)
