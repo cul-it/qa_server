@@ -211,7 +211,7 @@ GEM
       nokogiri (~> 1.6)
       rails (>= 5.0, < 6.1)
       rdf
-    qa_server (7.1.1)
+    qa_server (7.1.2)
       gruff
       rails (~> 5.0)
       sass-rails (~> 5.0)
@@ -461,4 +461,4 @@ DEPENDENCIES
   xray-rails
 
 BUNDLED WITH
-   1.17.1
+   2.1.4
