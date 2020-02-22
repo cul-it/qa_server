@@ -1,5 +1,6 @@
 ### 5.2.4 (2020-02-22)
 
+* fix cerl ct prefix to end with /
 * update to LD4P/qa_server v7.1.3
   * bug fix for performance datatable never displays
 
