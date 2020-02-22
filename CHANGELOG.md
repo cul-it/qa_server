@@ -1,3 +1,8 @@
+### 5.2.4 (2020-02-22)
+
+* update to LD4P/qa_server v7.1.3
+  * bug fix for performance datatable never displays
+
 ### 5.2.3 (2020-02-22)
 
 * update bundler to 2.1.4 on AWS
