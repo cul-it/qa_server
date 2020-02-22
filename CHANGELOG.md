@@ -1,3 +1,7 @@
+### 5.2.3 (2020-02-22)
+
+* update bundler to 2.1.4 on AWS
+
 ### 5.2.2 (2020-02-21)
 
 * update to LD4P/qa_server v7.1.2
