@@ -85,7 +85,7 @@ QaServer.config do |config|
 
   # Maximum amount of memory the performance cache can occupy before it is written to the database.
   # @param [Integer] maximum size of performance cache before flushing
-  config.max_performance_cache_size = 500
+  # config.max_performance_cache_size = 32GB
 
   # Enable/Disable logging of performance cache
   # Uncomment one of the lines below to enable or disable performance cache logging.  NOTE: By default, loggers follow the
