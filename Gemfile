@@ -16,6 +16,7 @@ gem 'linkeddata'
 
 # Other gems
 gem 'coffee-rails', '~> 4.2'
+gem 'concurrent-ruby'
 gem 'jbuilder', '~> 2.5'
 gem 'lograge'
 gem 'mysql2'
@@ -53,6 +54,3 @@ group :test do
 end
 
 gem 'swagger-docs'
-
-# temporary pins to avoid bundler difficulties
-gem 'concurrent-ruby', '1.0.5'
