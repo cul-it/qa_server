@@ -38,12 +38,16 @@ group :development, :integration, :test do
   gem 'rubocop-checkstyle_formatter', require: false
 end
 
+gem 'better_errors' # add command line in browser when errors
+gem 'binding_of_caller' # deeper stack trace used by better errors
+gem 'web-console', '~> 3.0' # access to IRB console on exception pages
+
 group :development, :integration do
-  gem 'better_errors' # add command line in browser when errors
-  gem 'binding_of_caller' # deeper stack trace used by better errors
+  # gem 'better_errors' # add command line in browser when errors
+  # gem 'binding_of_caller' # deeper stack trace used by better errors
   gem 'bixby', '~> 1.0.0' # style guide enforcement with rubocop
   gem 'spring' # Spring speeds up development by keeping your application running in the background.
-  gem 'web-console', '~> 3.0' # access to IRB console on exception pages
+  # gem 'web-console', '~> 3.0' # access to IRB console on exception pages
   gem 'xray-rails'
 end
 
