@@ -1,3 +1,7 @@
+### 5.3.1 (2020-02-22)
+
+* test new location of graphs in public directory by generating the history graph
+
 ### 5.3.0 (2020-02-22)
 
 * update to LD4P/qa_server v7.2.0
