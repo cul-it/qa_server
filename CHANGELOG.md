@@ -1,3 +1,19 @@
+### 5.3.2 (2020-02-22)
+
+* generate the performance graphs
+* setup background jobs in all environments
+* update to LD4P/qa_server v7.2.1
+  * fix graph fails generation when any label is empty string
+
+### 5.3.1 (2020-02-22)
+
+* test new location of graphs in public directory by generating the history graph
+
+### 5.3.0 (2020-02-22)
+
+* update to LD4P/qa_server v7.2.0
+  * move generated monitor status graphs from assets to public directory
+
 ### 5.2.4 (2020-02-22)
 
 * fix cerl ct prefix to end with /
