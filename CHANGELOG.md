@@ -2,6 +2,8 @@
 
 * generate the performance graphs
 * setup background jobs in all environments
+* update to LD4P/qa_server v7.2.1
+  * fix graph fails generation when any label is empty string
 
 ### 5.3.1 (2020-02-22)
 
