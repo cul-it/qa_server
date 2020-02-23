@@ -1,3 +1,8 @@
+### 5.3.0 (2020-02-22)
+
+* update to LD4P/qa_server v7.2.0
+  * move generated monitor status graphs from assets to public directory
+
 ### 5.2.4 (2020-02-22)
 
 * fix cerl ct prefix to end with /
