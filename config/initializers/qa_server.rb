@@ -26,7 +26,7 @@ QaServer.config do |config|
 
   # Displays a graph of performance test data when true
   # @param [Boolean] display performance graph when true
-  config.display_performance_graph = false
+  config.display_performance_graph = true
 
   # Max time in milliseconds for y-axis in the performance graphs.
   # @param [Integer] milliseconds

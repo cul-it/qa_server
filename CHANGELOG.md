@@ -1,3 +1,7 @@
+### 5.3.2 (2020-02-22)
+
+* generate the performance graphs
+
 ### 5.3.1 (2020-02-22)
 
 * test new location of graphs in public directory by generating the history graph
