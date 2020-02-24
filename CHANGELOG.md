@@ -1,4 +1,11 @@
-### 5.3.2 (2020-02-22)
+### 5.4.0 (2020-02-23)
+
+* change AWS system time to ET
+* add basic puma config
+* setup cable to use redis
+* setup caching to use redis with 24 hour expiration
+
+### 5.3.2 (2020-02-23)
 
 * generate the performance graphs
 * setup background jobs in all environments

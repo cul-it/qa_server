@@ -21,6 +21,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'lograge'
 gem 'mysql2'
 gem 'puma', '~> 4.3'
+gem 'redis-rails'
 gem 'sass-rails', '~> 5.0'
 gem 'turbolinks', '~> 5'
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby] # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
