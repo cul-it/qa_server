@@ -60,6 +60,7 @@ Rails.application.configure do
   # routes, locales, etc. This feature depends on the listen gem.
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
 
-  config.active_job.queue_adapter = :async # runs in-memory; a crash will lose the job; change to :inline to run immediately for debugging
+  config.active_job.queue_adapter = :sidekiq
+  # config.active_job.queue_adapter = :async # runs in-memory; a crash will lose the job; change to :inline to run immediately for debugging
   # config.active_job.queue_adapter = :inline # runs when it is called for debugging
 end
