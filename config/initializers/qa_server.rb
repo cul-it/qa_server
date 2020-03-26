@@ -14,7 +14,7 @@ QaServer.config do |config|
 
   # Displays a graph of historical test data when true
   # @param [Boolean] display history graph when true
-  config.display_historical_graph = true
+  config.display_historical_graph = false
 
   # Displays a datatable of historical test data when true
   # @param [Boolean] display history datatable when true
@@ -26,7 +26,19 @@ QaServer.config do |config|
 
   # Displays a graph of performance test data when true
   # @param [Boolean] display performance graph when true
-  config.display_performance_graph = true
+  config.display_performance_graph = false
+
+  # Displays a datatable of performance test data when true
+  # @param [Boolean] display performance datatable when true
+  config.display_performance_datatable = true
+
+  # Performance graph default time period for all graphs.  All authorities will show the graph for this time period on page load.
+  # @param [String] :day, :month, or :year
+  config.performance_graph_default_time_period = :month
+
+  # Performance datatable default time period for calculating stats.
+  # @param [String] :day, :month, :year, :all
+  config.performance_datatable_default_time_period = :year
 
   # Max time in milliseconds for y-axis in the performance graphs.
   # @param [Integer] milliseconds
@@ -46,18 +58,6 @@ QaServer.config do |config|
   # @param [String] color RGB code
   # @note The default colors for the retrieve, graph_load, load, normalization, and full request lines in the performance graph are accessible.
   # config.performance_normalization_color = '#CCBE9F'
-
-  # Performance graph default time period for all graphs.  All authorities will show the graph for this time period on page load.
-  # @param [String] :day, :month, or :year
-  config.performance_graph_default_time_period = :month
-
-  # Displays a datatable of performance test data when true
-  # @param [Boolean] display performance datatable when true
-  config.display_performance_datatable = true
-
-  # Performance datatable default time period for calculating stats.
-  # @param [String] :day, :month, :year, :all
-  config.performance_datatable_default_time_period = :year
 
   # Performance datatable targeted maximum full request time.
   # @param [Integer] targeted maximum full request time in ms
