@@ -11,7 +11,7 @@ module Qa::Authorities
     include WebServiceBase
 
     # require 'qa/authorities/wikidata/space_fix_encoder'
-    # Wikidata returns json  # TODO: Does it need spaces encoded as %20 similar to FAST?
+    # Wikidata returns json
     def response(url)
       # space_fix_encoder = Wikidata::SpaceFixEncoder.new
       Faraday.get(url) do |req|
@@ -22,8 +22,8 @@ module Qa::Authorities
 
     # Search the FAST api
     #
-    # @param [String] the query
-    # @return json results
+    # @param q [String] the query
+    # @return json results with response_header and results
     def search(q)
       url = build_query_url q
       begin
@@ -37,7 +37,7 @@ module Qa::Authorities
 
     # Build a Wikidata url
     #
-    # @param [String] the query
+    # @param q [String] the query
     # @return [String] the url
     def build_query_url(q)
       # escaped_query = clean_query_string q # TODO: Is this needed for wikidata similar to FAST
@@ -55,10 +55,21 @@ module Qa::Authorities
       #   ERB::Util.url_encode(q.gsub(/-|\(|\)|:/, ""))
       # end
 
+      # @note WARNING: If this is moved to QA, it should NOT return json with results: and response_header: keys
+      #                unless code is put in place to process a request for the response_header data.
       def parse_authority_response(raw_response)
-        raw_response['search'].map do |doc|
+        formatted_response = raw_response['search'].map do |doc|
           { id: doc['id'], uri: doc['concepturi'], label: doc['label'], context: extended_context(doc) }
         end
+        {
+          results: formatted_response,
+          response_header: {
+            start_record: 1,
+            requested_records: "UNKNOWN",
+            retrieved_records: raw_response.count,
+            total_records: "UNKNOWN"
+          }
+        }
       end
 
       def extended_context(doc)
