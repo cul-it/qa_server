@@ -14,7 +14,7 @@ QaServer.config do |config|
 
   # Displays a graph of historical test data when true
   # @param [Boolean] display history graph when true
-  config.display_historical_graph = true
+  config.display_historical_graph = false
 
   # Displays a datatable of historical test data when true
   # @param [Boolean] display history datatable when true
@@ -26,7 +26,7 @@ QaServer.config do |config|
 
   # Displays a graph of performance test data when true
   # @param [Boolean] display performance graph when true
-  config.display_performance_graph = true
+  config.display_performance_graph = false
 
   # Displays a datatable of performance test data when true
   # @param [Boolean] display performance datatable when true
