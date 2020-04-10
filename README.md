@@ -17,9 +17,17 @@ This app can be installed to serve as a Questioning Authority (QA) Server for ac
 
 ### To Start the Server
 
-* run `rails s`
+Start Sidekiq in development for processing background jobs (Needs to run at the root of the rails app.)
+ 
+```sh
+$ bundle exec sidekiq -d -L log/sidekiq.log -e development
+```
 
-To stop, use `<ctrl><c>` in the terminal window where `rails s` started.
+Start application server
+
+```sh
+$ bundle exec rails s
+```
 
 ## Supported Authorities
 

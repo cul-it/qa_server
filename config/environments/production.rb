@@ -56,8 +56,10 @@ Rails.application.configure do
   # config.active_job.queue_adapter     = :resque
   # config.active_job.queue_name_prefix = "qa_server_#{Rails.env}"
 
+  config.active_job.queue_adapter = :sidekiq
+
   # run jobs asynchronously in background (ok because only background jobs are related to monitoring status)
-  config.active_job.queue_adapter = :async # runs in-memory; a crash will lose the job; change to :inline to run immediately for debugging
+  # config.active_job.queue_adapter = :async # runs in-memory; a crash will lose the job; change to :inline to run immediately for debugging
 
   config.action_mailer.perform_caching = false
 
