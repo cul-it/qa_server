@@ -1,3 +1,12 @@
+### 5.4.0 (2020-04-08)
+
+* remove failing tests as they are due to changes at OCLC
+* have wikidata always return with response_header and results
+* add ISNI authority
+* turn graphs off for production
+* update to LD4P/qa_server v7.3.0
+  * move graph generation to background jobs
+
 ### 5.3.2 (2020-02-22)
 
 * generate the performance graphs
