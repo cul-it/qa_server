@@ -211,7 +211,7 @@ GEM
       nokogiri (~> 1.6)
       rails (>= 5.0, < 6.1)
       rdf
-    qa_server (7.3.0)
+    qa_server (7.4.0)
       gruff
       rails (~> 5.0)
       sass-rails (~> 5.0)
@@ -308,7 +308,7 @@ GEM
       rdf (~> 3.1)
     request_store (1.5.0)
       rack (>= 1.4)
-    rmagick (4.1.1)
+    rmagick (4.1.2)
     rspec-activemodel-mocks (1.1.0)
       activemodel (>= 3.0)
       activesupport (>= 3.0)
@@ -443,7 +443,7 @@ DEPENDENCIES
   mysql2
   puma (~> 4.3)
   qa (~> 5.3)
-  qa_server (~> 7.3)
+  qa_server (~> 7.4)
   rails (~> 5.1.6)
   rails-controller-testing
   rspec-activemodel-mocks
