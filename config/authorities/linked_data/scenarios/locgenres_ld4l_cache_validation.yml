@@ -1,8 +1,14 @@
+# Supported subauthorities:
+#   active
+#   deprecated
 ---
 authority:
   service: ld4l_cache
   context: true
 search:
+  #------------------
+  # Connection tests
+  #------------------
   -
     query: animation
   -
@@ -13,6 +19,11 @@ search:
   -
     query: Basketball television programs
     subauth: deprecated
+  #------------------
+  #  Accuracy tests
+  #------------------
+  #  TBD - tests for subauths
+  #    active
   -
     query: Preliminary documents (Treaties)
     position: 10
@@ -20,12 +31,24 @@ search:
     replacements:
       maxRecords: '20'
   -
+    query: maps
+    position: 3
+    subject_uri: "http://id.loc.gov/authorities/genreForms/gf2011026387"
+    replacements:
+      maxRecords: '10'
+  -
     query: Loose-leafs
     position: 10
     subject_uri: "http://id.loc.gov/authorities/genreForms/gf2011026373"
     replacements:
       maxRecords: '20'
   -
+    query: Casebooks (Law)
+    position: 3
+    subject_uri: "http://id.loc.gov/authorities/genreForms/gf2011026115"
+    replacements:
+      maxRecords: '10'
+   -
     query: Casebooks
     position: 10
     subject_uri: "http://id.loc.gov/authorities/genreForms/gf2011026115"

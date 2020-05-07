@@ -1,7 +1,13 @@
+# Supported subauthorities:
+#   person
+#   organization
 ---
 authority:
   service: ld4l_cache
 search:
+  #------------------
+  # Connection tests
+  #------------------
   -
     query: washington
   -
@@ -10,6 +16,12 @@ search:
   -
     query: washington
     subauth: organization
+  #------------------
+  #  Accuracy tests
+  #------------------
+  #  TBD - tests for subauths
+  #    person
+  #    organization
 term:
   -
     identifier: 'http://vocab.getty.edu/ulan/500020427'
