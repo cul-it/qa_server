@@ -1,10 +1,24 @@
+# Supported subauthorities:  # TODO: I don't think this subauths are correct.  Probably copy-paste error.
+#   person
+#   organization
+#   place
+#   intangible
+#   geocoordinates
+#   work
 ---
 authority:
   service: ld4l_cache
   context: true
 search:
+  #------------------
+  # Connection tests
+  #------------------
   -
     query: milk
+  #------------------
+  #  Accuracy tests
+  #------------------
+  # TBD
 term:
   -
     identifier: 'http://lod.nal.usda.gov/nalt/20627'

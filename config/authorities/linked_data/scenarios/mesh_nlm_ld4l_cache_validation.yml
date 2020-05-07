@@ -1,8 +1,14 @@
+# Supported subauthorities:
+#   subject
+#   publication_type
 ---
 authority:
   service: ld4l_cache
   context: true
 search:
+  #------------------
+  # Connection tests
+  #------------------
 #  -
 #    query: malignant
   -
@@ -16,6 +22,12 @@ search:
     query: Address
     subauth: publication_type
     result_size: 80
+  #------------------
+  #  Accuracy tests
+  #------------------
+  #  TBD - tests for subauths
+  #    subject
+  #    publication_type
 term:
   -
     identifier: 'http://id.nlm.nih.gov/mesh/T727346'
