@@ -5,13 +5,13 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-gem 'rails', '~> 5.1.6'
+gem 'rails', '~> 5.2'
 gem 'dotenv-deployment'
 gem 'dotenv-rails'
 
 # Required gems for QA and linked data access
 gem 'qa_server', '~> 7.4'
-gem 'qa', '~> 5.3'
+gem 'qa', '~> 5.5'
 gem 'linkeddata'
 
 # Other gems
