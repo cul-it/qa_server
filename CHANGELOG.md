@@ -1,3 +1,15 @@
+### 5.6.0 (2020-04-08)
+
+* update to Samvera/QA 5.5.0
+  * fixes change of LOC API URLs from http to https
+* update to Rails 5.2
+* update related dependencies
+
+### 5.5.0 (2020-04-08)
+
+* update to LD4P/qa_server v7.4.0
+  * add size and complexity performance statistics (not auto-generated)
+
 ### 5.4.0 (2020-04-08)
 
 * remove failing tests as they are due to changes at OCLC
