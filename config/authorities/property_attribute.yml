@@ -1,0 +1,7 @@
+terms:
+  - id: http://sinopia.io/vocabulary/propertyAttribute/repeatable
+    term: repeatable
+  - id: http://sinopia.io/vocabulary/propertyAttribute/required
+    term: required
+  - id: http://sinopia.io/vocabulary/propertyAttribute/ordered
+    term: ordered
