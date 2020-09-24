@@ -1,3 +1,7 @@
+### 5.7.0 (2020-09-24)
+
+* add local subauthorities property_attribute and property_type
+
 ### 5.6.0 (2020-04-08)
 
 * update to Samvera/QA 5.5.0
