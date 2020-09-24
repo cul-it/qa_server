@@ -1,0 +1,7 @@
+terms:
+  - id: http://sinopia.io/vocabulary/propertyType/literal
+    term: literal
+  - id: http://sinopia.io/vocabulary/propertyType/uri
+    term: uri or lookup
+  - id: http://sinopia.io/vocabulary/propertyType/resource
+    term: nested resource
