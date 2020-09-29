@@ -23,12 +23,12 @@ search:
 #    query: War
 #    subauth: event_name
 #    replacements:
-#      maxRecords: '4'
+#      maximumRecords: '4'
 #  -
 #    query: Festival
 #    subauth: meeting
 #    replacements:
-#      maxRecords: '4'
+#      maximumRecords: '4'
   -
     query: 'mark twain'
     subauth: personal_name
