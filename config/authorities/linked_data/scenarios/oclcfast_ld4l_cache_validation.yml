@@ -70,6 +70,7 @@ search:
     subauth: place
     subject_uri: "http://id.worldcat.org/fast/1243881"
     postion: 5
+    result_size: 190
     replacements:
       maxRecords: '10'
   -
