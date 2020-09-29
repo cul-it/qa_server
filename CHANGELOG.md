@@ -1,3 +1,8 @@
+### 5.7.1 (2020-09-29)
+
+* fix a few authority tests that returned results, but less than 200chars
+* temporarily comment out MeSH Email test
+
 ### 5.7.0 (2020-09-24)
 
 * add local subauthorities property_attribute and property_type
