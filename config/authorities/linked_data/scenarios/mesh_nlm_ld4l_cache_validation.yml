@@ -45,13 +45,13 @@ search:
     position: 3
     replacements:
       maxRecords: '8'
-  -
-    query: Email
-    subauth: subject
-    subject_uri: "http://id.nlm.nih.gov/mesh/D034742"
-    postion: 5
-    replacements:
-      maxRecords: '10'
+#  -
+#    query: Email
+#    subauth: subject
+#    subject_uri: "http://id.nlm.nih.gov/mesh/D034742"
+#    postion: 5
+#    replacements:
+#      maxRecords: '10'
 term:
   -
     identifier: 'http://id.nlm.nih.gov/mesh/T727346'
