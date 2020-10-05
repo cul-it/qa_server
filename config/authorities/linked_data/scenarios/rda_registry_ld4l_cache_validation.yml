@@ -294,7 +294,7 @@ search:
     subject_uri: "http://rdaregistry.info/termList/MusNotation/1009"
     replacements:
       maxRecords: '20'
-   -
+  -
     query: jigsaw puzzle
     subauth: carrier_extent_unit
     position: 3
@@ -560,6 +560,6 @@ search:
     subject_uri: "http://rdaregistry.info/termList/videoFormat/1007"
     replacements:
       maxRecords: '10'
-term:
-  -
-    identifier: 'http://rdaregistry.info/termList/ModeIssue/1002'
+#term:
+#  -
+#    identifier: 'http://rdaregistry.info/termList/ModeIssue/1002'
