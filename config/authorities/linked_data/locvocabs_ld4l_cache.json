@@ -60,7 +60,7 @@
     },
     "total_count_ldpath": "vivo:count",
     "results": {
-      "label_ldpath":    "skos:prefLabel ::xsd:string",
+      "label_ldpath":    "madsrdf:authoritativeLabel ::xsd:string",
       "sort_ldpath":     "vivo:rank ::xsd:string"
     },
     "subauthorities": {
