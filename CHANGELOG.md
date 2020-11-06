@@ -1,3 +1,11 @@
+### 5.8.0 (2020-11-06)
+
+* add 48 small LOC vocabs (e.g. carriers, content_types, etc)
+* add extended context for getty aat and tgn
+* fix validations where results are returned but are too small
+* sync auth configs and validations with ld4p/qa_server templates
+* temporarily add new_cache auths testing new indexing scheme
+
 ### 5.7.0 (2020-09-24)
 
 * add local subauthorities property_attribute and property_type
