@@ -10,7 +10,7 @@
     "url": {
       "@context": "http://www.w3.org/ns/hydra/context.jsonld",
       "@type":    "IriTemplate",
-      "template": "http://services.ld4l.org/ld4l_services/getty_lookup.jsp?uri={term_uri}",
+      "template": "http://wintermute.slis.uiowa.edu:8081/ld4l_services/getty_lookup.jsp?uri={term_uri}",
       "variableRepresentation": "BasicRepresentation",
       "mapping": [
         {
@@ -39,7 +39,7 @@
     "url": {
       "@context": "http://www.w3.org/ns/hydra/context.jsonld",
       "@type": "IriTemplate",
-      "template": "http://services.ld4l.org/ld4l_services/getty_batch.jsp?{?query}&entity=Place&{?maxRecords}&{?startRecord}&{?lang}",
+      "template": "http://wintermute.slis.uiowa.edu:8081/ld4l_services/getty_batch.jsp?{?query}&entity=Place&{?maxRecords}&{?startRecord}&{?lang}",
       "variableRepresentation": "BasicRepresentation",
       "mapping": [
         {
