@@ -52,10 +52,11 @@ search:
     replacements:
       maxRecords: '8'
   -
+    pending: true
     query: University of Chicago Library
     subauth: organization
     subject_uri: "http://id.worldcat.org/fast/539173"
-    postion: 5
+    position: 5
     replacements:
       maxRecords: '10'
   -
@@ -70,14 +71,15 @@ search:
     subauth: place
     result_size: 190
     subject_uri: "http://id.worldcat.org/fast/1243881"
-    postion: 5
+    position: 5
     replacements:
       maxRecords: '10'
   -
+    pending: true
     query: Scream
     subauth: work
     subject_uri: "http://id.worldcat.org/fast/1358031"
-    postion: 5
+    position: 5
     replacements:
       maxRecords: '10'
 

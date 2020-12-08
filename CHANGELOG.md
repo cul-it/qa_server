@@ -1,3 +1,10 @@
+### 5.9.1 (2020-12-08)
+
+* do not control the width of form elements so tightly
+* update LDPaths for GETTY_TGN
+* split LOCNAMES_RWO testing into 3 files to avoid timeouts
+* sync tests with LD4P/qa_server
+
 ### 5.9.0 (2020-12-08)
 
 * update to Samvera/QA 5.5.0
