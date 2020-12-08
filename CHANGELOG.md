@@ -1,3 +1,29 @@
+### 5.9.0 (2020-12-08)
+
+* update to Samvera/QA 5.5.0
+  * FIX: do not overwrite passed in replacements hash
+  * FIX: encode query for linked data access to OCLC FAST
+* update to LD4P/qa_server 7.5.0
+  * UI improvements of check_status page
+    * pre-populate selection fields with most recently submitted authorities
+    * add ability to compare two authorities' accuracy tests in UI
+    * update check_status UI to require GO button click to start processing
+    * fix javascript to avoid referencing missing elements
+  * accuracy test updates
+    * accuracy tests default to context=false since it is not required for testing
+    * allow accuracy tests through rspec to be marked pending (allows for better regression testing)
+    * add pending to failing validation tests such that accuracy_spec passes
+    * sync tests with production accuracy tests
+    * split locnames_rwo_ld4l_cache into 3 sets of tests of about 9 each to avoid time out
+    * add extended context for getty_aat_ld4l_cache and getty_tgn_ld4l_cache
+    * add authority locvocabs_ld4l_cache
+    * FIX: typo in position and a few syntax errors
+    * FIX: adjust result_size for validations where passing tests return less than 200 chars
+  * add request_data to status_logger (e.g. query for search, identifier for term)
+  * update to latest bixby v3.0
+* update to LD4P/qa_server 7.5.1
+  * FIX: missing i18n translations
+
 ### 5.8.0 (2020-11-06)
 
 * add 48 small LOC vocabs (e.g. carriers, content_types, etc)
