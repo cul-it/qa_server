@@ -25,6 +25,7 @@ search:
   #  Accuracy tests
   #------------------
   -
+    pending: true
     query: Johannes Philippus de Lignamine
     subauth: person
     position: 4
@@ -32,6 +33,7 @@ search:
     replacements:
       maxRecords: '8'
   -
+    pending: true
     query: Johannes Philippus de Lignamine
     subauth: person
     position: 4
@@ -39,6 +41,7 @@ search:
     replacements:
       maxRecords: '8'
   -
+    pending: true
     query: Jacob Winter
     subauth: person
     position: 2

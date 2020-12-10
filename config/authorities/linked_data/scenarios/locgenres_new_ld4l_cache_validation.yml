@@ -115,6 +115,7 @@ search:
     replacements:
       maxRecords: '20'
   -
+    pending: true
     query: Cookery
     subauth: deprecated
     position: 5

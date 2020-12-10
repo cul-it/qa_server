@@ -182,7 +182,3 @@ search:
     query: sound
     subauth: resource_components
     result_size: 100
-
-#term:
-#  -
-#    identifier: 'http://id.loc.gov/vocabulary/contentTypes/sti'
