@@ -63,6 +63,7 @@ search:
   -
     query: Waterman Family
     subauth: family
+    result_size: 110
     position: 5
     subject_uri: "http://id.loc.gov/rwo/agents/n2012043300"
     replacements:
