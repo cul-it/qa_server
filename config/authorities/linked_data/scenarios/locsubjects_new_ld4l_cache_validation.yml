@@ -34,7 +34,7 @@ search:
     position: 5
     subject_uri: "http://id.loc.gov/authorities/subjects/sh85061212"
     replacements:
-      maxRecords: '20'
+      maxRecords: '10'
 term:
   -
     identifier: 'http://id.loc.gov/authorities/subjects/sh2003008312'

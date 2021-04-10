@@ -41,10 +41,9 @@ search:
     replacements:
       maxRecords: '8'
   -
-    pending: true
     query: Jacob Winter
     subauth: person
-    position: 2
+    position: 3
     subject_uri: "http://thesaurus.cerl.org/record/cnp02081773"
     replacements:
       maxRecords: '8'
@@ -65,10 +64,10 @@ search:
   -
     query: Plantin
     subauth: imprint
-    position: 1
+    position: 18
     subject_uri: "http://thesaurus.cerl.org/record/cni00007649"
     replacements:
-      maxRecords: '8'
+      maxRecords: '30'
 term:
   -
     identifier: "http://thesaurus.cerl.org/record/cnp00895966"
