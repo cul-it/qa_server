@@ -8,40 +8,35 @@
 ---
 authority:
   service: ld4l_cache
-  context: true
 search:
   #------------------
   # Connection tests
   #------------------
   -
-    query: milk
+    query: 'Barack Obama'
   #------------------
   #  Accuracy tests
   #------------------
   -
-    query: soil fertility
-    subject_uri: "http://lod.nal.usda.gov/nalt/968"
+    query: Volleyball
     position: 5
+    subject_uri: "http://dbpedia.org/resource/Volleyball"
     replacements:
       maxRecords: '10'
   -
-    query: vector potential
-    subject_uri: "http://lod.nal.usda.gov/nalt/34062"
+    pending: true
+    query: Volleyb
     position: 5
+    subject_uri: "http://dbpedia.org/resource/Volleyball"
     replacements:
       maxRecords: '10'
   -
-    query: meat tenderness
-    subject_uri: "http://lod.nal.usda.gov/nalt/51773"
-    position: 3
+    pending: true
+    query: volleyb
+    position: 5
+    subject_uri: "http://dbpedia.org/resource/Volleyball"
     replacements:
-      maxRecords: '8'
-  -
-    query: recorte de los cascos
-    subject_uri: "http://lod.nal.usda.gov/nalt/9231"
-    position: 3
-    replacements:
-      maxRecords: '5'
+      maxRecords: '10'
 term:
   -
-    identifier: 'http://lod.nal.usda.gov/nalt/20627'
+    identifier: 'http://dbpedia.org/resource/Barack_Obama'

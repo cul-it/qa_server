@@ -1,9 +1,21 @@
+### 6.0.0 (2021-04-12)
+
+* update to qa_server v7.6.0 - allows for use of Rails 6
+* sync authority configs and validations with definitions in LD4P/qa_server
+* many updates to configs and validations based on changes for new indexing approach
+* update to Rails 5.2.5 to fix mimemagic gem yank
+* update dependencies
+
+### 5.9.2 (2021-01-29)
+
+* sync validation tests with LD4P/qa_server
+
 ### 5.9.1 (2020-12-08)
 
 * do not control the width of form elements so tightly
 * update LDPaths for GETTY_TGN
 * split LOCNAMES_RWO testing into 3 files to avoid timeouts
-* sync tests with LD4P/qa_server
+* sync validation tests with LD4P/qa_server
 
 ### 5.9.0 (2020-12-08)
 
