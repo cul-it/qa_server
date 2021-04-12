@@ -77,7 +77,6 @@
     },
     "total_count_ldpath": "vivo:count",
     "results": {
-      "id_ldpath":    "dc:identifier ::xsd:string",
       "label_ldpath": "^foaf:focus/skosxl:prefLabel/skosxl:literalForm :: xsd:string",
       "sort_ldpath":  "vivo:rank ::xsd:string"
     },
