@@ -107,7 +107,7 @@ GEM
     faraday (1.1.0)
       multipart-post (>= 1.2, < 3)
       ruby2_keywords
-    ffi (1.13.1)
+    ffi (1.15.0)
     geocoder (1.6.4)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
@@ -220,9 +220,9 @@ GEM
       nokogiri (~> 1.6)
       rails (>= 5.0, < 6.1)
       rdf
-    qa_server (7.5.1)
+    qa_server (7.6.0)
       gruff
-      rails (~> 5.0)
+      rails (~> 5.2, >= 5.2.5)
       sass-rails (~> 5.0)
       useragent
     racc (1.5.2)
@@ -319,7 +319,7 @@ GEM
       rdf (~> 3.1)
     request_store (1.5.0)
       rack (>= 1.4)
-    rmagick (4.1.2)
+    rmagick (4.2.2)
     rspec-activemodel-mocks (1.1.0)
       activemodel (>= 3.0)
       activesupport (>= 3.0)
@@ -455,7 +455,7 @@ DEPENDENCIES
   mysql2
   puma (~> 4.3)
   qa (~> 5.5)
-  qa_server (~> 7.5)
+  qa_server (~> 7.6)
   rails (~> 5.2)
   rails-controller-testing
   rspec-activemodel-mocks
