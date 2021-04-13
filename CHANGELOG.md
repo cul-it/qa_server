@@ -1,3 +1,12 @@
+### 6.1.0 (2021-04-13)
+
+* update to LD4P/qa_server 7.7.0
+  * remove unused translations
+  * show notification when refreshing starts on monitor status page
+  * hide data in Authority Connection History for non-active authorities
+  * loosen threshold for caution in historical uptime table
+  * minor tweaks missed in original sync
+
 ### 6.0.0 (2021-04-12)
 
 * update to qa_server v7.6.0 - allows for use of Rails 6
