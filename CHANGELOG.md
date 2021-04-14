@@ -1,3 +1,8 @@
+### 6.1.1 (2021-04-14)
+
+* update to LD4P/qa_server 7.7.1
+  * fix background colors in historical uptime table
+
 ### 6.1.0 (2021-04-13)
 
 * update to LD4P/qa_server 7.7.0
