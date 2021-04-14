@@ -1,3 +1,8 @@
+### 6.2.0 (2021-04-14)
+
+* update to LD4P/qa_server 7.8.0
+  * dogear expected and actual cells when accuracy test is pending
+
 ### 6.1.3 (2021-04-14)
 
 * update Spain test to search geographic subauth for MeSH (NLM)
