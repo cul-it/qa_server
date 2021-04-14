@@ -1,3 +1,11 @@
+### 6.1.3 (2021-04-14)
+
+* update Spain test to search geographic subauth for MeSH (NLM)
+
+### 6.1.2 (2021-04-14)
+
+* add geographic subauth for MeSH (NLM)
+
 ### 6.1.1 (2021-04-14)
 
 * update to LD4P/qa_server 7.7.1
