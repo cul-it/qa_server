@@ -22,7 +22,7 @@ QaServer.config do |config|
 
   # Historical datatable default time period.
   # @param [Symbol] time period for calculating historical pass/fail (i.e., one of :month, :year, or :all)
-  config.historical_datatable_default_time_period = :year
+  config.historical_datatable_default_time_period = :month
 
   # Displays a graph of performance test data when true
   # @param [Boolean] display performance graph when true
@@ -38,7 +38,7 @@ QaServer.config do |config|
 
   # Performance datatable default time period for calculating stats.
   # @param [String] :day, :month, :year, :all
-  config.performance_datatable_default_time_period = :year
+  config.performance_datatable_default_time_period = :month
 
   # Max time in milliseconds for y-axis in the performance graphs.
   # @param [Integer] milliseconds
