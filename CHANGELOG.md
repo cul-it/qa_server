@@ -1,3 +1,8 @@
+### 6.3.0 (2021-04-16)
+
+* update to LD4P/qa_server 7.9.0
+  * Add chart showing simulated graph (in table) of the last 30 days of up-down connection data
+
 ### 6.2.0 (2021-04-14)
 
 * update to LD4P/qa_server 7.8.0
