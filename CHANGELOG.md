@@ -1,3 +1,11 @@
+### 6.3.1 (2021-06-10)
+
+* update to LD4P/qa_server 7.9.2
+  * BUG FIX: only check for dogear if status is a Hash
+* update to LD4P/qa_server 7.9.1
+  * BUG FIX: fix compare accuracy fails if either has pending tests
+  * add note on the meaning of the dogear on Check Status page
+
 ### 6.3.0 (2021-04-16)
 
 * update to LD4P/qa_server 7.9.0

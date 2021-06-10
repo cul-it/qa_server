@@ -124,6 +124,13 @@ search:
     position: 10
     replacements:
       maxRecords: '20'
+  -
+    query: 'mark twain'
+    subauth: intangible
+    subject_uri: "http://id.worldcat.org/fast/1200561"
+    position: 3
+    replacements:
+      maxRecords: '10'
 term:
   -
     identifier: '1914919'
