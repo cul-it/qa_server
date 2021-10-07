@@ -13,7 +13,7 @@ module PrependedPresenters::AuthorityListPresenter
     url_data << discogs_master_search
     url_data << property_attribute_terms
     url_data << property_type_terms
-    url_data << publisher_cities_select_listsearch
+    url_data << publisher_cities_select_list_search
     url_data
   end
 
