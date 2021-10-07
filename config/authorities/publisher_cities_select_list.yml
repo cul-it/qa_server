@@ -1,0 +1,1042 @@
+terms:
+  - id: http://id.loc.gov/authorities/names/n79005665
+    uri: http://id.loc.gov/authorities/names/n79005665
+    term: London (England)
+  - id: http://id.loc.gov/authorities/names/n79007751
+    uri: http://id.loc.gov/authorities/names/n79007751
+    term: New York (N.Y.)
+  - id: http://id.loc.gov/authorities/names/n79058874
+    uri: http://id.loc.gov/authorities/names/n79058874
+    term: Paris (France)
+  - id: http://id.loc.gov/authorities/names/n79018774
+    uri: http://id.loc.gov/authorities/names/n79018774
+    term: Washington (D.C.)
+  - id: http://id.loc.gov/authorities/names/n79076156
+    uri: http://id.loc.gov/authorities/names/n79076156
+    term: Moscow (Russia)
+  - id: http://id.loc.gov/authorities/names/n79034998
+    uri: http://id.loc.gov/authorities/names/n79034998
+    term: Tokyo (Japan)
+  - id: http://id.loc.gov/authorities/names/n79045553
+    uri: http://id.loc.gov/authorities/names/n79045553
+    term: Boston (Mass.)
+  - id: http://id.loc.gov/authorities/names/n79034972
+    uri: http://id.loc.gov/authorities/names/n79034972
+    term: Berlin (Germany)
+  - id: http://id.loc.gov/authorities/names/n78095520
+    uri: http://id.loc.gov/authorities/names/n78095520
+    term: Philadelphia (Pa.)
+  - id: http://id.loc.gov/authorities/names/n78089046
+    uri: http://id.loc.gov/authorities/names/n78089046
+    term: Madrid (Spain)
+  - id: http://id.loc.gov/authorities/names/n79059883
+    uri: http://id.loc.gov/authorities/names/n79059883
+    term: New Delhi (India)
+  - id: http://id.loc.gov/authorities/names/n79076155
+    uri: http://id.loc.gov/authorities/names/n79076155
+    term: Beijing (China)
+  - id: http://id.loc.gov/authorities/names/n80060867
+    uri: http://id.loc.gov/authorities/names/n80060867
+    term: Milan (Italy)
+  - id: http://id.loc.gov/authorities/names/n78086438
+    uri: http://id.loc.gov/authorities/names/n78086438
+    term: Chicago (Ill.)
+  - id: http://id.loc.gov/authorities/names/n79125883
+    uri: http://id.loc.gov/authorities/names/n79125883
+    term: Leipzig (Germany)
+  - id: http://id.loc.gov/authorities/names/n79110280
+    uri: http://id.loc.gov/authorities/names/n79110280
+    term: Stuttgart (Germany)
+  - id: http://id.loc.gov/authorities/names/n79079054
+    uri: http://id.loc.gov/authorities/names/n79079054
+    term: Buenos Aires (Argentina)
+  - id: http://id.loc.gov/authorities/names/n78095634
+    uri: http://id.loc.gov/authorities/names/n78095634
+    term: Amsterdam (Netherlands)
+  - id: http://id.loc.gov/authorities/names/n79021052
+    uri: http://id.loc.gov/authorities/names/n79021052
+    term: Barcelona (Spain)
+  - id: http://id.loc.gov/authorities/names/n79079328
+    uri: http://id.loc.gov/authorities/names/n79079328
+    term: Toronto (Ont.)
+  - id: http://id.loc.gov/authorities/names/n79053770
+    uri: http://id.loc.gov/authorities/names/n79053770
+    term: Edinburgh (Scotland)
+  - id: http://id.loc.gov/authorities/names/n79018452
+    uri: http://id.loc.gov/authorities/names/n79018452
+    term: San Francisco (Calif.)
+  - id: http://id.loc.gov/authorities/names/n50070589
+    uri: http://id.loc.gov/authorities/names/n50070589
+    term: Wiesbaden (Germany)
+  - id: http://id.loc.gov/authorities/names/n79065853
+    uri: http://id.loc.gov/authorities/names/n79065853
+    term: Oxford (England)
+  - id: http://id.loc.gov/authorities/names/n79077529
+    uri: http://id.loc.gov/authorities/names/n79077529
+    term: Delhi (India)
+  - id: http://id.loc.gov/authorities/names/n79063254
+    uri: http://id.loc.gov/authorities/names/n79063254
+    term: Shanghai (China)
+  - id: http://id.loc.gov/authorities/names/n79021394
+    uri: http://id.loc.gov/authorities/names/n79021394
+    term: Bologna (Italy)
+  - id: http://id.loc.gov/authorities/names/n81086822
+    uri: http://id.loc.gov/authorities/names/n81086822
+    term: Hamburg (Germany)
+  - id: http://id.loc.gov/authorities/names/n79065753
+    uri: http://id.loc.gov/authorities/names/n79065753
+    term: Dublin (Ireland)
+  - id: http://id.loc.gov/authorities/names/n79091691
+    uri: http://id.loc.gov/authorities/names/n79091691
+    term: Budapest (Hungary)
+  - id: http://id.loc.gov/authorities/names/n79063073
+    uri: http://id.loc.gov/authorities/names/n79063073
+    term: Ottawa (Ont.)
+  - id: http://id.loc.gov/authorities/names/n79149017
+    uri: http://id.loc.gov/authorities/names/n79149017
+    term: Frankfurt am Main (Germany)
+  - id: http://id.loc.gov/authorities/names/n79018873
+    uri: http://id.loc.gov/authorities/names/n79018873
+    term: Stockholm (Sweden)
+  - id: http://id.loc.gov/authorities/names/n79046411
+    uri: http://id.loc.gov/authorities/names/n79046411
+    term: Bonn (Germany)
+  - id: http://id.loc.gov/authorities/names/n79006530
+    uri: http://id.loc.gov/authorities/names/n79006530
+    term: Baltimore (Md.)
+  - id: http://id.loc.gov/authorities/names/n79060405
+    uri: http://id.loc.gov/authorities/names/n79060405
+    term: Rio de Janeiro (Brazil)
+  - id: http://id.loc.gov/authorities/names/n81096075
+    uri: http://id.loc.gov/authorities/names/n81096075
+    term: Heidelberg (Germany)
+  - id: http://id.loc.gov/authorities/names/n79018884
+    uri: http://id.loc.gov/authorities/names/n79018884
+    term: Oslo (Norway)
+  - id: http://id.loc.gov/authorities/names/n79116460
+    uri: http://id.loc.gov/authorities/names/n79116460
+    term: Minsk (Belarus)
+  - id: http://id.loc.gov/authorities/names/n79018410
+    uri: http://id.loc.gov/authorities/names/n79018410
+    term: Cambridge (England)
+  - id: http://id.loc.gov/authorities/names/n79021725
+    uri: http://id.loc.gov/authorities/names/n79021725
+    term: Canberra (A.C.T.)
+  - id: http://id.loc.gov/authorities/names/n81018331
+    uri: http://id.loc.gov/authorities/names/n81018331
+    term: Geneva (Switzerland)
+  - id: http://id.loc.gov/authorities/names/n79022219
+    uri: http://id.loc.gov/authorities/names/n79022219
+    term: Ann Arbor (Mich.)
+  - id: http://id.loc.gov/authorities/names/n79054584
+    uri: http://id.loc.gov/authorities/names/n79054584
+    term: Bari (Italy)
+  - id: http://id.loc.gov/authorities/names/n80123283
+    uri: http://id.loc.gov/authorities/names/n80123283
+    term: Helsinki (Finland)
+  - id: http://id.loc.gov/authorities/names/n79003965
+    uri: http://id.loc.gov/authorities/names/n79003965
+    term: Minneapolis (Minn.)
+  - id: http://id.loc.gov/authorities/names/n79034879
+    uri: http://id.loc.gov/authorities/names/n79034879
+    term: Pisa (Italy)
+  - id: http://id.loc.gov/authorities/names/n83156379
+    uri: http://id.loc.gov/authorities/names/n83156379
+    term: Albany (N.Y.)
+  - id: http://id.loc.gov/authorities/names/n78095510
+    uri: http://id.loc.gov/authorities/names/n78095510
+    term: Ankara (Turkey)
+  - id: http://id.loc.gov/authorities/names/n79145551
+    uri: http://id.loc.gov/authorities/names/n79145551
+    term: Bielefeld (Germany)
+  - id: http://id.loc.gov/authorities/names/n79041670
+    uri: http://id.loc.gov/authorities/names/n79041670
+    term: Leiden (Netherlands)
+  - id: http://id.loc.gov/authorities/names/n79021240
+    uri: http://id.loc.gov/authorities/names/n79021240
+    term: Los Angeles (Calif.)
+  - id: http://id.loc.gov/authorities/names/n79074350
+    uri: http://id.loc.gov/authorities/names/n79074350
+    term: Marburg (Germany)
+  - id: http://id.loc.gov/authorities/names/n82029398
+    uri: http://id.loc.gov/authorities/names/n82029398
+    term: Novosibirsk (Russia)
+  - id: http://id.loc.gov/authorities/names/n79066414
+    uri: http://id.loc.gov/authorities/names/n79066414
+    term: Tel Aviv (Israel)
+  - id: http://id.loc.gov/authorities/names/n80050802
+    uri: http://id.loc.gov/authorities/names/n80050802
+    term: Wrocław (Poland)
+  - id: http://id.loc.gov/authorities/names/n79043343
+    uri: http://id.loc.gov/authorities/names/n79043343
+    term: Copenhagen (Denmark)
+  - id: http://id.loc.gov/authorities/names/n79064653
+    uri: http://id.loc.gov/authorities/names/n79064653
+    term: Graz (Austria)
+  - id: http://id.loc.gov/authorities/names/n81095244
+    uri: http://id.loc.gov/authorities/names/n81095244
+    term: Hildesheim (Germany)
+  - id: http://id.loc.gov/authorities/names/n79055094
+    uri: http://id.loc.gov/authorities/names/n79055094
+    term: Indianapolis (Ind.)
+  - id: http://id.loc.gov/authorities/names/n79072777
+    uri: http://id.loc.gov/authorities/names/n79072777
+    term: Innsbruck (Austria)
+  - id: http://id.loc.gov/authorities/names/n80043584
+    uri: http://id.loc.gov/authorities/names/n80043584
+    term: Kassel (Germany)
+  - id: http://id.loc.gov/authorities/names/n80009293
+    uri: http://id.loc.gov/authorities/names/n80009293
+    term: Paderborn (Germany)
+  - id: http://id.loc.gov/authorities/names/n80024359
+    uri: http://id.loc.gov/authorities/names/n80024359
+    term: Salzburg (Austria)
+  - id: http://id.loc.gov/authorities/names/n79116205
+    uri: http://id.loc.gov/authorities/names/n79116205
+    term: Zagreb (Croatia)
+  - id: http://id.loc.gov/authorities/names/n79035922
+    uri: http://id.loc.gov/authorities/names/n79035922
+    term: Cape Town (South Africa)
+  - id: http://id.loc.gov/authorities/names/n79053745
+    uri: http://id.loc.gov/authorities/names/n79053745
+    term: Cincinnati (Ohio)
+  - id: http://id.loc.gov/authorities/names/n79063382
+    uri: http://id.loc.gov/authorities/names/n79063382
+    term: Lima (Peru)
+  - id: http://id.loc.gov/authorities/names/n79089257
+    uri: http://id.loc.gov/authorities/names/n79089257
+    term: Lublin (Poland)
+  - id: http://id.loc.gov/authorities/names/n79091241
+    uri: http://id.loc.gov/authorities/names/n79091241
+    term: Mainz (Rhineland-Palatinate, Germany)
+  - id: http://id.loc.gov/authorities/names/n79100828
+    uri: http://id.loc.gov/authorities/names/n79100828
+    term: New Haven (Conn.)
+  - id: http://id.loc.gov/authorities/names/n79129587
+    uri: http://id.loc.gov/authorities/names/n79129587
+    term: Regensburg (Germany)
+  - id: http://id.loc.gov/authorities/names/n79018704
+    uri: http://id.loc.gov/authorities/names/n79018704
+    term: Rome (Italy)
+  - id: http://id.loc.gov/authorities/names/n81018470
+    uri: http://id.loc.gov/authorities/names/n81018470
+    term: Vancouver (B.C.)
+  - id: http://id.loc.gov/authorities/names/n79062979
+    uri: http://id.loc.gov/authorities/names/n79062979
+    term: Basel (Switzerland)
+  - id: http://id.loc.gov/authorities/names/n80093362
+    uri: http://id.loc.gov/authorities/names/n80093362
+    term: Bratislava (Slovakia)
+  - id: http://id.loc.gov/authorities/names/n79039793
+    uri: http://id.loc.gov/authorities/names/n79039793
+    term: Brescia (Italy)
+  - id: http://id.loc.gov/authorities/names/n80079493
+    uri: http://id.loc.gov/authorities/names/n80079493
+    term: Bristol (England)
+  - id: http://id.loc.gov/authorities/names/n79097478
+    uri: http://id.loc.gov/authorities/names/n79097478
+    term: Caracas (Venezuela)
+  - id: http://id.loc.gov/authorities/names/n80006269
+    uri: http://id.loc.gov/authorities/names/n80006269
+    term: Hartford (Conn.)
+  - id: http://id.loc.gov/authorities/names/n79041317
+    uri: http://id.loc.gov/authorities/names/n79041317
+    term: Honolulu (Hawaii)
+  - id: http://id.loc.gov/authorities/names/n80073867
+    uri: http://id.loc.gov/authorities/names/n80073867
+    term: Jakarta (Indonesia)
+  - id: http://id.loc.gov/authorities/names/n80025810
+    uri: http://id.loc.gov/authorities/names/n80025810
+    term: Jena (Germany)
+  - id: http://id.loc.gov/authorities/names/n81126877
+    uri: http://id.loc.gov/authorities/names/n81126877
+    term: Jerusalem
+  - id: http://id.loc.gov/authorities/names/n81042321
+    uri: http://id.loc.gov/authorities/names/n81042321
+    term: Manchester (England)
+  - id: http://id.loc.gov/authorities/names/n79043751
+    uri: http://id.loc.gov/authorities/names/n79043751
+    term: Palermo (Italy)
+  - id: http://id.loc.gov/authorities/names/n79023000
+    uri: http://id.loc.gov/authorities/names/n79023000
+    term: Pretoria (South Africa)
+  - id: http://id.loc.gov/authorities/names/n79059023
+    uri: http://id.loc.gov/authorities/names/n79059023
+    term: Singapore
+  - id: http://id.loc.gov/authorities/names/n82246609
+    uri: http://id.loc.gov/authorities/names/n82246609
+    term: Skopje (North Macedonia)
+  - id: http://id.loc.gov/authorities/names/n79041725
+    uri: http://id.loc.gov/authorities/names/n79041725
+    term: Saint Louis (Mo.)
+  - id: http://id.loc.gov/authorities/names/n79065462
+    uri: http://id.loc.gov/authorities/names/n79065462
+    term: Tallinn (Estonia)
+  - id: http://id.loc.gov/authorities/names/n82166208
+    uri: http://id.loc.gov/authorities/names/n82166208
+    term: Vilnius (Lithuania)
+  - id: http://id.loc.gov/authorities/names/n79091185
+    uri: http://id.loc.gov/authorities/names/n79091185
+    term: Aix-en-Provence (France)
+  - id: http://id.loc.gov/authorities/names/n79007290
+    uri: http://id.loc.gov/authorities/names/n79007290
+    term: Austin (Tex.)
+  - id: http://id.loc.gov/authorities/names/n50057123
+    uri: http://id.loc.gov/authorities/names/n50057123
+    term: Baden-Baden (Germany)
+  - id: http://id.loc.gov/authorities/names/n79046046
+    uri: http://id.loc.gov/authorities/names/n79046046
+    term: Berkeley (Calif.)
+  - id: http://id.loc.gov/authorities/names/no99011103
+    uri: http://id.loc.gov/authorities/names/no99011103
+    term: Coimbra (Portugal). Câmara Municipal
+  - id: http://id.loc.gov/authorities/names/n80104951
+    uri: http://id.loc.gov/authorities/names/n80104951
+    term: Darmstadt (Germany). Magistrat
+  - id: http://id.loc.gov/authorities/names/n79045539
+    uri: http://id.loc.gov/authorities/names/n79045539
+    term: Detroit (Mich.)
+  - id: http://id.loc.gov/authorities/names/n81008351
+    uri: http://id.loc.gov/authorities/names/n81008351
+    term: Detroit (Mich.)
+  - id: http://id.loc.gov/authorities/names/n80089415
+    uri: http://id.loc.gov/authorities/names/n80089415
+    term: Essen (Germany)
+  - id: http://id.loc.gov/authorities/names/n79081849
+    uri: http://id.loc.gov/authorities/names/n79081849
+    term: Groningen (Netherlands)
+  - id: http://id.loc.gov/authorities/names/n79104288
+    uri: http://id.loc.gov/authorities/names/n79104288
+    term: Johannesburg (South Africa)
+  - id: http://id.loc.gov/authorities/names/n79148228
+    uri: http://id.loc.gov/authorities/names/n79148228
+    term: Katowice (Poland)
+  - id: http://id.loc.gov/authorities/names/n79079619
+    uri: http://id.loc.gov/authorities/names/n79079619
+    term: Lahore (Pakistan)
+  - id: http://id.loc.gov/authorities/names/n50054179
+    uri: http://id.loc.gov/authorities/names/n50054179
+    term: Luxembourg (Luxembourg)
+  - id: http://id.loc.gov/authorities/names/n79011090
+    uri: http://id.loc.gov/authorities/names/n79011090
+    term: Nairobi (Kenya)
+  - id: http://id.loc.gov/authorities/names/n80046224
+    uri: http://id.loc.gov/authorities/names/n80046224
+    term: Quito (Ecuador)
+  - id: http://id.loc.gov/authorities/names/n79015636
+    uri: http://id.loc.gov/authorities/names/n79015636
+    term: Rotterdam (Netherlands)
+  - id: http://id.loc.gov/authorities/names/n79059755
+    uri: http://id.loc.gov/authorities/names/n79059755
+    term: Salt Lake City (Utah)
+  - id: http://id.loc.gov/authorities/names/n79077528
+    uri: http://id.loc.gov/authorities/names/n79077528
+    term: Strasbourg (France)
+  - id: http://id.loc.gov/authorities/names/n79021855
+    uri: http://id.loc.gov/authorities/names/n79021855
+    term: Sydney (N.S.W.)
+  - id: http://id.loc.gov/authorities/names/n79043884
+    uri: http://id.loc.gov/authorities/names/n79043884
+    term: Tartu (Estonia)
+  - id: http://id.loc.gov/authorities/names/n81018573
+    uri: http://id.loc.gov/authorities/names/n81018573
+    term: Urbana (Ill.)
+  - id: http://id.loc.gov/authorities/names/n79018895
+    uri: http://id.loc.gov/authorities/names/n79018895
+    term: Vienna (Austria)
+  - id: http://id.loc.gov/authorities/names/n82020609
+    uri: http://id.loc.gov/authorities/names/n82020609
+    term: Weinheim an der Bergstrasse (Germany)
+  - id: http://id.loc.gov/authorities/names/n79042101
+    uri: http://id.loc.gov/authorities/names/n79042101
+    term: Brno (Czech Republic)
+  - id: http://id.loc.gov/authorities/names/n81020054
+    uri: http://id.loc.gov/authorities/names/n81020054
+    term: Chengdu (China)
+  - id: http://id.loc.gov/authorities/names/n79023076
+    uri: http://id.loc.gov/authorities/names/n79023076
+    term: Dordrecht (Netherlands)
+  - id: http://id.loc.gov/authorities/names/n79085026
+    uri: http://id.loc.gov/authorities/names/n79085026
+    term: Dresden (Germany)
+  - id: http://id.loc.gov/authorities/names/n79151165
+    uri: http://id.loc.gov/authorities/names/n79151165
+    term: Gainesville (Fla.)
+  - id: http://id.loc.gov/authorities/names/n81039926
+    uri: http://id.loc.gov/authorities/names/n81039926
+    term: Glasgow (Scotland)
+  - id: http://id.loc.gov/authorities/names/n50058561
+    uri: http://id.loc.gov/authorities/names/n50058561
+    term: Gotha (Germany)
+  - id: http://id.loc.gov/authorities/names/n80001328
+    uri: http://id.loc.gov/authorities/names/n80001328
+    term: Granada (Spain)
+  - id: http://id.loc.gov/authorities/names/n79091186
+    uri: http://id.loc.gov/authorities/names/n79091186
+    term: Grenoble (France)
+  - id: http://id.loc.gov/authorities/names/n79117229
+    uri: http://id.loc.gov/authorities/names/n79117229
+    term: Guangzhou (China)
+  - id: http://id.loc.gov/authorities/names/n79090081
+    uri: http://id.loc.gov/authorities/names/n79090081
+    term: Konstanz (Germany)
+  - id: http://id.loc.gov/authorities/names/n79121361
+    uri: http://id.loc.gov/authorities/names/n79121361
+    term: Lausanne (Switzerland)
+  - id: http://id.loc.gov/authorities/names/n80079461
+    uri: http://id.loc.gov/authorities/names/n80079461
+    term: Lille (France)
+  - id: http://id.loc.gov/authorities/names/n50052801
+    uri: http://id.loc.gov/authorities/names/n50052801
+    term: Ljubljana (Slovenia)
+  - id: http://id.loc.gov/authorities/names/n79084709
+    uri: http://id.loc.gov/authorities/names/n79084709
+    term: Modena (Italy)
+  - id: http://id.loc.gov/authorities/names/n2004021084
+    uri: http://id.loc.gov/authorities/names/n2004021084
+    term: Nanjing (Jiangsu Sheng, China)
+  - id: http://id.loc.gov/authorities/names/n78095801
+    uri: http://id.loc.gov/authorities/names/n78095801
+    term: Nashville (Tenn.)
+  - id: http://id.loc.gov/authorities/names/n81008303
+    uri: http://id.loc.gov/authorities/names/n81008303
+    term: Newcastle upon Tyne (England)
+  - id: http://id.loc.gov/authorities/names/n79034474
+    uri: http://id.loc.gov/authorities/names/n79034474
+    term: Odense (Denmark)
+  - id: http://id.loc.gov/authorities/names/n79043372
+    uri: http://id.loc.gov/authorities/names/n79043372
+    term: Providence (R.I.)
+  - id: http://id.loc.gov/authorities/names/n79120270
+    uri: http://id.loc.gov/authorities/names/n79120270
+    term: Rennes (France)
+  - id: http://id.loc.gov/authorities/names/n80004387
+    uri: http://id.loc.gov/authorities/names/n80004387
+    term: Tashkent (Uzbekistan)
+  - id: http://id.loc.gov/authorities/names/n79091182
+    uri: http://id.loc.gov/authorities/names/n79091182
+    term: Toulouse (France)
+  - id: http://id.loc.gov/authorities/names/n80104771
+    uri: http://id.loc.gov/authorities/names/n80104771
+    term: Trier (Germany)
+  - id: http://id.loc.gov/authorities/names/n79079329
+    uri: http://id.loc.gov/authorities/names/n79079329
+    term: Albuquerque (N.M.)
+  - id: http://id.loc.gov/authorities/names/n79091223
+    uri: http://id.loc.gov/authorities/names/n79091223
+    term: Annapolis (Md.)
+  - id: http://id.loc.gov/authorities/names/n79018143
+    uri: http://id.loc.gov/authorities/names/n79018143
+    term: Athens (Greece)
+  - id: http://id.loc.gov/authorities/names/n79023214
+    uri: http://id.loc.gov/authorities/names/n79023214
+    term: Atlanta (Ga.)
+  - id: http://id.loc.gov/authorities/names/n79110308
+    uri: http://id.loc.gov/authorities/names/n79110308
+    term: Baku (Azerbaijan)
+  - id: http://id.loc.gov/authorities/names/n79065460
+    uri: http://id.loc.gov/authorities/names/n79065460
+    term: Bangkok (Thailand)
+  - id: http://id.loc.gov/authorities/names/n79042167
+    uri: http://id.loc.gov/authorities/names/n79042167
+    term: Birmingham (Ala.)
+  - id: http://id.loc.gov/authorities/names/n79046064
+    uri: http://id.loc.gov/authorities/names/n79046064
+    term: Bloomington (Ill.)
+  - id: http://id.loc.gov/authorities/names/n79068667
+    uri: http://id.loc.gov/authorities/names/n79068667
+    term: Boca Raton (Fla.)
+  - id: http://id.loc.gov/authorities/names/n79018140
+    uri: http://id.loc.gov/authorities/names/n79018140
+    term: Bochum (Germany)
+  - id: http://id.loc.gov/authorities/names/n79086863
+    uri: http://id.loc.gov/authorities/names/n79086863
+    term: Cleveland (Ohio)
+  - id: http://id.loc.gov/authorities/names/n83032427
+    uri: http://id.loc.gov/authorities/names/n83032427
+    term: Cluj-Napoca (Romania)
+  - id: http://id.loc.gov/authorities/names/n79059553
+    uri: http://id.loc.gov/authorities/names/n79059553
+    term: College Station (Tex.)
+  - id: http://id.loc.gov/authorities/names/n79049218
+    uri: http://id.loc.gov/authorities/names/n79049218
+    term: Columbus (Ohio)
+  - id: http://id.loc.gov/authorities/names/n79055157
+    uri: http://id.loc.gov/authorities/names/n79055157
+    term: Denver (Colo.)
+  - id: http://id.loc.gov/authorities/names/n79007225
+    uri: http://id.loc.gov/authorities/names/n79007225
+    term: Edmonton (Alta.)
+  - id: http://id.loc.gov/authorities/names/n79027008
+    uri: http://id.loc.gov/authorities/names/n79027008
+    term: Fort Worth (Tex.)
+  - id: http://id.loc.gov/authorities/names/n81001722
+    uri: http://id.loc.gov/authorities/names/n81001722
+    term: Hong Kong
+  - id: http://id.loc.gov/authorities/names/n80057363
+    uri: http://id.loc.gov/authorities/names/n80057363
+    term: Iowa City (Iowa)
+  - id: http://id.loc.gov/authorities/names/n80146752
+    uri: http://id.loc.gov/authorities/names/n80146752
+    term: Izhevsk (Russia)
+  - id: http://id.loc.gov/authorities/names/n80146236
+    uri: http://id.loc.gov/authorities/names/n80146236
+    term: Klagenfurt (Austria)
+  - id: http://id.loc.gov/authorities/names/n79011077
+    uri: http://id.loc.gov/authorities/names/n79011077
+    term: Kuala Lumpur (Malaysia)
+  - id: http://id.loc.gov/authorities/names/n81018895
+    uri: http://id.loc.gov/authorities/names/n81018895
+    term: Lawrence (Kan.)
+  - id: http://id.loc.gov/authorities/names/n79021784
+    uri: http://id.loc.gov/authorities/names/n79021784
+    term: Lecce (Italy)
+  - id: http://id.loc.gov/authorities/names/n50057360
+    uri: http://id.loc.gov/authorities/names/n50057360
+    term: Lincoln (England)
+  - id: http://id.loc.gov/authorities/names/n79097456
+    uri: http://id.loc.gov/authorities/names/n79097456
+    term: Livorno (Italy)
+  - id: http://id.loc.gov/authorities/names/n79008245
+    uri: http://id.loc.gov/authorities/names/n79008245
+    term: Lucca (Italy)
+  - id: http://id.loc.gov/authorities/names/n79081547
+    uri: http://id.loc.gov/authorities/names/n79081547
+    term: Madison (Wis.)
+  - id: http://id.loc.gov/authorities/names/n79119217
+    uri: http://id.loc.gov/authorities/names/n79119217
+    term: Milwaukee (Wis.)
+  - id: http://id.loc.gov/authorities/names/n81101064
+    uri: http://id.loc.gov/authorities/names/n81101064
+    term: Monaco
+  - id: http://id.loc.gov/authorities/names/n82251279
+    uri: http://id.loc.gov/authorities/names/n82251279
+    term: Maldonado (Uruguay)
+  - id: http://id.loc.gov/authorities/names/n80090009
+    uri: http://id.loc.gov/authorities/names/n80090009
+    term: Norman (Okla.)
+  - id: http://id.loc.gov/authorities/names/n79021854
+    uri: http://id.loc.gov/authorities/names/n79021854
+    term: Novara (Italy)
+  - id: http://id.loc.gov/authorities/names/n50047186
+    uri: http://id.loc.gov/authorities/names/n50047186
+    term: Novi Sad (Serbia)
+  - id: http://id.loc.gov/authorities/names/n79043239
+    uri: http://id.loc.gov/authorities/names/n79043239
+    term: Pamplona (Spain)
+  - id: http://id.loc.gov/authorities/names/n79021799
+    uri: http://id.loc.gov/authorities/names/n79021799
+    term: Parma (Italy)
+  - id: http://id.loc.gov/authorities/names/n80049562
+    uri: http://id.loc.gov/authorities/names/n80049562
+    term: Petrozavodsk (Russia)
+  - id: http://id.loc.gov/authorities/names/n79039627
+    uri: http://id.loc.gov/authorities/names/n79039627
+    term: Reggio Emilia (Italy)
+  - id: http://id.loc.gov/authorities/names/n50059150
+    uri: http://id.loc.gov/authorities/names/n50059150
+    term: Sankt Augustin (Germany)
+  - id: http://id.loc.gov/authorities/names/n80001234
+    uri: http://id.loc.gov/authorities/names/n80001234
+    term: Saratov (Russia)
+  - id: http://id.loc.gov/authorities/names/n79041965
+    uri: http://id.loc.gov/authorities/names/n79041965
+    term: Seattle (Wash.)
+  - id: http://id.loc.gov/authorities/names/n79131147
+    uri: http://id.loc.gov/authorities/names/n79131147
+    term: Sofia (Bulgaria)
+  - id: http://id.loc.gov/authorities/names/n79104307
+    uri: http://id.loc.gov/authorities/names/n79104307
+    term: Tʻbilisi (Georgia)
+  - id: http://id.loc.gov/authorities/names/n80023169
+    uri: http://id.loc.gov/authorities/names/n80023169
+    term: Trenton (N.J.)
+  - id: http://id.loc.gov/authorities/names/n79064631
+    uri: http://id.loc.gov/authorities/names/n79064631
+    term: Tucson (Ariz.)
+  - id: http://id.loc.gov/authorities/names/n80001304
+    uri: http://id.loc.gov/authorities/names/n80001304
+    term: Valladolid (Spain)
+  - id: http://id.loc.gov/authorities/names/n81068680
+    uri: http://id.loc.gov/authorities/names/n81068680
+    term: Vārānasi (Uttar Pradesh, India)
+  - id: http://id.loc.gov/authorities/names/n79116464
+    uri: http://id.loc.gov/authorities/names/n79116464
+    term: Vladivostok (Russia)
+  - id: http://id.loc.gov/authorities/names/n79079425
+    uri: http://id.loc.gov/authorities/names/n79079425
+    term: Winnipeg (Man.)
+  - id: http://id.loc.gov/authorities/names/n81136784
+    uri: http://id.loc.gov/authorities/names/n81136784
+    term: Zwolle (Netherlands)
+  - id: http://id.loc.gov/authorities/names/n89673738
+    uri: http://id.loc.gov/authorities/names/n89673738
+    term: Aberdeen (Idaho)
+  - id: http://id.loc.gov/authorities/names/n79059515
+    uri: http://id.loc.gov/authorities/names/n79059515
+    term: Accra (Ghana)
+  - id: http://id.loc.gov/authorities/names/n81094923
+    uri: http://id.loc.gov/authorities/names/n81094923
+    term: Ahmadābād (India)
+  - id: http://id.loc.gov/authorities/names/n79018701
+    uri: http://id.loc.gov/authorities/names/n79018701
+    term: 'Alessandria (Italy : Province)'
+  - id: http://id.loc.gov/authorities/names/n80001322
+    uri: http://id.loc.gov/authorities/names/n80001322
+    term: Alicante (Spain)
+  - id: http://id.loc.gov/authorities/names/n80049520
+    uri: http://id.loc.gov/authorities/names/n80049520
+    term: Allahabad (India)
+  - id: http://id.loc.gov/authorities/names/n79134880
+    uri: http://id.loc.gov/authorities/names/n79134880
+    term: Alma-Ata (Kazakhstan)
+  - id: http://id.loc.gov/authorities/names/n80009931
+    uri: http://id.loc.gov/authorities/names/n80009931
+    term: Ames (Iowa)
+  - id: http://id.loc.gov/authorities/names/n79054963
+    uri: http://id.loc.gov/authorities/names/n79054963
+    term: Amherst (Mass.)
+  - id: http://id.loc.gov/authorities/names/n81081134
+    uri: http://id.loc.gov/authorities/names/n81081134
+    term: Assen (Netherlands)
+  - id: http://id.loc.gov/authorities/names/n50073906
+    uri: http://id.loc.gov/authorities/names/n50073906
+    term: Augsburg (Germany)
+  - id: http://id.loc.gov/authorities/names/n92021390
+    uri: http://id.loc.gov/authorities/names/n92021390
+    term: Bad Schwalbach (Germany)
+  - id: http://id.loc.gov/authorities/names/n79055660
+    uri: http://id.loc.gov/authorities/names/n79055660
+    term: Baton Rouge (La.)
+  - id: http://id.loc.gov/authorities/names/n50012466
+    uri: http://id.loc.gov/authorities/names/n50012466
+    term: Bautzen (Germany)
+  - id: http://id.loc.gov/authorities/names/n79081343
+    uri: http://id.loc.gov/authorities/names/n79081343
+    term: Belfast (Northern Ireland)
+  - id: http://id.loc.gov/authorities/names/n79107947
+    uri: http://id.loc.gov/authorities/names/n79107947
+    term: Belo Horizonte (Brazil)
+  - id: http://id.loc.gov/authorities/names/n79046136
+    uri: http://id.loc.gov/authorities/names/n79046136
+    term: Bergamo (Italy)
+  - id: http://id.loc.gov/authorities/names/n81132523
+    uri: http://id.loc.gov/authorities/names/n81132523
+    term: Białystok (Poland)
+  - id: http://id.loc.gov/authorities/names/n79006528
+    uri: http://id.loc.gov/authorities/names/n79006528
+    term: Bilbao (Spain)
+  - id: http://id.loc.gov/authorities/names/n79091289
+    uri: http://id.loc.gov/authorities/names/n79091289
+    term: Boulder (Colo.)
+  - id: http://id.loc.gov/authorities/names/n80001213
+    uri: http://id.loc.gov/authorities/names/n80001213
+    term: Caen (France)
+  - id: http://id.loc.gov/authorities/names/n79034973
+    uri: http://id.loc.gov/authorities/names/n79034973
+    term: Calgary (Alta.)
+  - id: http://id.loc.gov/authorities/names/n79109853
+    uri: http://id.loc.gov/authorities/names/n79109853
+    term: Carbondale (Ill.)
+  - id: http://id.loc.gov/authorities/names/n80038200
+    uri: http://id.loc.gov/authorities/names/n80038200
+    term: 'Catania (Italy : Province)'
+  - id: http://id.loc.gov/authorities/names/n81109268
+    uri: http://id.loc.gov/authorities/names/n81109268
+    term: 'Chandīgarh (India : Union Territory)'
+  - id: http://id.loc.gov/authorities/names/n2003070627
+    uri: http://id.loc.gov/authorities/names/n2003070627
+    term: Changchun (Jilin Sheng, China)
+  - id: http://id.loc.gov/authorities/names/n79022924
+    uri: http://id.loc.gov/authorities/names/n79022924
+    term: Charleston (S.C.)
+  - id: http://id.loc.gov/authorities/names/n81082039
+    uri: http://id.loc.gov/authorities/names/n81082039
+    term: Chongqing (China)
+  - id: http://id.loc.gov/authorities/names/n80118654
+    uri: http://id.loc.gov/authorities/names/n80118654
+    term: Clermont-Ferrand (France)
+  - id: http://id.loc.gov/authorities/names/n81028138
+    uri: http://id.loc.gov/authorities/names/n81028138
+    term: Colombo (Sri Lanka)
+  - id: http://id.loc.gov/authorities/names/n79126460
+    uri: http://id.loc.gov/authorities/names/n79126460
+    term: Columbia (S.C.)
+  - id: http://id.loc.gov/authorities/names/n79054948
+    uri: http://id.loc.gov/authorities/names/n79054948
+    term: Corvallis (Or.)
+  - id: http://id.loc.gov/authorities/names/n50046723
+    uri: http://id.loc.gov/authorities/names/n50046723
+    term: Cuenca (Ecuador)
+  - id: http://id.loc.gov/authorities/names/n79079047
+    uri: http://id.loc.gov/authorities/names/n79079047
+    term: Curitiba (Brazil)
+  - id: http://id.loc.gov/authorities/names/n79108879
+    uri: http://id.loc.gov/authorities/names/n79108879
+    term: Dakar (Senegal)
+  - id: http://id.loc.gov/authorities/names/n79023321
+    uri: http://id.loc.gov/authorities/names/n79023321
+    term: Dallas (Tex.)
+  - id: http://id.loc.gov/authorities/names/n79079320
+    uri: http://id.loc.gov/authorities/names/n79079320
+    term: Dar es Salaam (Tanzania)
+  - id: http://id.loc.gov/authorities/names/n79100847
+    uri: http://id.loc.gov/authorities/names/n79100847
+    term: De Kalb (Ill.)
+  - id: http://id.loc.gov/authorities/names/n79043343
+    uri: http://id.loc.gov/authorities/names/n79043343
+    term: Copenhagen (Denmark)
+  - id: http://id.loc.gov/authorities/names/n80139705
+    uri: http://id.loc.gov/authorities/names/n80139705
+    term: Detmold (Germany)
+  - id: http://id.loc.gov/authorities/names/n79054937
+    uri: http://id.loc.gov/authorities/names/n79054937
+    term: Deventer (Netherlands)
+  - id: http://id.loc.gov/authorities/names/n79065184
+    uri: http://id.loc.gov/authorities/names/n79065184
+    term: Dijon (France)
+  - id: http://id.loc.gov/authorities/names/n79129544
+    uri: http://id.loc.gov/authorities/names/n79129544
+    term: East Lansing (Mich.)
+  - id: http://id.loc.gov/authorities/names/n79121678
+    uri: http://id.loc.gov/authorities/names/n79121678
+    term: El Paso (Tex.)
+  - id: http://id.loc.gov/authorities/names/n80017680
+    uri: http://id.loc.gov/authorities/names/n80017680
+    term: Erlangen (Germany)
+  - id: http://id.loc.gov/authorities/names/n80013207
+    uri: http://id.loc.gov/authorities/names/n80013207
+    term: Fairbanks (Alaska)
+  - id: http://id.loc.gov/authorities/names/n82062794
+    uri: http://id.loc.gov/authorities/names/n82062794
+    term: Farmington Hills (Mich.)
+  - id: http://id.loc.gov/authorities/names/n81089591
+    uri: http://id.loc.gov/authorities/names/n81089591
+    term: Fayetteville (Ark.)
+  - id: http://id.loc.gov/authorities/names/n85070734
+    uri: http://id.loc.gov/authorities/names/n85070734
+    term: Foggia (Italy)
+  - id: http://id.loc.gov/authorities/names/n81018174
+    uri: http://id.loc.gov/authorities/names/n81018174
+    term: Frauenfeld (Switzerland)
+  - id: http://id.loc.gov/authorities/names/n81129548
+    uri: http://id.loc.gov/authorities/names/n81129548
+    term: Fuzhou Shi (Fujian Sheng, China)
+  - id: http://id.loc.gov/authorities/names/n81093628
+    uri: http://id.loc.gov/authorities/names/n81093628
+    term: Gerlingen (Baden-Württemberg, Germany)
+  - id: http://id.loc.gov/authorities/names/n80104001
+    uri: http://id.loc.gov/authorities/names/n80104001
+    term: Göppingen (Germany)
+  - id: http://id.loc.gov/authorities/names/n81058998
+    uri: http://id.loc.gov/authorities/names/n81058998
+    term: Gütersloh (Germany)
+  - id: http://id.loc.gov/authorities/names/n78028594
+    uri: http://id.loc.gov/authorities/names/n78028594
+    term: Halle (Brabant, Belgium)
+  - id: http://id.loc.gov/authorities/names/n83024955
+    uri: http://id.loc.gov/authorities/names/n83024955
+    term: Harare (Zimbabwe)
+  - id: http://id.loc.gov/authorities/names/n80104782
+    uri: http://id.loc.gov/authorities/names/n80104782
+    term: Heilbronn (Germany)
+  - id: http://id.loc.gov/authorities/names/n89146870
+    uri: http://id.loc.gov/authorities/names/n89146870
+    term: Hofheim in Unterfranken (Germany)
+  - id: http://id.loc.gov/authorities/names/n81072009
+    uri: http://id.loc.gov/authorities/names/n81072009
+    term: Husum (Schleswig-Holstein, Germany)
+  - id: http://id.loc.gov/authorities/names/n50056310
+    uri: http://id.loc.gov/authorities/names/n50056310
+    term: Hyderabad (Pakistan)
+  - id: http://id.loc.gov/authorities/names/n79034985
+    uri: http://id.loc.gov/authorities/names/n79034985
+    term: Istanbul (Turkey)
+  - id: http://id.loc.gov/authorities/names/n79065769
+    uri: http://id.loc.gov/authorities/names/n79065769
+    term: Ithaca (N.Y.)
+  - id: http://id.loc.gov/authorities/names/n85166344
+    uri: http://id.loc.gov/authorities/names/n85166344
+    term: Ivanovo-Voznesensk (R.S.F.S.R.)
+  - id: http://id.loc.gov/authorities/names/n79065599
+    uri: http://id.loc.gov/authorities/names/n79065599
+    term: Jackson (Miss.)
+  - id: http://id.loc.gov/authorities/names/n80019671
+    uri: http://id.loc.gov/authorities/names/n80019671
+    term: Jaipur (India)
+  - id: http://id.loc.gov/authorities/names/n89119685
+    uri: http://id.loc.gov/authorities/names/n89119685
+    term: Jayapura (Indonesia)
+  - id: http://id.loc.gov/authorities/names/n79013825
+    uri: http://id.loc.gov/authorities/names/n79013825
+    term: Karlsruhe (Germany)
+  - id: http://id.loc.gov/authorities/names/n81047119
+    uri: http://id.loc.gov/authorities/names/n81047119
+    term: Kathmandu (Nepal)
+  - id: http://id.loc.gov/authorities/names/n81059015
+    uri: http://id.loc.gov/authorities/names/n81059015
+    term: Kemerovo (Russia)
+  - id: http://id.loc.gov/authorities/names/n50061306
+    uri: http://id.loc.gov/authorities/names/n50061306
+    term: Khabarovsk (Russia)
+  - id: http://id.loc.gov/authorities/names/n79109786
+    uri: http://id.loc.gov/authorities/names/n79109786
+    term: Knoxville (Tenn.)
+  - id: http://id.loc.gov/authorities/names/n81032661
+    uri: http://id.loc.gov/authorities/names/n81032661
+    term: Koblenz (Germany)
+  - id: http://id.loc.gov/authorities/names/n79125145
+    uri: http://id.loc.gov/authorities/names/n79125145
+    term: Kraków (Poland)
+  - id: http://id.loc.gov/authorities/names/n81076872
+    uri: http://id.loc.gov/authorities/names/n81076872
+    term: Leicester (England)
+  - id: http://id.loc.gov/authorities/names/n84064131
+    uri: http://id.loc.gov/authorities/names/n84064131
+    term: Lewiston (N.Y.)
+  - id: http://id.loc.gov/authorities/names/n79108998
+    uri: http://id.loc.gov/authorities/names/n79108998
+    term: Lexington (Ky.)
+  - id: http://id.loc.gov/authorities/names/n81071953
+    uri: http://id.loc.gov/authorities/names/n81071953
+    term: Limoges (France)
+  - id: http://id.loc.gov/authorities/names/n80050950
+    uri: http://id.loc.gov/authorities/names/n80050950
+    term: Liverpool (England)
+  - id: http://id.loc.gov/authorities/names/n81059800
+    uri: http://id.loc.gov/authorities/names/n81059800
+    term: Lucknow (India)
+  - id: http://id.loc.gov/authorities/names/n81112184
+    uri: http://id.loc.gov/authorities/names/n81112184
+    term: Magdeburg (Germany)
+  - id: http://id.loc.gov/authorities/names/n79142598
+    uri: http://id.loc.gov/authorities/names/n79142598
+    term: Mannheim (Germany)
+  - id: http://id.loc.gov/authorities/names/n80104763
+    uri: http://id.loc.gov/authorities/names/n80104763
+    term: Marbach am Neckar (Germany)
+  - id: http://id.loc.gov/authorities/names/n79029787
+    uri: http://id.loc.gov/authorities/names/n79029787
+    term: Melbourne (Vic.)
+  - id: http://id.loc.gov/authorities/names/n79046135
+    uri: http://id.loc.gov/authorities/names/n79046135
+    term: Messina (Italy)
+  - id: http://id.loc.gov/authorities/names/n79063919
+    uri: http://id.loc.gov/authorities/names/n79063919
+    term: Morgantown (W. Va.)
+  - id: http://id.loc.gov/authorities/names/n79021101
+    uri: http://id.loc.gov/authorities/names/n79021101
+    term: Murcia (Spain)
+  - id: http://id.loc.gov/authorities/names/n79084833
+    uri: http://id.loc.gov/authorities/names/n79084833
+    term: Newark (N.J.)
+  - id: http://id.loc.gov/authorities/names/n79007238
+    uri: http://id.loc.gov/authorities/names/n79007238
+    term: New Orleans (La.)
+  - id: http://id.loc.gov/authorities/names/n83232712
+    uri: http://id.loc.gov/authorities/names/n83232712
+    term: Norderstedt (Germany)
+  - id: http://id.loc.gov/authorities/names/n79100849
+    uri: http://id.loc.gov/authorities/names/n79100849
+    term: Oak Ridge (Tenn.)
+  - id: http://id.loc.gov/authorities/names/n80090646
+    uri: http://id.loc.gov/authorities/names/n80090646
+    term: Odessa (Tex.)
+  - id: http://id.loc.gov/authorities/names/n80118527
+    uri: http://id.loc.gov/authorities/names/n80118527
+    term: Oldenburg (Germany)
+  - id: http://id.loc.gov/authorities/names/n82050869
+    uri: http://id.loc.gov/authorities/names/n82050869
+    term: Olten (Switzerland)
+  - id: http://id.loc.gov/authorities/names/n81103444
+    uri: http://id.loc.gov/authorities/names/n81103444
+    term: Opole (Poland)
+  - id: http://id.loc.gov/authorities/names/n81122026
+    uri: http://id.loc.gov/authorities/names/n81122026
+    term: 'Patiāla (India : District)'
+  - id: http://id.loc.gov/authorities/names/n80034426
+    uri: http://id.loc.gov/authorities/names/n80034426
+    term: Patna (India)
+  - id: http://id.loc.gov/authorities/names/n83205294
+    uri: http://id.loc.gov/authorities/names/n83205294
+    term: Pearl (Miss.)
+  - id: http://id.loc.gov/authorities/names/n80117451
+    uri: http://id.loc.gov/authorities/names/n80117451
+    term: Perpignan (France)
+  - id: http://id.loc.gov/authorities/names/n82066551
+    uri: http://id.loc.gov/authorities/names/n82066551
+    term: Pfullingen (Germany)
+  - id: http://id.loc.gov/authorities/names/n79054720
+    uri: http://id.loc.gov/authorities/names/n79054720
+    term: Pittsburgh (Pa.)
+  - id: http://id.loc.gov/authorities/names/n80106969
+    uri: http://id.loc.gov/authorities/names/n80106969
+    term: Plovdiv (Bulgaria)
+  - id: http://id.loc.gov/authorities/names/n50006403
+    uri: http://id.loc.gov/authorities/names/n50006403
+    term: Porto (Portugal)
+  - id: http://id.loc.gov/authorities/names/n79073532
+    uri: http://id.loc.gov/authorities/names/n79073532
+    term: Porto Alegre (Rio Grande do Sul, Brazil)
+  - id: http://id.loc.gov/authorities/names/n80009830
+    uri: http://id.loc.gov/authorities/names/n80009830
+    term: Poznań (Poland)
+  - id: http://id.loc.gov/authorities/names/n79041954
+    uri: http://id.loc.gov/authorities/names/n79041954
+    term: Princeton (N.J.)
+  - id: http://id.loc.gov/authorities/names/n82000815
+    uri: http://id.loc.gov/authorities/names/n82000815
+    term: Quezon City (Philippines)
+  - id: http://id.loc.gov/authorities/names/n79042080
+    uri: http://id.loc.gov/authorities/names/n79042080
+    term: Ravenna (Italy)
+  - id: http://id.loc.gov/authorities/names/n79070085
+    uri: http://id.loc.gov/authorities/names/n79070085
+    term: Recife (Brazil)
+  - id: http://id.loc.gov/authorities/names/n78088279
+    uri: http://id.loc.gov/authorities/names/n78088279
+    term: Recklinghausen (Münster, Germany). Oberstadtdirektor
+  - id: http://id.loc.gov/authorities/names/n79109783
+    uri: http://id.loc.gov/authorities/names/n79109783
+    term: Reno (Nev.)
+  - id: http://id.loc.gov/authorities/names/n79060700
+    uri: http://id.loc.gov/authorities/names/n79060700
+    term: Richmond (Va.)
+  - id: http://id.loc.gov/authorities/names/n79039956
+    uri: http://id.loc.gov/authorities/names/n79039956
+    term: Rimini (Italy)
+  - id: http://id.loc.gov/authorities/names/n81018417
+    uri: http://id.loc.gov/authorities/names/n81018417
+    term: Rostock (Germany)
+  - id: http://id.loc.gov/authorities/names/n79066525
+    uri: http://id.loc.gov/authorities/names/n79066525
+    term: Sacramento (Calif.)
+  - id: http://id.loc.gov/authorities/names/n79079313
+    uri: http://id.loc.gov/authorities/names/n79079313
+    term: Saint-Denis (Réunion)
+  - id: http://id.loc.gov/authorities/names/n82029063
+    uri: http://id.loc.gov/authorities/names/n82029063
+    term: Salisbury (England)
+  - id: http://id.loc.gov/authorities/names/n79043524
+    uri: http://id.loc.gov/authorities/names/n79043524
+    term: Salvador (Brazil)
+  - id: http://id.loc.gov/authorities/names/n79054641
+    uri: http://id.loc.gov/authorities/names/n79054641
+    term: San Antonio (Tex.)
+  - id: http://id.loc.gov/authorities/names/n79056560
+    uri: http://id.loc.gov/authorities/names/n79056560
+    term: San Diego (Calif.)
+  - id: http://id.loc.gov/authorities/names/n80024385
+    uri: http://id.loc.gov/authorities/names/n80024385
+    term: Santa Fe (Argentina)
+  - id: http://id.loc.gov/authorities/names/n79046621
+    uri: http://id.loc.gov/authorities/names/n79046621
+    term: Santiago de Compostela (Spain)
+  - id: http://id.loc.gov/authorities/names/n79111458
+    uri: http://id.loc.gov/authorities/names/n79111458
+    term: Santiago de Cuba (Cuba)
+  - id: http://id.loc.gov/authorities/names/n80090352
+    uri: http://id.loc.gov/authorities/names/n80090352
+    term: Sarajevo (Bosnia and Herzegovina)
+  - id: http://id.loc.gov/authorities/names/no91003289
+    uri: http://id.loc.gov/authorities/names/no91003289
+    term: Shāriqah (United Arab Emirates)
+  - id: http://id.loc.gov/authorities/names/n79013822
+    uri: http://id.loc.gov/authorities/names/n79013822
+    term: Siena (Italy)
+  - id: http://id.loc.gov/authorities/names/n82055268
+    uri: http://id.loc.gov/authorities/names/n82055268
+    term: Sigmaringen (Germany)
+  - id: http://id.loc.gov/authorities/names/n79041941
+    uri: http://id.loc.gov/authorities/names/n79041941
+    term: Springfield (Ill.)
+  - id: http://id.loc.gov/authorities/names/n82084214
+    uri: http://id.loc.gov/authorities/names/n82084214
+    term: Stroud (Okla.)
+  - id: http://id.loc.gov/authorities/names/n80076223
+    uri: http://id.loc.gov/authorities/names/n80076223
+    term: Syktyvkar (Russia)
+  - id: http://id.loc.gov/authorities/names/n80056641
+    uri: http://id.loc.gov/authorities/names/n80056641
+    term: Thessalonikē (Greece)
+  - id: http://id.loc.gov/authorities/names/n80005012
+    uri: http://id.loc.gov/authorities/names/n80005012
+    term: Tientsin, China (Japanese Concession)
+  - id: http://id.loc.gov/authorities/names/n79139056
+    uri: http://id.loc.gov/authorities/names/n79139056
+    term: Tielt (Belgium)
+  - id: http://id.loc.gov/authorities/names/n81033328
+    uri: http://id.loc.gov/authorities/names/n81033328
+    term: Tomsk (Russia)
+  - id: http://id.loc.gov/authorities/names/n79027119
+    uri: http://id.loc.gov/authorities/names/n79027119
+    term: Trieste (Italy)
+  - id: http://id.loc.gov/authorities/names/n80035811
+    uri: http://id.loc.gov/authorities/names/n80035811
+    term: Turku (Finland)
+  - id: http://id.loc.gov/authorities/names/n79133761
+    uri: http://id.loc.gov/authorities/names/n79133761
+    term: Tuscaloosa (Ala.)
+  - id: http://id.loc.gov/authorities/names/n79100753
+    uri: http://id.loc.gov/authorities/names/n79100753
+    term: Udine (Italy)
+  - id: http://id.loc.gov/authorities/names/n80097567
+    uri: http://id.loc.gov/authorities/names/n80097567
+    term: Ufa (Russia)
+  - id: http://id.loc.gov/authorities/names/n82211486
+    uri: http://id.loc.gov/authorities/names/n82211486
+    term: Ulaanbaatar (Mongolia)
+  - id: http://id.loc.gov/authorities/names/n79022996
+    uri: http://id.loc.gov/authorities/names/n79022996
+    term: Utrecht (Netherlands)
+  - id: http://id.loc.gov/authorities/names/n79038502
+    uri: http://id.loc.gov/authorities/names/n79038502
+    term: Varese (Italy)
+  - id: http://id.loc.gov/authorities/names/n79021787
+    uri: http://id.loc.gov/authorities/names/n79021787
+    term: Verona (Italy)
+  - id: http://id.loc.gov/authorities/names/n79042228
+    uri: http://id.loc.gov/authorities/names/n79042228
+    term: Vicenza (Italy)
+  - id: http://id.loc.gov/authorities/names/n00002460
+    uri: http://id.loc.gov/authorities/names/n00002460
+    term: Vigo (Pontevedra, Spain)
+  - id: http://id.loc.gov/authorities/names/n81011156
+    uri: http://id.loc.gov/authorities/names/n81011156
+    term: Volgograd (Russia)
+  - id: http://id.loc.gov/authorities/names/n79150484
+    uri: http://id.loc.gov/authorities/names/n79150484
+    term: Voronezh (Russia)
+  - id: http://id.loc.gov/authorities/names/nr93005033
+    uri: http://id.loc.gov/authorities/names/nr93005033
+    term: Weitra (Austria)
+  - id: http://id.loc.gov/authorities/names/n80153126
+    uri: http://id.loc.gov/authorities/names/n80153126
+    term: Westminster (London, England)
+  - id: http://id.loc.gov/authorities/names/n84208034
+    uri: http://id.loc.gov/authorities/names/n84208034
+    term: Wilhelmshaven (Germany)
+  - id: http://id.loc.gov/authorities/names/n50013808
+    uri: http://id.loc.gov/authorities/names/n50013808
+    term: Winterthur (Switzerland)
+  - id: http://id.loc.gov/authorities/names/n80024168
+    uri: http://id.loc.gov/authorities/names/n80024168
+    term: Wolfenbüttel (Germany)
+  - id: http://id.loc.gov/authorities/names/n79074239
+    uri: http://id.loc.gov/authorities/names/n79074239
+    term: Worms (Germany)
+  - id: http://id.loc.gov/authorities/names/n80139921
+    uri: http://id.loc.gov/authorities/names/n80139921
+    term: Würzburg (Germany)
+  - id: http://id.loc.gov/authorities/names/n80118482
+    uri: http://id.loc.gov/authorities/names/n80118482
+    term: Xi'an Shi (China)
+  - id: http://id.loc.gov/authorities/names/n81080516
+    uri: http://id.loc.gov/authorities/names/n81080516
+    term: Xiamen (Xiamen Shi, China)
+  - id: http://id.loc.gov/authorities/names/n80013637
+    uri: http://id.loc.gov/authorities/names/n80013637
+    term: Zurich (Switzerland)
+  - id: http://id.loc.gov/authorities/names/n80093570
+    uri: http://id.loc.gov/authorities/names/n80093570
+    term: Łódź (Poland)
