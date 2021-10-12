@@ -1,3 +1,9 @@
+### 6.4.0 (2021-10-12)
+
+* add publisher cities select list
+* add fix for bundler install on elastic beanstalk
+* update dependencies
+
 ### 6.3.1 (2021-06-10)
 
 * update to LD4P/qa_server 7.9.2
