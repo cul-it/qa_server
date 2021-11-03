@@ -1,8 +1,8 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "QA 2.2 Linked Data API",
-    "version": "2.2",
+    "title": "QA 5.6 Linked Data and local authorities API",
+    "version": "3.0",
     "license": {
       "name": "Apache 2.0",
       "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
@@ -11,15 +11,15 @@
   "servers": [
     {
       "url": "https://lookup.ld4l.org/authorities",
-      "description": "LD4L Lookup - QA v2.2 API Server"
+      "description": "LD4L Lookup - QA v5.6 API Server"
     },
     {
       "url": "http://localhost:3000/authorities",
-      "description": "QA v2.2 API Server"
+      "description": "QA v5.6 API Server"
     },
     {
       "url": "{http_protocol}://{site_host}/{qa_engine_mount}",
-      "description": "QA v2.2 API Server",
+      "description": "QA v5.6 API Server",
       "variables": {
         "http_protocol": {
           "default": "https",
@@ -120,7 +120,7 @@
     "/search/linked_data/{vocab}": {
       "get": {
         "summary": "Send a query string to an authority and return search results.  Parameters are typical examples.  Actual parameters are driven by the authority's config file.",
-        "operationId": "GET_searchAuthority",
+        "operationId": "GET_searchLinkedDataAuthority",
         "tags": [
           "Search Query"
         ],
@@ -222,7 +222,7 @@
       },
       "options": {
         "summary": "CORS preflight request",
-        "operationId": "OPTIONS_searchAuthority",
+        "operationId": "OPTIONS_searchLinkedDataAuthority",
         "tags": [
           "Search Query"
         ],
@@ -287,7 +287,7 @@
     "/search/linked_data/{vocab}/{subauthority}": {
       "get": {
         "summary": "Send a query string to a subauthority in an authority and return search results.",
-        "operationId": "GET_searchSubauthority",
+        "operationId": "GET_searchLinkedDataAuthorityWithSubauthority",
         "tags": [
           "Search Query"
         ],
@@ -399,7 +399,7 @@
       },
       "options": {
         "summary": "CORS preflight request",
-        "operationId": "OPTIONS_searchSubauthority",
+        "operationId": "OPTIONS_searchLinkedDataAuthorityWithSubauthority",
         "tags": [
           "Search Query"
         ],
@@ -427,7 +427,7 @@
         ],
         "responses": {
           "204": {
-            "description": "Perform CORS preflight for searching a subauthoroity in an authority",
+            "description": "Perform CORS preflight for searching a subauthority in an authority",
             "headers": {
               "Access-Control-Allow-Origin": {
                 "description": "CORS header will be * if CORS headers are enabled",
@@ -473,7 +473,7 @@
     },
     "/show/linked_data/{vocab}/{id}": {
       "get": {
-        "operationId": "GET_fetchByIDFromAuthority",
+        "operationId": "GET_fetchByIDFromLinkedDataAuthority",
         "summary": "Get a single term from an authority.  Generally there are no additional parameters.  See the authority's configuration file to be sure.  Some authorities support `lang` which can be used to filter the language of returned strings.",
         "tags": [
           "Fetch Term"
@@ -586,7 +586,7 @@
       },
       "options": {
         "summary": "CORS preflight request",
-        "operationId": "OPTIONS_fetchByIDFromAuthority",
+        "operationId": "OPTIONS_fetchByIDFromLinkedDataAuthority",
         "tags": [
           "Fetch Term"
         ],
@@ -660,7 +660,7 @@
     },
     "/show/linked_data/{vocab}/{subauthority}/{id}": {
       "get": {
-        "operationId": "GET_fetchByIDFromSubauthority",
+        "operationId": "GET_fetchByIDFromLinkedDataAuthorityWithSubauthority",
         "summary": "Get a single term from a subauthority in an authority.  Generally there are no additional parameters.  See the authority's configuration file to be sure.  Some authorities support `lang` which can be used to filter the language of returned strings.",
         "tags": [
           "Fetch Term"
@@ -783,7 +783,7 @@
       },
       "options": {
         "summary": "CORS preflight request",
-        "operationId": "OPTIONS_fetchByIDFromSubauthority",
+        "operationId": "OPTIONS_fetchByIDFromLinkedDataAuthorityWithSubauthority",
         "tags": [
           "Fetch Term"
         ],
@@ -867,7 +867,7 @@
     },
     "/fetch/linked_data/{vocab}": {
       "get": {
-        "operationId": "GET_fetchURIFromAuthority",
+        "operationId": "GET_fetchURIFromLinkedDataAuthority",
         "summary": "Get a single term from an authority given the term's URI.  Generally there are no additional parameters.  See the authority's configuration file to be sure.  Some authorities support `lang` which can be used to filter the language of returned strings.",
         "tags": [
           "Fetch Term"
@@ -980,7 +980,7 @@
       },
       "options": {
         "summary": "CORS preflight request",
-        "operationId": "OPTIONS_fetchURIFromAuthority",
+        "operationId": "OPTIONS_fetchURIFromLinkedDataAuthority",
         "tags": [
           "Fetch Term"
         ],
@@ -1009,6 +1009,925 @@
         "responses": {
           "204": {
             "description": "Perform CORS preflight for fetching a term from an authority",
+            "headers": {
+              "Access-Control-Allow-Origin": {
+                "description": "CORS header will be * if CORS headers are enabled",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Access-Control-Allow-Headers": {
+                "description": "Indicates which headers a future CORS request to the same resource might use.",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Access-Control-Allow-Methods": {
+                "description": "Indicates which method a future CORS request to the same resource might use.",
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string",
+                  "example": ""
+                }
+              }
+            }
+          },
+          "501": {
+            "description": "OPTIONS action is not implement when CORS headers are not enabled",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string",
+                  "example": ""
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/search/local/{vocab}": {
+      "get": {
+        "summary": "Send a query string to a local authority defined in a yml file and return search results.",
+        "operationId": "GET_searchLocalAuthority",
+        "tags": [
+          "Search Query"
+        ],
+        "parameters": [
+          {
+            "description": "Name of the local authority's yml file.",
+            "in": "path",
+            "name": "vocab",
+            "required": true,
+            "schema": {
+              "default": "property_attribute",
+              "type": "string"
+            }
+          },
+          {
+            "description": "The query string",
+            "in": "query",
+            "name": "q",
+            "required": true,
+            "schema": {
+              "default": "repeatable",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successfully accessed a local authority and received results.",
+            "headers": {
+              "Access-Control-Allow-Origin": {
+                "description": "CORS header will be * if CORS headers are enabled",
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/local_authority_query_results"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request - occurs when required params are missing (e.g. q)",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string",
+                  "example": ""
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error - can be raised if something goes wrong",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string",
+                  "example": ""
+                }
+              }
+            }
+          }
+        }
+      },
+      "options": {
+        "summary": "CORS preflight request",
+        "operationId": "OPTIONS_searchLocalAuthority",
+        "tags": [
+          "Search Query"
+        ],
+        "parameters": [
+          {
+            "description": "Name of the local authority's yml file.",
+            "in": "path",
+            "name": "vocab",
+            "required": true,
+            "schema": {
+              "default": "property_attribute",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Perform CORS preflight for searching a local authority",
+            "headers": {
+              "Access-Control-Allow-Origin": {
+                "description": "CORS header will be * if CORS headers are enabled",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Access-Control-Allow-Headers": {
+                "description": "Indicates which headers a future CORS request to the same resource might use.",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Access-Control-Allow-Methods": {
+                "description": "Indicates which method a future CORS request to the same resource might use.",
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string",
+                  "example": ""
+                }
+              }
+            }
+          },
+          "501": {
+            "description": "OPTIONS action is not implement when CORS headers are not enabled",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string",
+                  "example": ""
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/show/local/{vocab}/{id}": {
+      "get": {
+        "operationId": "GET_fetchByIDFromLocalAuthority",
+        "summary": "Get a single term from a local authority defined in a yml file.",
+        "tags": [
+          "Fetch Term"
+        ],
+        "parameters": [
+          {
+            "description": "Name of the local authority's yml file.",
+            "in": "path",
+            "name": "vocab",
+            "required": true,
+            "schema": {
+              "default": "property_type",
+              "type": "string"
+            }
+          },
+          {
+            "description": "The ID or URI for the term being retrieved.",
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "schema": {
+              "default": "http://sinopia.io/vocabulary/propertyType/literal",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successfully accessed local authority and received term.",
+            "headers": {
+              "Access-Control-Allow-Origin": {
+                "description": "CORS header will be * if CORS headers are enabled",
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/local_authority_term_json_result"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request - occurs when required params are missing (e.g. id)",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string",
+                  "example": ""
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string",
+                  "example": ""
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error - can be raised if something goes wrong",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string",
+                  "example": ""
+                }
+              }
+            }
+          }
+        }
+      },
+      "options": {
+        "summary": "CORS preflight request",
+        "operationId": "OPTIONS_fetchByIDFromLocalAuthority",
+        "tags": [
+          "Fetch Term"
+        ],
+        "parameters": [
+          {
+            "description": "Name of the local authority's yml file.",
+            "in": "path",
+            "name": "vocab",
+            "required": true,
+            "schema": {
+              "default": "property_type",
+              "type": "string"
+            }
+          },
+          {
+            "description": "The ID or URI for the term being retrieved.",
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "schema": {
+              "default": "http://sinopia.io/vocabulary/propertyType/literal",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Perform CORS preflight for fetching a term from a local authority",
+            "headers": {
+              "Access-Control-Allow-Origin": {
+                "description": "CORS header will be * if CORS headers are enabled",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Access-Control-Allow-Headers": {
+                "description": "Indicates which headers a future CORS request to the same resource might use.",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Access-Control-Allow-Methods": {
+                "description": "Indicates which method a future CORS request to the same resource might use.",
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string",
+                  "example": ""
+                }
+              }
+            }
+          },
+          "501": {
+            "description": "OPTIONS action is not implement when CORS headers are not enabled",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string",
+                  "example": ""
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/search/{vocab}/{subauthority}": {
+      "get": {
+        "summary": "Send a query string to a module defined authority and return search results.",
+        "operationId": "GET_searchModuleAuthorityWithSubauthority",
+        "tags": [
+          "Search Query"
+        ],
+        "parameters": [
+          {
+            "description": "Name of the authority's class (when no subauthorities) or module (when subauthorities defined).",
+            "in": "path",
+            "name": "vocab",
+            "required": true,
+            "schema": {
+              "default": "discogs",
+              "type": "string"
+            }
+          },
+          {
+            "description": "Name of the subauthority.",
+            "in": "path",
+            "name": "subauthority",
+            "required": true,
+            "schema": {
+              "default": "release",
+              "type": "string"
+            }
+          },
+          {
+            "description": "The query string",
+            "in": "query",
+            "name": "q",
+            "required": true,
+            "schema": {
+              "default": "sinatra+the+modernaires",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successfully accessed a module defined authority and received results.",
+            "headers": {
+              "Access-Control-Allow-Origin": {
+                "description": "CORS header will be * if CORS headers are enabled",
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/module_authority_query_results"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request - occurs when required params are missing (e.g. q)",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string",
+                  "example": ""
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error - can be raised if something goes wrong",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string",
+                  "example": ""
+                }
+              }
+            }
+          }
+        }
+      },
+      "options": {
+        "summary": "CORS preflight request",
+        "operationId": "OPTIONS_searchModuleAuthorityWithSubauthority",
+        "tags": [
+          "Search Query"
+        ],
+        "parameters": [
+          {
+            "description": "Name of the authority's class (when no subauthorities) or module (when subauthorities defined).",
+            "in": "path",
+            "name": "vocab",
+            "required": true,
+            "schema": {
+              "default": "property_attribute",
+              "type": "string"
+            }
+          },
+          {
+            "description": "Name of the subauthority.",
+            "in": "path",
+            "name": "subauthority",
+            "required": true,
+            "schema": {
+              "default": "release",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Perform CORS preflight for searching a module authority",
+            "headers": {
+              "Access-Control-Allow-Origin": {
+                "description": "CORS header will be * if CORS headers are enabled",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Access-Control-Allow-Headers": {
+                "description": "Indicates which headers a future CORS request to the same resource might use.",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Access-Control-Allow-Methods": {
+                "description": "Indicates which method a future CORS request to the same resource might use.",
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string",
+                  "example": ""
+                }
+              }
+            }
+          },
+          "501": {
+            "description": "OPTIONS action is not implement when CORS headers are not enabled",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string",
+                  "example": ""
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/search/{vocab}": {
+      "get": {
+        "summary": "Send a query string to a module defined authority and return search results.",
+        "operationId": "GET_searchModuleAuthority",
+        "tags": [
+          "Search Query"
+        ],
+        "parameters": [
+          {
+            "description": "Name of the authority's class (when no subauthorities) or module (when subauthorities defined).",
+            "in": "path",
+            "name": "vocab",
+            "required": true,
+            "schema": {
+              "default": "tgnlang",
+              "type": "string"
+            }
+          },
+          {
+            "description": "The query string",
+            "in": "query",
+            "name": "q",
+            "required": true,
+            "schema": {
+              "default": "Tibetan",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successfully accessed a module defined authority and received results.",
+            "headers": {
+              "Access-Control-Allow-Origin": {
+                "description": "CORS header will be * if CORS headers are enabled",
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/module_authority_query_results"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request - occurs when required params are missing (e.g. q)",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string",
+                  "example": ""
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error - can be raised if something goes wrong",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string",
+                  "example": ""
+                }
+              }
+            }
+          }
+        }
+      },
+      "options": {
+        "summary": "CORS preflight request",
+        "operationId": "OPTIONS_searchModuleAuthority",
+        "tags": [
+          "Search Query"
+        ],
+        "parameters": [
+          {
+            "description": "Name of the authority's class (when no subauthorities) or module (when subauthorities defined).",
+            "in": "path",
+            "name": "vocab",
+            "required": true,
+            "schema": {
+              "default": "tgnlang",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Perform CORS preflight for searching a module authority",
+            "headers": {
+              "Access-Control-Allow-Origin": {
+                "description": "CORS header will be * if CORS headers are enabled",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Access-Control-Allow-Headers": {
+                "description": "Indicates which headers a future CORS request to the same resource might use.",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Access-Control-Allow-Methods": {
+                "description": "Indicates which method a future CORS request to the same resource might use.",
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string",
+                  "example": ""
+                }
+              }
+            }
+          },
+          "501": {
+            "description": "OPTIONS action is not implement when CORS headers are not enabled",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string",
+                  "example": ""
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/show/{vocab}/{subauthority}/{id}": {
+      "get": {
+        "operationId": "GET_fetchByIDFromModuleAuthorityWithSubauthority",
+        "summary": "Get a single term from a module defined authority.",
+        "tags": [
+          "Fetch Term"
+        ],
+        "parameters": [
+          {
+            "description": "Name of the authority's class (when no subauthorities) or module (when subauthorities defined).",
+            "in": "path",
+            "name": "vocab",
+            "required": true,
+            "schema": {
+              "default": "discogs",
+              "type": "string"
+            }
+          },
+          {
+            "description": "Name of the subauthority.",
+            "in": "path",
+            "name": "subauthority",
+            "required": true,
+            "schema": {
+              "default": "release",
+              "type": "string"
+            }
+          },
+          {
+            "description": "The ID or URI for the term being retrieved.",
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "schema": {
+              "default": "3380671",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successfully accessed module authority and received term.",
+            "headers": {
+              "Access-Control-Allow-Origin": {
+                "description": "CORS header will be * if CORS headers are enabled",
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/module_authority_term_json_result"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request - occurs when required params are missing (e.g. id)",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string",
+                  "example": ""
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string",
+                  "example": ""
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error - can be raised if something goes wrong",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string",
+                  "example": ""
+                }
+              }
+            }
+          }
+        }
+      },
+      "options": {
+        "summary": "CORS preflight request",
+        "operationId": "OPTIONS_fetchByIDFromModuleAuthorityWithSubauthority",
+        "tags": [
+          "Fetch Term"
+        ],
+        "parameters": [
+          {
+            "description": "Name of the authority's class (when no subauthorities) or module (when subauthorities defined).",
+            "in": "path",
+            "name": "vocab",
+            "required": true,
+            "schema": {
+              "default": "property_type",
+              "type": "string"
+            }
+          },
+          {
+            "description": "Name of the subauthority.",
+            "in": "path",
+            "name": "subauthority",
+            "required": true,
+            "schema": {
+              "default": "release",
+              "type": "string"
+            }
+          },
+          {
+            "description": "The ID or URI for the term being retrieved.",
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "schema": {
+              "default": "http://sinopia.io/vocabulary/propertyType/literal",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Perform CORS preflight for fetching a term from a module authority",
+            "headers": {
+              "Access-Control-Allow-Origin": {
+                "description": "CORS header will be * if CORS headers are enabled",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Access-Control-Allow-Headers": {
+                "description": "Indicates which headers a future CORS request to the same resource might use.",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Access-Control-Allow-Methods": {
+                "description": "Indicates which method a future CORS request to the same resource might use.",
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string",
+                  "example": ""
+                }
+              }
+            }
+          },
+          "501": {
+            "description": "OPTIONS action is not implement when CORS headers are not enabled",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string",
+                  "example": ""
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/show/{vocab}/{id}": {
+      "get": {
+        "operationId": "GET_fetchByIDFromModuleAuthority",
+        "summary": "Get a single term from a module defined authority without a subauthority.",
+        "tags": [
+          "Fetch Term"
+        ],
+        "parameters": [
+          {
+            "description": "Name of the authority's class (when no subauthorities) or module (when subauthorities defined).",
+            "in": "path",
+            "name": "vocab",
+            "required": true,
+            "schema": {
+              "default": "tgnlang",
+              "type": "string"
+            }
+          },
+          {
+            "description": "The ID or URI for the term being retrieved.",
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "schema": {
+              "default": "Tibetan",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successfully accessed module authority and received term.",
+            "headers": {
+              "Access-Control-Allow-Origin": {
+                "description": "CORS header will be * if CORS headers are enabled",
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/module_authority_term_json_result"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request - occurs when required params are missing (e.g. id)",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string",
+                  "example": ""
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string",
+                  "example": ""
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error - can be raised if something goes wrong",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string",
+                  "example": ""
+                }
+              }
+            }
+          }
+        }
+      },
+      "options": {
+        "summary": "CORS preflight request",
+        "operationId": "OPTIONS_fetchByIDFromModuleAuthority",
+        "tags": [
+          "Fetch Term"
+        ],
+        "parameters": [
+          {
+            "description": "Name of the authority's class (when no subauthorities) or module (when subauthorities defined).",
+            "in": "path",
+            "name": "vocab",
+            "required": true,
+            "schema": {
+              "default": "property_type",
+              "type": "string"
+            }
+          },
+          {
+            "description": "The ID or URI for the term being retrieved.",
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "schema": {
+              "default": "http://sinopia.io/vocabulary/propertyType/literal",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Perform CORS preflight for fetching a term from a module authority",
             "headers": {
               "Access-Control-Allow-Origin": {
                 "description": "CORS header will be * if CORS headers are enabled",
@@ -1141,6 +2060,68 @@
           },
           "@graph": {
             "type": "object"
+          }
+        }
+      },
+      "local_authority_query_results": {
+        "type": "array",
+        "items": {
+          "required": [
+            "id",
+            "label"
+          ],
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "label": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "local_authority_term_json_result": {
+        "required": [
+          "id",
+          "label"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string"
+          }
+        }
+      },
+      "module_authority_query_results": {
+        "type": "array",
+        "items": {
+          "required": [
+            "id",
+            "label"
+          ],
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "label": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "module_authority_term_json_result": {
+        "required": [
+          "id",
+          "label"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string"
           }
         }
       }
