@@ -1,3 +1,7 @@
+### 6.4.1 (2021-11-03)
+
+* update swagger api doc to include local and module authorities
+
 ### 6.4.0 (2021-10-12)
 
 * add publisher cities select list
