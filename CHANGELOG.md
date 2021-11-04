@@ -1,3 +1,9 @@
+### 6.5.0 (2021-11-04)
+
+* update to qa v5.7.0
+  * add fetch action allowing for uri parameter
+  * add optional URI to locally defined yml file authorities
+
 ### 6.4.1 (2021-11-03)
 
 * update swagger api doc to include local and module authorities
