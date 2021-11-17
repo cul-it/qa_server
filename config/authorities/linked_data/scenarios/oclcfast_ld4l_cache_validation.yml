@@ -55,6 +55,13 @@ search:
     replacements:
       maxRecords: '8'
   -
+    query: science
+    subauth: genreform
+    subject_uri: "http://id.worldcat.org/fast/1726489"
+    position: 3
+    replacements:
+      maxRecords: '8'
+  -
     query: Science Fiction
     subauth: meeting
     subject_uri: "http://id.worldcat.org/fast/1406163"
@@ -69,6 +76,13 @@ search:
     position: 5
     replacements:
       maxRecords: '10'
+  -
+    query: current
+    subauth: period
+    subject_uri: "http://id.worldcat.org/fast/1377530"
+    position: 3
+    replacements:
+      maxRecords: '8'
   -
     query: Taylor, Charles Hollis
     subauth: person
