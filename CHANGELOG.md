@@ -1,3 +1,7 @@
+### 6.6.0 (2021-11-17)
+
+* add genreform and period subauths for OCLCFAST_LD4L_CACHE
+
 ### 6.5.0 (2021-11-04)
 
 * update to qa v5.7.0

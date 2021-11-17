@@ -89,14 +89,16 @@
       "sort_ldpath":  "vivo:rank ::xsd:string"
     },
     "subauthorities": {
-      "concept":        "Concept",
-      "event":          "Event",
-      "meeting":        "Meeting",
       "person":         "Person",
       "organization":   "Organization",
+      "work":           "Work",
       "place":          "Place",
-      "intangible":     "Intangible",
-      "work":           "Work"
+      "event":          "Event",
+      "meeting":        "Meeting",
+      "period":         "Periodization",
+      "genreform":      "Genre",
+      "concept":        "Concept",
+      "intangible":     "Intangible"
     }
   }
 }
