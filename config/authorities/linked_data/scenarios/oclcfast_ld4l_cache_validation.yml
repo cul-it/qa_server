@@ -99,6 +99,13 @@ search:
     replacements:
       maxRecords: '10'
   -
+    query: water
+    subauth: topic
+    subject_uri: "http://id.worldcat.org/fast/1171139"
+    position: 3
+    replacements:
+      maxRecords: '8'
+  -
     query: Scream
     subauth: work
     subject_uri: "http://id.worldcat.org/fast/1358031"

@@ -1,3 +1,7 @@
+### 6.6.1 (2021-11-18)
+
+* add topic subauth for OCLCFAST_LD4L_CACHE
+
 ### 6.6.0 (2021-11-17)
 
 * add genreform and period subauths for OCLCFAST_LD4L_CACHE
