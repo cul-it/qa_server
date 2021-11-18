@@ -97,6 +97,7 @@
       "meeting":        "Meeting",
       "period":         "Periodization",
       "genreform":      "Genre",
+      "topic":          "Topic",
       "concept":        "Concept",
       "intangible":     "Intangible"
     }
