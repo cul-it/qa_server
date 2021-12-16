@@ -1,0 +1,46 @@
+# Supported subauthorities:
+#   active
+#   deprecated
+---
+authority:
+  service: ld4l_cache
+  context: true
+search:
+  #------------------
+  # Connection tests
+  #------------------
+  -
+    query: smithsonian
+  #------------------
+  #  Accuracy tests
+  #------------------
+  #    active
+  -
+    query: botanical garden
+    position: 30
+    subject_uri: "http://id.loc.gov/vocabulary/organizations/nnbg"
+    replacements:
+      maxRecords: '20'
+  -
+    query: folk art
+    position: 3
+    subject_uri: "http://id.loc.gov/vocabulary/organizations/nmsfmifa"
+    replacements:
+      maxRecords: '10'
+  -
+    query: west virginia university
+    position: 1
+    subject_uri: "http://id.loc.gov/vocabulary/organizations/wvu"
+    replacements:
+      maxRecords: '10'
+  -
+    query: west virginia university medical
+    position: 3
+    subject_uri: "http://id.loc.gov/vocabulary/organizations/wvum"
+    replacements:
+      maxRecords: '10'
+term:
+  -
+    identifier: "http://id.loc.gov/vocabulary/organizations/nmsfmifa"
+  -
+    identifier: "http://id.loc.gov/vocabulary/organizations/nmsfbg"
