@@ -167,9 +167,6 @@ terms:
   - id: http://id.loc.gov/authorities/names/n80050802
     uri: http://id.loc.gov/authorities/names/n80050802
     term: Wrocław (Poland)
-  - id: http://id.loc.gov/authorities/names/n79043343
-    uri: http://id.loc.gov/authorities/names/n79043343
-    term: Copenhagen (Denmark)
   - id: http://id.loc.gov/authorities/names/n79064653
     uri: http://id.loc.gov/authorities/names/n79064653
     term: Graz (Austria)
@@ -295,9 +292,6 @@ terms:
     term: Darmstadt (Germany). Magistrat
   - id: http://id.loc.gov/authorities/names/n79045539
     uri: http://id.loc.gov/authorities/names/n79045539
-    term: Detroit (Mich.)
-  - id: http://id.loc.gov/authorities/names/n81008351
-    uri: http://id.loc.gov/authorities/names/n81008351
     term: Detroit (Mich.)
   - id: http://id.loc.gov/authorities/names/n80089415
     uri: http://id.loc.gov/authorities/names/n80089415

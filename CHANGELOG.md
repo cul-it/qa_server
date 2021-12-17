@@ -1,3 +1,8 @@
+### 6.6.2 (2021-12-17)
+
+* add authority LOCCULTURAL_ORGANIZATIONS_LD4L_CACHE
+* fix duplicates in publisher cities
+
 ### 6.6.1 (2021-11-18)
 
 * add topic subauth for OCLCFAST_LD4L_CACHE
