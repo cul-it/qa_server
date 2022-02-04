@@ -1,6 +1,6 @@
 ---
 authority:
-  service: ld4l_cache
+  service: ld4l_wrapped
   context: true
 search:
   #------------------

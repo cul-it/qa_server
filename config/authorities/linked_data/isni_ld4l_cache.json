@@ -2,15 +2,40 @@
   "QA_CONFIG_VERSION": "2.2",
   "service_uri": "http://ld4l.org/ld4l_services/cache",
   "prefixes": {
+    "isni": "http://isni.org/ontology#",
+    "madsrdf": "http://www.loc.gov/mads/rdf/v1#",
     "schema": "http://schema.org/",
     "vivo": "http://vivoweb.org/ontology/core#"
   },
-  "term": {},
+  "term": {
+    "url": {
+      "@context": "http://www.w3.org/ns/hydra/context.jsonld",
+      "@type":    "IriTemplate",
+      "template": "http://services.ld4l.org/ld4l_services/isni_lookup.jsp?uri={term_uri}",
+      "variableRepresentation": "BasicRepresentation",
+      "mapping": [
+        {
+          "@type":    "IriTemplateMapping",
+          "variable": "term_uri",
+          "property": "hydra:freetextQuery",
+          "required": true,
+          "encode":   true
+        }
+      ]
+    },
+    "qa_replacement_patterns": {
+      "term_id": "term_uri"
+    },
+    "term_id": "URI",
+    "results": {
+      "label_ldpath": "schema:alternateName ::xsd:string"
+    }
+  },
   "search": {
     "url": {
       "@context": "http://www.w3.org/ns/hydra/context.jsonld",
       "@type": "IriTemplate",
-      "template": "http://services.ld4l.org/ld4l_services/isni_batch.jsp?{?query}&{?maxRecords}&{?startRecord}&{?lang}",
+      "template": "http://services.ld4l.org/ld4l_services/isni_batch.jsp?{?query}&{?entity}&{?maxRecords}&{?startRecord}&{?lang}&{?context}",
       "variableRepresentation": "BasicRepresentation",
       "mapping": [
         {
@@ -19,6 +44,13 @@
           "property": "hydra:freetextQuery",
           "required": true,
           "encode": true
+        },
+        {
+          "@type": "IriTemplateMapping",
+          "variable": "entity",
+          "property": "hydra:freetextQuery",
+          "required": false,
+          "default": ""
         },
         {
           "@type": "IriTemplateMapping",
@@ -40,17 +72,25 @@
           "property": "hydra:freetextQuery",
           "required": false,
           "default": "en"
+        },
+        {
+          "@type": "IriTemplateMapping",
+          "variable": "context",
+          "property": "hydra:freetextQuery",
+          "required": false,
+          "default": "false"
         }
       ]
     },
     "qa_replacement_patterns": {
       "query":   "query",
+      "subauth": "entity",
       "start_record": "startRecord",
       "requested_records": "maxRecords"
     },
     "total_count_ldpath": "vivo:count",
     "results": {
-      "label_ldpath": "foaf:name | schema:name | skos:altLabel | schema:alternateName ::xsd:string",
+      "label_ldpath": "schema:alternateName ::xsd:string",
       "sort_ldpath":  "vivo:rank ::xsd:string"
     },
     "context": {
@@ -58,8 +98,29 @@
         {
           "property_label_i18n": "qa.linked_data.authority.isni_ld4l_cache.name",
           "property_label_default": "Name",
-          "ldpath": "foaf:name | schema:name | skos:altLabel | schema:alternateName :: xsd:string",
+          "ldpath": "schema:alternateName :: xsd:string",
           "selectable": true,
+          "drillable": false
+        },
+        {
+          "property_label_i18n": "qa.linked_data.authority.isni_ld4l_cache.birth_date",
+          "property_label_default": "Birth date",
+          "ldpath": "schema:birthDate :: xsd:string",
+          "selectable": false,
+          "drillable": false
+        },
+        {
+          "property_label_i18n": "qa.linked_data.authority.isni_ld4l_cache.death_date",
+          "property_label_default": "Death date",
+          "ldpath": "schema:deathDate :: xsd:string",
+          "selectable": false,
+          "drillable": false
+        },
+        {
+          "property_label_i18n": "qa.linked_data.authority.isni_ld4l_cache.founding_date",
+          "property_label_default": "Founding date",
+          "ldpath": "schema:foundingDate :: xsd:string",
+          "selectable": false,
           "drillable": false
         },
         {
@@ -72,19 +133,50 @@
         {
           "property_label_i18n": "qa.linked_data.authority.isni_ld4l_cache.isni",
           "property_label_default": "ISNI",
+          "ldpath": "rdfs:label :: xsd:string",
+          "selectable": false,
+          "drillable": false
+        },
+        {
+          "property_label_i18n": "qa.linked_data.authority.isni_ld4l_cache.isni_value",
+          "property_label_default": "ISNI Value",
           "ldpath": "schema:identifier/schema:value :: xsd:string",
           "selectable": false,
           "drillable": false
         },
         {
-          "property_label_i18n": "qa.linked_data.authority.isni_ld4l_cache.isni_label",
-          "property_label_default": "ISNI Label",
-          "ldpath": "rdfs:label :: xsd:string",
+          "property_label_i18n": "qa.linked_data.authority.isni_ld4l_cache.deprecated_isni",
+          "property_label_default": "Deprecated ISNI",
+          "ldpath": "isni:hasDeprecatedISNI :: xsd:string",
+          "selectable": false,
+          "drillable": false
+        },
+        {
+          "property_label_i18n": "qa.linked_data.authority.isni_ld4l_cache.external_authority_uri",
+          "property_label_default": "External Authority URI",
+          "ldpath": "madsrdf:isIdentifiedByAuthority :: xsd:string",
+          "selectable": false,
+          "drillable": false
+        },
+        {
+          "property_label_i18n": "qa.linked_data.authority.isni_ld4l_cache.wikidata_uri",
+          "property_label_default": "Wikidata URI",
+          "ldpath": "schema:identifier/schema:propertyID :: xsd:string",
+          "selectable": false,
+          "drillable": false
+        },
+        {
+          "property_label_i18n": "qa.linked_data.authority.isni_ld4l_cache.other_source",
+          "property_label_default": "Other source",
+          "ldpath": "dcterms:source :: xsd:string",
           "selectable": false,
           "drillable": false
         }
       ]
+    },
+    "subauthorities": {
+      "person":       "person",
+      "organization": "organization"
     }
   }
 }
-
