@@ -1,3 +1,8 @@
+### 6.7.2 (2022-02-04)
+
+* rename ISNI_LD4L_WRAPPER to ISNI_LD4L_WRAPPED
+* remove subauths from ISNI_LD4L_WRAPPED validations
+
 ### 6.7.1 (2022-02-04)
 
 * temporarily pin nokogiri to v1.12 to support ruby 2.5
