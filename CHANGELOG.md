@@ -1,3 +1,10 @@
+### 6.7.0 (2022-02-04)
+
+* rename current ISNI_LD4L_CACHE to ISNI_LD4L_WRAPPED, which wraps direct calls to ISNI API
+* add authority ISNI_LD4L_CACHE, using existing name for new cache of RDF download
+* update to qa v5.8.0
+  * add pagination for non-linked data authorities 
+
 ### 6.6.2 (2021-12-17)
 
 * add authority LOCCULTURAL_ORGANIZATIONS_LD4L_CACHE
