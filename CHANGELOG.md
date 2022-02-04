@@ -1,3 +1,7 @@
+### 6.7.1 (2022-02-04)
+
+* temporarily pin nokogiri to v1.12 to support ruby 2.5
+
 ### 6.7.0 (2022-02-04)
 
 * rename current ISNI_LD4L_CACHE to ISNI_LD4L_WRAPPED, which wraps direct calls to ISNI API
