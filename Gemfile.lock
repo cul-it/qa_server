@@ -230,9 +230,7 @@ GEM
     net-http-persistent (4.0.1)
       connection_pool (~> 2.2)
     nio4r (2.5.8)
-    nokogiri (1.13.2-x86_64-darwin)
-      racc (~> 1.4)
-    nokogiri (1.13.2-x86_64-linux)
+    nokogiri (1.12.5-x86_64-darwin)
       racc (~> 1.4)
     nokogiri (1.12.5-x86_64-linux)
       racc (~> 1.4)
@@ -483,7 +481,6 @@ GEM
 
 PLATFORMS
   x86_64-darwin-18
-  x86_64-linux
 
 DEPENDENCIES
   better_errors
@@ -503,7 +500,7 @@ DEPENDENCIES
   listen
   lograge
   mysql2
-  nokogiri (~> 1.13)
+  nokogiri (~> 1.12, < 1.13)
   puma (~> 4.3)
   qa (~> 5.5)
   qa_server (~> 7.9)
