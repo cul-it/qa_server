@@ -1,0 +1,84 @@
+# Reference: https://github.com/LD4P/qa_server/wiki/Writing-Tests-for-an-Authority
+---
+authority:
+  service: direct
+search:
+  -
+    query: Øyehaug, Gunnhild
+    position: 10
+    subject_uri: https://id.bs.no/bibbi/40168
+    replacements:
+      maxRecords: 10
+  -
+    query: Engelsk litteratur - Australia
+    subauth: topic
+    position: 1
+    subject_uri: https://id.bs.no/bibbi/1115951
+    replacements:
+      maxRecords: 10
+  -
+    query: Bergen
+    subauth: geographic
+    position: 1
+    subject_uri: https://id.bs.no/bibbi/1162677
+    replacements:
+      maxRecords: 10
+  -
+    query: Riddu Riđđu
+    subauth: event_name
+    position: 1
+    subject_uri: https://id.bs.no/bibbi/1175496
+    replacements:
+      maxRecords: 10
+  -
+    query: Boye, Karin
+    subauth: person
+    position: 1
+    subject_uri: https://id.bs.no/bibbi/5568
+    replacements:
+      maxRecords: 10
+  -
+    query: Boye, Karin
+    subauth: person_subject
+    position: 1
+    subject_uri: https://id.bs.no/bibbi/1067799
+    replacements:
+      maxRecords: 10
+  -
+    query: Forente nasjoner
+    subauth: corporation
+    position: 5
+    subject_uri: https://id.bs.no/bibbi/1174004
+    replacements:
+      maxRecords: 10
+  -
+    query: Forente nasjoner - Fredsbevarende operasjoner
+    subauth: corporation_subject
+    position: 1
+    subject_uri: https://id.bs.no/bibbi/1170005
+    replacements:
+      maxRecords: 10
+  -
+    query: "*Bestemor søv"
+    subject_uri: https://id.bs.no/bibbi/1067308
+    position: 1
+    subauth: uniform_title
+    replacements:
+      maxRecords: 10
+  -
+    query: Vente, blinke
+    subject_uri: https://id.bs.no/bibbi/1235719
+    position: 1
+    subauth: work
+    replacements:
+      maxRecords: 10
+  -
+    query: Dokumentarfilmer
+    subject_uri: https://id.bs.no/bibbi/1165870
+    position: 1
+    subauth: form
+    replacements:
+      maxRecords: 10
+term:
+  -
+    identifier: https://id.bs.no/bibbi/37170
