@@ -23,10 +23,10 @@ search:
       maxRecords: '5'
   -
     query: LGBTQ+
-    position: 10
+    position: 60
     subject_uri: "https://homosaurus.org/v3/homoit0001717"
     replacements:
-      maxRecords: '20'
+      maxRecords: '60'
   -
     query: LGBTQ+
     position: 15
@@ -41,10 +41,10 @@ search:
       maxRecords: '15'
   -
     query: pronouns
-    position: 15
+    position: 50
     subject_uri: "https://homosaurus.org/v3/homoit0001692"
     replacements:
-      maxRecords: '20'
+      maxRecords: '50'
   -
     query: drug use recreational
     position: 5
