@@ -1,3 +1,9 @@
+### 6.7.3 (2022-04-01)
+
+* add authority BIBBI
+* add authority NTSF (Norwegian Thesaurus)
+* add authority Homosaurus
+
 ### 6.7.2 (2022-02-04)
 
 * rename ISNI_LD4L_WRAPPER to ISNI_LD4L_WRAPPED
