@@ -1,8 +1,7 @@
 {
   "QA_CONFIG_VERSION": "2.1",
   "prefixes": {
-    "dcterms": "http://purl.org/dc/terms/",
-    "bs": "https://schema.bs.no/"
+    "dcterms": "http://purl.org/dc/terms/"
   },
   "term": {
     "url": {
@@ -41,7 +40,7 @@
     "url": {
       "@context": "http://www.w3.org/ns/hydra/context.jsonld",
       "@type": "IriTemplate",
-      "template": "https://vokabular.bs.no/rest/v1/bibbi/search?lang={lang}&labellang={lang}&maxhits={maxRecords}&type={subauth}&query={query}*",
+      "template": "https://nb.no/nbvok/rest/v1/ntsf/search?lang={lang}&labellang={lang}&maxhits={maxRecords}&query={query}*",
       "variableRepresentation": "BasicRepresentation",
       "mapping": [
         {
@@ -50,13 +49,6 @@
           "property": "hydra:freetextQuery",
           "required": true,
           "encode": true
-        },
-        {
-          "@type": "IriTemplateMapping",
-          "variable": "subauth",
-          "property": "hydra:freetextQuery",
-          "required": false,
-          "default": "skos:Concept"
         },
         {
           "@type": "IriTemplateMapping",
@@ -75,8 +67,7 @@
       ]
     },
     "qa_replacement_patterns": {
-      "query": "query",
-      "subauth": "subauth"
+      "query": "query"
     },
     "results": {
       "label_ldpath": "skos:prefLabel ::xsd:string",
@@ -85,39 +76,46 @@
     "context": {
       "properties": [
         {
-          "property_label_i18n": "qa.linked_data.authority.bibbi_ld4l_cache.preferred_label",
+          "property_label_i18n": "qa.linked_data.authority.ntsf_ld4l_cache.preferred_label",
           "property_label_default": "Preferred label",
           "ldpath": "skos:prefLabel :: xsd:string",
           "selectable": true,
           "drillable": false
         },
         {
-          "property_label_i18n": "qa.linked_data.authority.bibbi_ld4l_cache.alt_label",
-          "property_label_default": "Alternative Label",
+          "property_label_i18n": "qa.linked_data.authority.ntsf_ld4l_cache.alt_label",
+          "property_label_default": "Variant label",
           "ldpath": "skos:altLabel :: xsd:string",
           "selectable": false,
           "drillable": false
         },
         {
-          "property_label_i18n": "qa.linked_data.authority.bibbi_ld4l_cache.webdewey",
-          "property_label_default": "WebDewey class",
-          "ldpath": "bs:webdewey :: xsd:string",
-          "selectable": false,
-          "drillable": false
+          "group_id": "hierarchy",
+          "property_label_i18n": "qa.linked_data.authority.ntsf_ld4l_cache.narrower",
+          "property_label_default": "Narrower",
+          "ldpath": "skos:narrower",
+          "selectable": true,
+          "drillable": true,
+          "expansion_label_ldpath": "skos:prefLabel :: xsd:string"
+        },
+        {
+          "group_id": "hierarchy",
+          "property_label_i18n": "qa.linked_data.authority.ntsf_ld4l_cache.broader",
+          "property_label_default": "Broader",
+          "ldpath": "skos:broader",
+          "selectable": true,
+          "drillable": true,
+          "expansion_label_ldpath": "skos:prefLabel :: xsd:string"
+        },
+        {
+          "property_label_i18n": "qa.linked_data.authority.ntsf_ld4l_cache.see_also",
+          "property_label_default": "See also",
+          "ldpath": "skos:related",
+          "selectable": true,
+          "drillable": false,
+          "expansion_label_ldpath": "skos:prefLabel :: xsd:string"
         }
       ]
-    },
-    "subauthorities": {
-      "topic": "bs:Topic",
-      "geographic": "bs:Place",
-      "event_name": "bs:Event",
-      "person": "bs:Person",
-      "person_subject": "bs:PersonAsSubject",
-      "corporation": "bs:Corporation",
-      "corporation_subject": "bs:CorporationAsSubject",
-      "uniform_title": "bs:Title",
-      "work": "bs:Work",
-      "form": "bs:FormGenre"
     }
   }
 }
