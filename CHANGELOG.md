@@ -1,3 +1,8 @@
+### 6.7.4 (2022-04-05)
+
+* add authority Humord
+* fix config and validation for authority NTSF (Norwegian Thesaurus for Genre/Form)
+
 ### 6.7.3 (2022-04-01)
 
 * add authority BIBBI
