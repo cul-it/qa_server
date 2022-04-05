@@ -24,6 +24,7 @@ search:
     replacements:
       maxRecords: 10
   -
+    pending: true
     query: Audio books
     subject_uri: http://data.ub.uio.no/humord/c25929
     position: 10
