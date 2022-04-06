@@ -1,0 +1,36 @@
+# Reference: https://github.com/LD4P/qa_server/wiki/Writing-Tests-for-an-Authority
+---
+authority:
+  service: direct
+search:
+  -
+    query: Barnets beste
+    position: 10
+    subject_uri: http://data.ub.uio.no/humord/c58732
+    replacements:
+      maxRecords: 10
+  -
+    query: Barnets beste
+    subauth: topic
+    position: 10
+    subject_uri: http://data.ub.uio.no/humord/c58732
+    replacements:
+      maxRecords: 10
+  -
+    query: Ålesund
+    subauth: geographic
+    position: 10
+    subject_uri: http://data.ub.uio.no/humord/c02763
+    replacements:
+      maxRecords: 10
+  -
+    pending: true
+    query: Audio books
+    subject_uri: http://data.ub.uio.no/humord/c25929
+    position: 10
+    subauth: form
+    replacements:
+      maxRecords: 10
+term:
+  -
+    identifier: http://data.ub.uio.no/humord/c58539
