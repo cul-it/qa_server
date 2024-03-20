@@ -1,0 +1,23 @@
+---
+authority:
+  service: ld4l_cache
+  context: true
+search:
+  -
+    query: 'mark twain'
+  -
+    query: 'mark twain'
+    subauth: 'work'
+  -
+    query: 'mark twain'
+    subauth: 'opus'
+  -
+    query: 'mark twain'
+    subauth: 'instance'
+term:
+  -
+    identifier: 'https://svde.org/works/971631362273137'
+  -
+    identifier: 'https://svde.org/instances/971631362273126'
+  -
+    identifier: 'https://svde.org/opuses/971631361852279'
